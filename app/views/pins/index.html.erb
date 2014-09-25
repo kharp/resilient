@@ -1,0 +1,62 @@
+<div class="main-container">
+      <header class="signup"> 
+          <div class="background-image-holder parallax-background">
+            <img class="background-image" alt="Background Image" src="/images/home.jpg">
+          </div>
+          
+          <div class="container text-center">
+              <div class="row text-center">
+                <div class="col-sm-12 text-center">
+                  <h1 class="text-white">Browse</h1>
+                
+                </div>
+              </div>
+            </div><!--end of container-->
+      </header>
+
+      <div class="main-container">
+        <div class="row">
+          <div class="col-md-1">
+            &nbsp;
+          </div>
+            <div class="col-md-10 row-offset-1 row-offset-2">
+
+      <h1>Listing pins</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Email</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @pins.each do |pin| %>
+      <tr>
+        <td><%= pin.description %></td>
+        <td><%= pin.user.email if pin.user %></td>
+        <td><%= link_to 'Show', pin %></td>
+        <% if pin.user == current_user %>
+        <td><%= link_to 'Edit', edit_pin_path(pin) %></td>
+        <td><%= link_to 'Destroy', pin, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<% if user_signed_in? %>
+  <%= link_to 'New Pin', new_pin_path %>
+<% end %>
+
+</div>
+</div>
+</div>
+
+</div>
+

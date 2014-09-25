@@ -5928,3 +5928,6 @@ button.close {
     display: none !important;
   }
 }
+
+.row-offset-1 {margin-top: 7em;}
+.row-offset-2 {margin-bottom: 7em;}

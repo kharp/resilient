@@ -10,6 +10,12 @@ gem 'devise', '~> 3.3.0'
 
 gem 'paperclip', '~> 3.0'
 
+gem 'aws-sdk', '~> 1.20.0'
+
+gem 'jquery-turbolinks'
+
+gem 'masonry-rails', '~> 0.2.0'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 

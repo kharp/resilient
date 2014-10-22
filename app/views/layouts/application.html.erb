@@ -12,15 +12,15 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <%= stylesheet_link_tag 'application', 'app/assets/stylesheets/flexslider.min.css' %>
-        <%= stylesheet_link_tag 'application', 'app/assets/stylesheets/line-icons.min.css' %>
-        <%= stylesheet_link_tag 'application', 'app/assets/stylesheets/elegant-icons.min.css' %>
-        <%= stylesheet_link_tag 'application', 'app/assets/stylesheets/lightbox.min.css' %>
-        <%= stylesheet_link_tag 'application', 'app/assets/stylesheets/bootstrap.min.css' %>
-        <%= stylesheet_link_tag 'application', 'app/assets/stylesheets/theme-tronic.css' %>
+        <%= stylesheet_link_tag 'application', '../stylesheets/flexslider.min.css' %>
+        <%= stylesheet_link_tag 'application', '../stylesheets/line-icons.min.css' %>
+        <%= stylesheet_link_tag 'application', '../stylesheets/elegant-icons.min.css' %>
+        <%= stylesheet_link_tag 'application', '../stylesheets/lightbox.min.css' %>
+        <%= stylesheet_link_tag 'application', '../stylesheets/bootstrap.min.css' %>
+        <%= stylesheet_link_tag 'application', '../stylesheets/theme-tronic.css' %>
         
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700%7CRaleway:700' rel='stylesheet' type='text/css'>
-        <script src="app/assets/javascripts/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src="../javascripts/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
     <body>
     
@@ -35,8 +35,7 @@
 					<div class="row nav-menu">
 						<div class="col-sm-2 columns">
 							<a href="index.html">
-								<img class="logo logo-light" alt="Logo" src="img/logo-light.png">
-								<img class="logo logo-dark" alt="Logo" src="img/logo-dark.png">
+								<img alt="Logo" src="../images/small-logo.png">
 							</a>
 						</div>
 					
@@ -48,7 +47,7 @@
         <% if user_signed_in? %>
           <li>
             <%= link_to new_pin_path do %>
-              <span class="glyphicon glyphicon-plus">&nbsp;</span> New Pin
+              <span class="glyphicon glyphicon-plus">&nbsp;</span> New Post
             <% end %>
           </li>
           <li><%= link_to "Sign out", destroy_user_session_path, :method => :delete %></li>
@@ -130,20 +129,20 @@
 			</footer>
 		</div>
 				
-		<script src="app/assets/javascripts/jquery.min.js"></script>
-        <script src="app/assets/javascripts/jquery.plugin.min.js"></script>
-        <script src="app/assets/javascripts/bootstrap.min.js"></script>
-        <script src="app/assets/javascripts/jquery.flexslider-min.js"></script>
-        <script src="app/assets/javascripts/smooth-scroll.min.js"></script>
-        <script src="app/assets/javascripts/skrollr.min.js"></script>
-        <script src="app/assets/javascripts/spectragram.min.js"></script>
-        <script src="app/assets/javascripts/scrollReveal.min.js"></script>
-        <script src="app/assets/javascripts/isotope.min.js"></script>
-        <script src="app/assets/javascripts/twitterFetcher_v10_min.js"></script>
-        <script src="app/assets/javascripts/lightbox.min.js"></script>
-        <script src="app/assets/javascripts/jquery.countdown.min.js"></script>
-        <script src="app/assets/javascripts/bootstrap.min.js"></script>
-        <script src="app/assets/javascripts/scripts.js"></script>
+		<script src="../javascripts/jquery.min.js"></script>
+        <script src="../javascripts/jquery.plugin.min.js"></script>
+        <script src="../javascripts/bootstrap.min.js"></script>
+        <script src="../javascripts/jquery.flexslider-min.js"></script>
+        <script src="../javascripts/smooth-scroll.min.js"></script>
+        <script src="../javascripts/skrollr.min.js"></script>
+        <script src="../javascripts/spectragram.min.js"></script>
+        <script src="../javascripts/scrollReveal.min.js"></script>
+        <script src="../javascripts/isotope.min.js"></script>
+        <script src="../javascripts/twitterFetcher_v10_min.js"></script>
+        <script src="../javascripts/lightbox.min.js"></script>
+        <script src="../javascripts/jquery.countdown.min.js"></script>
+        <script src="../javascripts/bootstrap.min.js"></script>
+        <script src="../javascripts/scripts.js"></script>
     </body>
 </html>
 				

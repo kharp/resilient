@@ -6,6 +6,9 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 
   has_many :pins
+  has_many :channels
 
   validates :name, presence: true
+
+  acts_as_commontator
 end

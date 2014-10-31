@@ -57,6 +57,8 @@ GEM
       warden (~> 1.2.3)
     erubis (2.7.0)
     execjs (2.2.1)
+    forem (0.0.1)
+      simple_form
     hike (1.2.3)
     i18n (0.6.11)
     jbuilder (1.5.3)
@@ -121,6 +123,9 @@ GEM
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
+    simple_form (3.0.2)
+      actionpack (~> 4.0)
+      activemodel (~> 4.0)
     sprockets (2.11.0)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -160,6 +165,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   commontator (~> 4.8.0)
   devise (~> 3.3.0)
+  forem
   jbuilder (~> 1.2)
   jquery-rails
   jquery-turbolinks

@@ -1,4 +1,5 @@
 Athingwithfeathers::Application.routes.draw do
+
   resources :channels
 
   resources :pins
@@ -6,6 +7,7 @@ Athingwithfeathers::Application.routes.draw do
   devise_for :users
 root "pages#_home"
   get "about" => "pages#about"
+    get "forem/base"
 
   mount Commontator::Engine => '/commontator'
   

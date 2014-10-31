@@ -11,4 +11,9 @@ class User < ActiveRecord::Base
   validates :name, presence: true
 
   acts_as_commontator
+
+end
+
+def forem_name
+  name
 end

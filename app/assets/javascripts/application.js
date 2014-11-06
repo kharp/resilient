@@ -16,5 +16,5 @@
 //= require turbolinks
 //= require masonry/jquery.masonry
 //= require bootstrap
+//= require forem
 //= require_tree .
-require forem

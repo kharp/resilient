@@ -17,7 +17,7 @@
         <%= stylesheet_link_tag 'application', '../stylesheets/elegant-icons.min.css' %>
         <%= stylesheet_link_tag 'application', '../stylesheets/lightbox.min.css' %>
         <%= stylesheet_link_tag 'application', '../stylesheets/bootstrap.min.css' %>
-        <%= stylesheet_link_tag 'application', '../stylesheets/theme-tronic.css' %>
+        <%#= stylesheet_link_tag 'application', '../stylesheets/theme-tronic.css' %>
         
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700%7CRaleway:700' rel='stylesheet' type='text/css'>
         <script src="../javascripts/modernizr-2.6.2-respond-1.1.0.min.js"></script>
@@ -50,10 +50,10 @@
               <span class="glyphicon glyphicon-plus">&nbsp;</span> New Post
             <% end %>
           </li>
-          <li><%= link_to "Sign out", destroy_user_session_path, method: :delete %></li>
+          <li><%= link_to "Account", edit_user_registration_path %></li>
+          <li><%= link_to "Sign out", destroy_user_session_path %></li>
         <% else %>
           <li><%= link_to "Sign in", new_user_session_path %></li>
-          <li><%= link_to "Account", edit_user_registration_path %></li>
         <% end %>
 
       </div>

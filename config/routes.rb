@@ -4,9 +4,7 @@ Athingwithfeathers::Application.routes.draw do
 
   resources :pins
 
-  devise_for :users do
-   match 'users/sign_out' => "devise/sessions#destroy"
-  end
+  devise_for :users
 
 root "pages#_home"
   get "about" => "pages#about"

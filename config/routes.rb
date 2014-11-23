@@ -8,7 +8,6 @@ Athingwithfeathers::Application.routes.draw do
 
 root "pages#_home"
   get "about" => "pages#about"
-    get "forem/base"
 
   mount Commontator::Engine => '/commontator'
   

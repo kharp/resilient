@@ -34,8 +34,8 @@
 				
 					<div class="row nav-menu">
 						<div class="col-sm-2 columns">
-							<a href="index.html">
-								<img alt="Logo" src="../images/small-logo.png">
+							<a href="/">
+								<img alt="Logo" src="../images/white-logo.png">
 							</a>
 						</div>
 					
@@ -50,10 +50,15 @@
               <span class="glyphicon glyphicon-plus">&nbsp;</span> New Post
             <% end %>
           </li>
-          <li><%= link_to "Account", edit_user_registration_path %></li>
-          <li><%= link_to "Sign out", destroy_user_session_path %></li>
+          <li>
+            <%= link_to new_channel_path do %>
+              <span class="glyphicon glyphicon-plus">&nbsp;</span> New Channel
+            <% end %>
+          </li>
+          <li></li>
+          <li><%= link_to "Log out", destroy_user_session_path %></li>
         <% else %>
-          <li><%= link_to "Sign in", new_user_session_path %></li>
+          <li><%= link_to "Log in", new_user_session_path %></li>
         <% end %>
 
       </div>
@@ -74,7 +79,12 @@
 							
 								<li>
 									<a href="#">
-										<i class="icon social_instagram"></i>
+										<i class="icon social_pinterest"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="icon social_tumblr"></i>
 									</a>
 								</li>
 							</ul>
@@ -105,7 +115,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-10">
-							<span class="sub">© Copyright 2014 Resilient</span>
+							<span class="sub">© Copyright 2014 Resilient</span> | <%= link_to "Account", edit_user_registration_path %>
 							
 						</div>
 						

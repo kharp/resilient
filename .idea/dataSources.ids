@@ -3,4 +3,7 @@
   <data-source source="LOCAL" name="Rails resilient: development" uuid="0d811628-d052-485c-b8ef-da28a7cde33b">
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
+  <data-source source="LOCAL" name="Rails resilient: production" uuid="ed586e30-aecf-4ad5-850d-1fe1e407936c">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
 </component>

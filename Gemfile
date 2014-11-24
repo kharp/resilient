@@ -16,9 +16,9 @@ gem 'jquery-turbolinks'
 
 gem 'masonry-rails', '~> 0.2.0'
 
-gem 'forem', :github => "radar/forem", :branch => "rails4"
-
 gem 'will_paginate', '~> 3.0.5'
+
+gem 'tzinfo-data'
 
 gem 'will_paginate-bootstrap'
 # Use Uglifier as compressor for JavaScript assets

@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-app/assets/javascripts lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-app/assets/javascripts lt-ie9 lt-ie8"> <![endif]-->
@@ -6,6 +5,7 @@
 <!--[if gt IE 8]><!--> 
 <html class="no-js"> <!--<![endif]-->
     <head>
+    	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700%7CRaleway:700' rel='stylesheet' type='text/css'>
         <meta charset="utf-8">
         
         <title>Resilient</title>
@@ -17,9 +17,9 @@
         <%= stylesheet_link_tag 'application', '../stylesheets/elegant-icons.min.css' %>
         <%= stylesheet_link_tag 'application', '../stylesheets/lightbox.min.css' %>
         <%= stylesheet_link_tag 'application', '../stylesheets/bootstrap.min.css' %>
-        <%#= stylesheet_link_tag 'application', '../stylesheets/theme-tronic.css' %>
-        
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700%7CRaleway:700' rel='stylesheet' type='text/css'>
+        <%= stylesheet_link_tag 'application', '../stylesheets/theme.css' %>
+       
+
         <script src="../javascripts/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
     <body>
@@ -34,8 +34,8 @@
 				
 					<div class="row nav-menu">
 						<div class="col-sm-2 columns">
-							<a href="index.html">
-								<img alt="Logo" src="../images/small-logo.png">
+							<a href="/">
+								<img alt="Logo" src="../images/white-logo.png">
 							</a>
 						</div>
 					
@@ -46,12 +46,17 @@
         <li><%= link_to "About", about_path %></li>
         <% if user_signed_in? %>
           <li>
+            <%= link_to new_pin_path do %>
+              <span class="glyphicon glyphicon-plus">&nbsp;</span> New Post
+            <% end %>
+          </li>
+          <li>
             <%= link_to "Channels", channels_path %>
           </li>
-          <li><%= link_to "Account", edit_user_registration_path %></li>
-          <li><%= link_to "Sign out", destroy_user_session_path %></li>
+          <li></li>
+          <li><%= link_to "Log out", destroy_user_session_path %></li>
         <% else %>
-          <li><%= link_to "Sign in", new_user_session_path %></li>
+          <li><%= link_to "Log in", new_user_session_path %></li>
         <% end %>
 
       </div>
@@ -72,7 +77,12 @@
 							
 								<li>
 									<a href="#">
-										<i class="icon social_instagram"></i>
+										<i class="icon social_pinterest"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="icon social_tumblr"></i>
 									</a>
 								</li>
 							</ul>
@@ -103,7 +113,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-10">
-							<span class="sub">© Copyright 2014 Resilient</span>
+							<span class="sub">© Copyright 2014 Resilient</span> | <%= link_to "Account", edit_user_registration_path %>
 							
 						</div>
 						

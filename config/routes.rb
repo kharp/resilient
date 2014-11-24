@@ -1,8 +1,8 @@
 Athingwithfeathers::Application.routes.draw do
 
-  resources :channels
-
-  resources :pins
+  resources :channels do
+    resources :pins
+  end
 
   devise_for :users
 

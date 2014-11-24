@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141018170118) do
+ActiveRecord::Schema.define(version: 20141124022725) do
 
   create_table "categories", force: true do |t|
     t.string   "category"
@@ -88,6 +88,7 @@ ActiveRecord::Schema.define(version: 20141018170118) do
     t.string   "image_content_type"
     t.integer  "image_file_size"
     t.datetime "image_updated_at"
+    t.integer  "channel_id"
   end
 
   add_index "pins", ["user_id"], name: "index_pins_on_user_id"

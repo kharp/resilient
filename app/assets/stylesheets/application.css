@@ -11,5 +11,6 @@
  *= require_self
  *= require 'masonry/transitions'
  *= require 'forem/base'
+ *= require font-awesome
  *= require_tree
  */

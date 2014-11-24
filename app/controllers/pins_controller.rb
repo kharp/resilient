@@ -8,19 +8,24 @@ class PinsController < ApplicationController
     end
 
     def show
+      @channel = Channel.find(params[:channel_id])
     end
 
     def new
-        @pin = current_user.pins.build
+        @channel = Channel.find(params[:channel_id])
+        @pin = @channel.pins.new
+        @pin.user = current_user
     end
 
     def edit
     end
 
     def create
-        @pin = current_user.pins.build(pin_params)
+        @channel = Channel.find(params[:channel_id])
+        @pin = @channel.pins.new(pin_params)
+        @pin.user = current_user
         if @pin.save
-          redirect_to @pin, notice: 'Pin was successfully created.'
+          redirect_to channel_pin_path(@channel, @pin), notice: 'Pin was successfully created.'
         else
           render action: 'new'
         end
@@ -47,7 +52,7 @@ class PinsController < ApplicationController
 
     def correct_user
         @pin = current_user.pins.find_by(id: params[:id])
-        redirect_to pins_path, notice: "Not authorized to edit this pin" if @pin.nil?
+        redirect_to channel_pin_path(@pin.channel), notice: "Not authorized to edit this pin" if @pin.nil?
     end
 
     def pin_params

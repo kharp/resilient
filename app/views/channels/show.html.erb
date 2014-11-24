@@ -1,40 +1,63 @@
-<p id="notice"><%= notice %></p>
+<%= render 'pages/home' unless user_signed_in? %>
 
-<p>
-  <strong>Name:</strong>
-  <%= @channel.name %>
-</p>
+<div class="main-container">
+  <header class="signup">
+    <div class="background-image-holder parallax-background">
+      <img class="background-image" alt="Background Image" src="/images/home.jpg">
+    </div>
 
-<p>
-  <strong>Description:</strong>
-  <%= @channel.description %>
-</p>
+    <div class="container text-center">
+      <div class="row text-center">
+        <div class="col-sm-12 text-center">
+          <h1 class="text-white"><%= @channel.name %></h1>
+        </div>
+      </div>
+    </div>
+  </header>
+  <p id="notice"><%= notice %></p>
 
-<div id="pins" class="transitions-enabled">
-    <div class="box panel panel-default">
-      <%= link_to @image_tag(@pin.image.url(:medium)), pin %>
-      <div class="panel-body">
-        <%= pin.description %><br/>
-        <strong><%= pin.user.name if pin.user %></strong>
-        <% if pin.user == current_user %>
-          <div class="actions">
-            <%= link_to edit_pin_path(pin) do %>
-              <span class="glyphicon glyphicon-edit"></span>
-              Edit
-            <% end %>
-            <%= link_to pin, method: :delete, data: { confirm: 'Are you sure?' } do %>
-              <span class="glyphicon glyphicon-trash"></span>
-              Delete
-            <% end %>
-          </div>
+  <p>
+    <strong>Name:</strong>
+    <%= @channel.name %>
+  </p>
+
+  <p>
+    <strong>Description:</strong>
+    <%= @channel.description %>
+  </p>
+
+  <div class="container">
+
+    <div class="col-md-3">
+      <div class="new_channel_box">
+        <%= link_to new_channel_pin_path(@channel) do %>
+          Add Pin <br />
+          <i class="fa fa-plus-circle fa-2x"></i>
         <% end %>
       </div>
     </div>
-</div>
 
-<div class="center">
-   <%= will_paginate @posts, renderer: BootstrapPagination::Rails %>
-</div>
+    <div id="pins" class="transitions-enabled">
 
-<%= link_to 'Edit', edit_channel_path(@channel) %> |
-<%= link_to 'Back', channels_path %>
+      <% @pins.each do |pin| %>
+        <div class="col-md-3">
+          <%= link_to channel_pin_path(pin.channel, pin) do %>
+            <div class="channel_box">
+              <%= image_tag pin.image.url(:medium) %>
+            </div>
+           <div class="channel_footer">
+              <hr>
+              <%= pin.description.truncate(60) %>
+            </div>
+          <% end %>
+        </div>
+      <% end %>
+    </div>
+
+    <br>
+
+  </div>
+
+  <%= link_to 'Edit', edit_channel_path(@channel) %> |
+  <%= link_to 'Back', channels_path %>
+</div>

@@ -1,48 +1,54 @@
 <%= render 'pages/home' unless user_signed_in? %>
 
 <div class="main-container">
-      <header class="signup"> 
-          <div class="background-image-holder parallax-background">
-            <img class="background-image" alt="Background Image" src="/images/home.jpg">
+  <header class="signup">
+      <div class="background-image-holder parallax-background">
+        <img class="background-image" alt="Background Image" src="/images/home.jpg">
+      </div>
+
+      <div class="container text-center">
+        <div class="row text-center">
+          <div class="col-sm-12 text-center">
+            <h1 class="text-white">Browse</h1>
           </div>
-          
-          <div class="container text-center">
-              <div class="row text-center">
-                <div class="col-sm-12 text-center">
-                  <h1 class="text-white">Browse</h1>
-                
-                </div>
-              </div>
-            </div><!--end of container-->
-      </header>
+        </div>
+      </div>
+  </header>
 
-      <div class="main-container">
-        <div class="row">
-          <div class="col-md-1">
-            &nbsp;
-          </div>
-            <div class="col-md-10 row-offset-1 row-offset-2">
+  <div class="container">
 
-              <h1>Browse Channels</h1>
+    <div class="col-md-3">
 
-<div id="pins" class="transitions-enabled">
-  <% @channels.each do |channel| %>
-     <div class="box panel panel-default">
-        <%= channel.name %>
-        <%= channel.description %>
-        <%= link_to 'Show', channel %>
+      <%= link_to new_channel_path do %>
+        <div class="new_channel_box">
+          Add Channel <br />
+          <i class="fa fa-plus-circle fa-2x"></i>
+        </div>
+      <% end %>
     </div>
+
+    <div id="pins" class="transitions-enabled">
+
+      <% @channels.each do |channel| %>
+        <div class="col-md-3">
+          <%= link_to channel do %>
+            <div class="channel_box">
+              <%= channel.name %>
+              <br />
+
+            </div>
+            <div class="channel_footer">
+              <hr>
+              <%= channel.description.truncate(60) %>
+            </div>
+          <% end %>
+        </div>
+      <% end %>
     </div>
-  <% end %>
-</div>
 
-<br>
+    <br>
 
-<%= link_to 'New Channel', new_channel_path %>
+  </div>
 
-
-</div>
-</div>
-</div>
 
 </div>

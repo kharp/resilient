@@ -44,6 +44,6 @@ class PinsControllerTest < ActionController::TestCase
       delete :destroy, id: @pin
     end
 
-    assert_redirected_to pins_path
+    assert_redirected_to channel_pin_path(@pin)
   end
 end

@@ -21,19 +21,19 @@
           </div>
             <div class="col-md-10 row-offset-1 row-offset-2">
 
-<%= link_to 'Back', pins_path %>
+<%= link_to 'Back', channel_path(@channel) %>
 <div class="row">
   <div class="col-md-offset-2 col-md-8">
     <div class="panel panel-default">
       <div class="panel-heading center">
-        <%= image_tag @pin.image.url(:medium) %>
+        <%= image_tag @pin.image.url(:large), class:"center-block" %>
       </div>
       <div class="panel-body">
       <p><%= @pin.description %></p>
       <p><strong><%= @pin.user.name if @pin.user %></strong></p>
 
       <% if @pin.user == current_user %>
-          <%= link_to edit_pin_path(@pin) do %>
+          <%= link_to edit_channel_pin_path(@pin, @channel) do %>
               <span class="glyphicon glyphicon-edit"></span>            
           <% end %>
       <% end %>

@@ -1,3 +1,54 @@
 // Place all the styles related to the channels controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "bootstrap";
+
+a:hover{
+  text-decoration: none;
+}
+
+.channel_box {
+  margin-top: 10px;
+  min-height: 250px;
+  background-color: #8fa0b2;
+  padding:10px;
+  font-size:2em;
+  img { width:100%;}
+  a:hover {
+    text-decoration: none;
+  }
+}
+
+.channel_box:hover {
+  text-decoration: none !important;
+}
+
+.new_channel_box {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  min-height: 350px;
+  background-color: #8fa0b2;
+  padding:10px;
+  text-align: center;
+  padding-top: 80px;
+  font-size:2em;
+  a:hover {
+    text-decoration: none;
+  }
+}
+
+.new_channel_box:hover{
+  text-decoration: none;
+  opacity: 1;
+}
+
+.channel_footer
+{
+  margin-bottom: 10px;
+  padding: 10px; 
+  background-color: #8fa0b2;
+  a:hover {
+    text-decoration: none;
+  }
+}

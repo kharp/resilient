@@ -4,7 +4,7 @@ require 'rails/all'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
-Bundler.require(:default, Rails.env)
+Bundler.require(*Rails.groups)
 
 module Athingwithfeathers
   class Application < Rails::Application
@@ -20,8 +20,8 @@ module Athingwithfeathers
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
 
-    config.assets.initialize_on_precompile = true
-    config.assets.paths << "#{Rails}/vendor/assets/fonts"
+    # config.assets.initialize_on_precompile = true
+    # config.assets.paths << "#{Rails}/app/assets/fonts"
     
   end
 end

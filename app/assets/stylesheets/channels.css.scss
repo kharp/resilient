@@ -14,7 +14,10 @@ a:hover{
   background-color: #273f5d;
   padding:10px;
   font-size:2em;
-  img { width:100%;}
+  .img {
+    width:100%;
+    min-height:300px;
+  }
   a:hover {
     text-decoration: none;
   }

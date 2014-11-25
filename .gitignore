@@ -17,3 +17,6 @@
 .DS_Store
 
 /public/system/pins/*
+
+# .gitignore
+/config/initializers/s3_vars.rb

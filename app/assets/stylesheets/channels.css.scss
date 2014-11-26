@@ -15,11 +15,14 @@ a:hover{
   padding:10px;
   font-size:2em;
   .img {
-    width:100%;
-    min-height:300px;
+    max-height:250px;
   }
   a:hover {
     text-decoration: none;
+  }
+  span {
+    text-align:center;
+    display:block;
   }
 }
 

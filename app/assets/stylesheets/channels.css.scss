@@ -10,7 +10,8 @@ a:hover{
 
 .channel_box {
   margin-top: 10px;
-  min-height: 250px;
+  min-height: 300px;
+  max-height:300px;
   background-color: #273f5d;
   padding:10px;
   font-size:2em;
@@ -33,7 +34,8 @@ a:hover{
 .new_channel_box {
   margin-top: 10px;
   margin-bottom: 10px;
-  min-height: 350px;
+  min-height: 300px;
+  max-height:300px;
   background-color: #273f5d;
   padding:10px;
   text-align: center;

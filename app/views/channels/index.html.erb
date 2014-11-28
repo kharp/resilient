@@ -32,8 +32,9 @@
         <div class="col-md-3">
           <%= link_to channel do %>
             <div class="channel_box">
-              <%= channel.name %>
-              <br />
+              <% if channel.image? %>
+                <span><%= image_tag channel.image.url(:medium) %></span>
+              <% end %>
 
             </div>
             <div class="channel_footer">

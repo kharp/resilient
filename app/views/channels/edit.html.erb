@@ -1,6 +1,25 @@
-<h1>Editing channel</h1>
+<%= render 'pages/home' unless user_signed_in? %>
 
-<%= render 'form' %>
+<div class="main-container">
+  <header class="signup">
+    <div class="background-image-holder parallax-background">
+      <img class="background-image" alt="Background Image" src="/images/browse.jpg">
+    </div>
 
-<%= link_to 'Show', @channel %> |
-<%= link_to 'Back', channels_path %>
+    <div class="container text-center">
+      <div class="row text-center">
+        <div class="col-sm-12 text-center">
+          <h1 class="text-white">Browse</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <h1>Editing channel</h1>
+
+    <%= render 'form' %>
+
+    <%= link_to 'Back', channels_path %>
+  </div>
+</div>

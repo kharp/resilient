@@ -1,6 +1,6 @@
 class PinsController < ApplicationController
     before_action :set_pin, only: [:show, :edit, :update, :destroy]
-    before_action :correct_user, only: [:edit, :update, :destroy]
+    #before_action :correct_user, only: [:edit, :update, :destroy]
     before_action :authenticate_user!, except: [:index, :show]
 
     def index
@@ -18,6 +18,7 @@ class PinsController < ApplicationController
     end
 
     def edit
+      @channel = Channel.find(params[:channel_id])
     end
 
     def create
@@ -40,8 +41,10 @@ class PinsController < ApplicationController
     end
 
     def destroy
-        @pin.destroy
-        redirect_to pins_url
+        @channel = Channel.find(params[:channel_id])
+        if @pin.destroy
+          redirect_to channel_path(@channel)
+        end
     end
 
     private

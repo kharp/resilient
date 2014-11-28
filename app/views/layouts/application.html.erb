@@ -11,16 +11,14 @@
         <title>Resilient</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <%= javascript_include_tag "application" %>
+      <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => false %>
 
-        <%= stylesheet_link_tag 'application', '../stylesheets/flexslider.min.css' %>
-        <%= stylesheet_link_tag 'application', '../stylesheets/line-icons.min.css' %>
-        <%= stylesheet_link_tag 'application', '../stylesheets/elegant-icons.min.css' %>
-        <%= stylesheet_link_tag 'application', '../stylesheets/lightbox.min.css' %>
-        <%= stylesheet_link_tag 'application', '../stylesheets/bootstrap.min.css' %>
-        <%= stylesheet_link_tag 'application', '../stylesheets/theme.css' %>
+
+
        
 
-        <script src="../javascripts/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <!--<script src="../javascripts/modernizr-2.6.2-respond-1.1.0.min.js"></script>-->
     </head>
     <body>
     
@@ -35,7 +33,8 @@
 					<div class="row nav-menu">
 						<div class="col-sm-2 columns">
 							<a href="/">
-								<img alt="Logo" src="../images/white-logo.png">
+                <%= image_tag "white-logo.png" %>
+								<!--<img alt="Logo" src="../images/white-logo.png">-->
 							</a>
 						</div>
 					
@@ -131,21 +130,26 @@
 				</div><!--end of container-->
 			</footer>
 		</div>
-				
-		<script src="../javascripts/jquery.min.js"></script>
-        <script src="../javascripts/jquery.plugin.min.js"></script>
-        <script src="../javascripts/bootstrap.min.js"></script>
-        <script src="../javascripts/jquery.flexslider-min.js"></script>
-        <script src="../javascripts/smooth-scroll.min.js"></script>
-        <script src="../javascripts/skrollr.min.js"></script>
-        <script src="../javascripts/spectragram.min.js"></script>
-        <script src="../javascripts/scrollReveal.min.js"></script>
-        <script src="../javascripts/isotope.min.js"></script>
-        <script src="../javascripts/twitterFetcher_v10_min.js"></script>
-        <script src="../javascripts/lightbox.min.js"></script>
-        <script src="../javascripts/jquery.countdown.min.js"></script>
-        <script src="../javascripts/bootstrap.min.js"></script>
-        <script src="../javascripts/scripts.js"></script>
+
+
+
+<%= javascript_include_tag "jquery.min","jquery.flexslider-min","smooth-scroll.min.js", "scripts.js", "jquery.countdown.min", "smooth-scroll.min", "skrollr.min",
+                            "spectragram.min", "scrollReveal.min", "isotope.min", "twitterFetcher_v10_min", "lightbox.min", "pins" %>
+
+    <!--<script src="../javascripts/jquery.min.js"></script>-->
+    <!--<script src="../javascripts/jquery.plugin.min.js"></script>-->
+    <!--<script src="../javascripts/bootstrap.min.js"></script>-->
+    <!--<script src="../javascripts/jquery.flexslider-min.js"></script>-->
+    <!--<script src="../javascripts/smooth-scroll.min.js"></script>-->
+    <!--<script src="../javascripts/skrollr.min.js"></script>-->
+    <!--<script src="../javascripts/spectragram.min.js"></script>-->
+    <!--<script src="../javascripts/scrollReveal.min.js"></script>-->
+    <!--<script src="../javascripts/isotope.min.js"></script>-->
+    <!--<script src="../javascripts/twitterFetcher_v10_min.js"></script>-->
+    <!--<script src="../javascripts/lightbox.min.js"></script>-->
+    <!--<script src="../javascripts/jquery.countdown.min.js"></script>-->
+    <!--<script src="../javascripts/bootstrap.min.js"></script>-->
+    <!--<script src="../javascripts/scripts.js"></script>-->
     </body>
 </html>
 				

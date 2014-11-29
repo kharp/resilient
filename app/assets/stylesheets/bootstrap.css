@@ -266,6 +266,7 @@ html {
 }
 body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
   font-size: 14px;
   line-height: 1.61803399;
   color: #333333;

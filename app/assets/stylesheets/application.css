@@ -12,5 +12,6 @@
  *= require 'masonry/transitions'
  *= require font-awesome
  *= require bootstrap
+ *= require theme
  *= require_tree .
  */

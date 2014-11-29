@@ -10,16 +10,20 @@ a:hover{
 
 .channel_box {
   margin-top: 10px;
-  min-height: 250px;
-  background-color: #273f5d;
+  min-height: 300px;
+  max-height:300px;
+  background-color: #f5f5f5;
   padding:10px;
   font-size:2em;
   .img {
-    width:100%;
-    min-height:300px;
+    max-height:250px;
   }
   a:hover {
     text-decoration: none;
+  }
+  span {
+    text-align:center;
+    display:block;
   }
 }
 
@@ -30,8 +34,9 @@ a:hover{
 .new_channel_box {
   margin-top: 10px;
   margin-bottom: 10px;
-  min-height: 350px;
-  background-color: #273f5d;
+  min-height: 300px;
+  max-height:300px;
+  background-color: #f5f5f5;
   padding:10px;
   text-align: center;
   padding-top: 80px;
@@ -50,7 +55,7 @@ a:hover{
 {
   margin-bottom: 10px;
   padding: 10px;
-  background-color: #273f5d;
+  background-color: #f5f5f5;
   a:hover {
     text-decoration: none;
   }

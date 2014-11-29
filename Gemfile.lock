@@ -48,7 +48,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.8.0)
-    commontator (4.8.0)
+    commontator (4.10.0)
       jquery-rails
       rails (>= 3.1)
     devise (3.4.1)
@@ -73,6 +73,8 @@ GEM
     jquery-turbolinks (2.1.0)
       railties (>= 3.1.0)
       turbolinks
+    jquery-ui-rails (4.2.1)
+      railties (>= 3.2.16)
     json (1.8.1)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
@@ -166,12 +168,13 @@ DEPENDENCIES
   aws-sdk (~> 1.20.0)
   bootstrap-sass
   coffee-rails (~> 4.0.0)
-  commontator (~> 4.8.0)
+  commontator (~> 4.10.0)
   devise
   font-awesome-rails
   jbuilder (~> 1.2)
   jquery-rails
   jquery-turbolinks
+  jquery-ui-rails
   masonry-rails (~> 0.2.0)
   paperclip (~> 3.0)
   pg

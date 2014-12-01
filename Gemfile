@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '~> 4.1.6'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.4'
+gem 'sass-rails'
 
 gem 'devise'
 
@@ -21,6 +21,10 @@ gem 'masonry-rails', '~> 0.2.0'
 gem 'will_paginate', '~> 3.0.5'
 
 gem 'tzinfo-data'
+
+gem 'upmin-admin'
+
+gem 'sprockets', '~> 2.12.3'
 
 gem 'will_paginate-bootstrap'
 # Use Uglifier as compressor for JavaScript assets

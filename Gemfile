@@ -12,13 +12,15 @@ gem 'paperclip', '~> 3.0'
 
 gem 'aws-sdk', '~> 1.20.0'
 
+gem 'excon'
+
 gem 'jquery-turbolinks'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
 
 gem 'masonry-rails', '~> 0.2.0'
 
-gem 'will_paginate', "3.0.pre2"
+gem 'will_paginate', '~> 3.0.5'
 
 gem 'tzinfo-data'
 
@@ -28,6 +30,7 @@ gem 'rails_admin'
 
 gem 'sprockets', '~> 2.12.3'
 
+gem 'will_paginate-bootstrap'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 

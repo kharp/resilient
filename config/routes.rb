@@ -1,5 +1,6 @@
 Athingwithfeathers::Application.routes.draw do
 
+  mount RailsAdmin::Engine => '/dashboard', as: 'rails_admin'
   resources :channels do
     resources :pins
   end
@@ -9,8 +10,6 @@ Athingwithfeathers::Application.routes.draw do
 root "pages#_home"
   get "about" => "pages#about"
     get "forem/base"
-
-mount Upmin::Engine => '/admin'
 
   #mount Commontator::Engine => '/commontator'
   

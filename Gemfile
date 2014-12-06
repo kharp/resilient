@@ -18,6 +18,8 @@ gem 'jquery-turbolinks'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
 
+gem 'newrelic_rpm'
+
 gem 'masonry-rails', '~> 0.2.0'
 
 gem 'will_paginate', '~> 3.0.5'

@@ -7,12 +7,12 @@
 					<div class="container text-center">
 							<div class="row text-center">
 								<div class="col-sm-12 text-center">
-									<h1 class="text-white">Love life again.</h1>
+									<h1 class="text-white">Discover resources, tips,<br>and inspiration for recovery.</h1>
 											   <% if user_signed_in? %>
-          <span class="text-white">Welcome to Resilient.</span>
+          <span class="text-white">Welcome to Resilient, the mental health app.</span>
      <% else %>
        <p>
-         <%= link_to "Log in", new_user_session_path, class: "btn btn-primary btn-white btn-filled" %>
+         <%= link_to "Log in", new_user_session_path, class: "btn btn-white btn-primary" %>
          <%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-filled" %>
        </p>
   <% end %>  

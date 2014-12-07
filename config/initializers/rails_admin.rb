@@ -32,3 +32,14 @@ RailsAdmin.config do |config|
     # history_show
   end
 end
+
+  class Pins < ActiveRecord::Base
+  validates :pins, presence: true
+  belongs_to :user
+
+  rails_admin do
+    configure :user do
+      label 'User'
+    end
+  end
+end

@@ -66,7 +66,7 @@ small {
 }
 sub,
 sup {
-  font-size: 75%;
+  font-size: 9px;
   line-height: 0;
   position: relative;
   vertical-align: baseline;
@@ -461,7 +461,7 @@ p {
 }
 .lead {
   margin-bottom: 22px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 200;
   line-height: 1.4;
 }
@@ -1559,6 +1559,9 @@ th {
 .table {
   width: 100%;
   margin-bottom: 22px;
+}
+.no-pad {
+  padding: 0px;
 }
 .table > thead > tr > th,
 .table > tbody > tr > th,
@@ -5932,3 +5935,63 @@ button.close {
 
 .row-offset-1 {margin-top: 7em;}
 .row-offset-2 {margin-bottom: 7em;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

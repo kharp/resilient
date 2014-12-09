@@ -9,8 +9,9 @@ Athingwithfeathers::Application.routes.draw do
   devise_for :users
 
 root "pages#_home"
-  get "about" => "pages#about"
-    get "forem/base"
+get "about" => "pages#about"
+get "love" => "pages#love"
+get "forem/base"
 
   #mount Commontator::Engine => '/commontator'
   

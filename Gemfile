@@ -3,9 +3,6 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 4.1.6'
 
-# Use SCSS for stylesheets
-gem 'sass-rails'
-
 gem 'devise'
 
 gem 'paperclip', '~> 3.0'
@@ -29,6 +26,8 @@ gem 'tzinfo-data'
 gem 'upmin-admin'
 
 gem 'rails_admin'
+
+gem 'sass-rails'
 
 gem 'sprockets', '~> 2.12.3'
 

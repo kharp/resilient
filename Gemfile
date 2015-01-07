@@ -23,7 +23,7 @@ gem 'will_paginate', '~> 3.0.5'
 
 gem 'tzinfo-data'
 
-gem 'rake', '~> 10.4.0'
+gem 'rake', '~> 10.4.2'
 
 gem 'rails_admin'
 

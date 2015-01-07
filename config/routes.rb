@@ -11,6 +11,8 @@ Athingwithfeathers::Application.routes.draw do
 root "pages#_home"
 get "about" => "pages#about"
 get "love" => "pages#love"
+get "resources" => "pages#resources"
+get "goal-setting-prompts" => "pages#goal-setting-prompts"
 get "forem/base"
 
   #mount Commontator::Engine => '/commontator'

@@ -42,7 +42,11 @@ Eventually I figured out what did help and I started to recover.  My good days w
 
 I created Resilient as a mental health app to share inspiration and tips for recovery.  And it's free.  Because regardless of who you are, you deserve to get help, and you deserve to be happy.  Really.<br><br>
 
-								<a href="#" class="btn btn-primary">Sign me up!</a>
+                <% if !user_signed_in? %>
+                  <%= link_to "Sign me up!", new_user_registration_path, class: "btn btn-primary" %>
+                <% else %>
+                  <%= link_to "Browse!", channels_path, class: "btn btn-primary" %>
+                <% end %>
 							</p>
 						</div>
 					</div>

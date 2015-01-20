@@ -69,6 +69,9 @@ end
 #font-awesome
   gem 'font-awesome-rails'
 
+# mailchimp
+gem 'mailchimp-api', require: 'mailchimp'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 

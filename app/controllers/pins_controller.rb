@@ -19,6 +19,7 @@ class PinsController < ApplicationController
 
     def edit
       @channel = Channel.find(params[:channel_id])
+      @pin = Pin.find(params[:id])
     end
 
     def create
@@ -33,8 +34,6 @@ class PinsController < ApplicationController
     end
 
     def update
-      puts '========================='
-        puts params
         if @pin.update_attributes(pin_params)
             redirect_to channel_pin_path(@pin.channel, @pin), notice: 'Pin was successfully updated.'
         else

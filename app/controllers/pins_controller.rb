@@ -33,8 +33,10 @@ class PinsController < ApplicationController
     end
 
     def update
-        if @pin.update(pin_params)
-            redirect_to @pin, notice: 'Pin was successfully updated.'
+      puts '========================='
+        puts params
+        if @pin.update_attributes(pin_params)
+            redirect_to channel_pin_path(@pin.channel, @pin), notice: 'Pin was successfully updated.'
         else
            render action: 'edit'
         end

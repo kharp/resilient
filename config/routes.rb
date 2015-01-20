@@ -3,17 +3,20 @@ Athingwithfeathers::Application.routes.draw do
   mount RailsAdmin::Engine => '/dashboard', as: 'rails_admin'
   resources :channels do
     resources :pins
-        resources :users
   end
 
   devise_for :users
 
-root "pages#_home"
-get "about" => "pages#about"
-get "love" => "pages#love"
-get "resources" => "pages#resources"
-get "goal-setting-prompts" => "pages#goal-setting-prompts"
-get "forem/base"
+  root "pages#_home"
+  get "about" => "pages#about"
+  get "love" => "pages#love"
+  get "resources" => "pages#resources"
+  get "goal-setting-prompts" => "pages#goal-setting-prompts"
+  get "forem/base"
+
+  # My Channels
+  resources :users
+  #get '/users/:id' => 'users#show'
 
   #mount Commontator::Engine => '/commontator'
   

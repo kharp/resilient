@@ -33,6 +33,7 @@
 </script></div><br><br>
 
     <div class="row"></div>
+    <% if @channel.user == current_user %>
       <div class="col-md-3">
         <%= link_to new_channel_pin_path(@channel) do %>
           <div class="new_channel_box">
@@ -41,6 +42,7 @@
           </div>
         <% end %>
       </div>
+    <% end %>
 
 
     <div id="pins" class="transitions-enabled">

@@ -16,7 +16,8 @@
 /tmp
 .DS_Store
 
-/public/system/pins/*
+# Ignore local images
+/public/system/*
 
 # .gitignore
 /config/initializers/s3_vars.rb

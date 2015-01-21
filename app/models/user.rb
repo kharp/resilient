@@ -10,6 +10,14 @@ class User < ActiveRecord::Base
 
   validates :name, presence: true
 
+  # Callbacks
+  after_create :add_to_mailing_list
+
+  private
+  def add_to_mailing_list
+    Mailchimp::AddToMailingList.subscribe(self)
+  end
+
 end
 
 def forem_name

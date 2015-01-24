@@ -1,4 +1,29 @@
+<<<<<<< HEAD
 Rails.application.routes.draw do
+=======
+Athingwithfeathers::Application.routes.draw do
+
+  mount RailsAdmin::Engine => '/dashboard', as: 'rails_admin'
+  resources :channels do
+    resources :pins
+  end
+
+  devise_for :users
+
+  root "pages#_home"
+  get "about" => "pages#about"
+  get "love" => "pages#love"
+  get "resources" => "pages#resources"
+  get "goal-setting-prompts" => "pages#goal-setting-prompts"
+  get "forem/base"
+
+  # My Channels
+  resources :users
+  #get '/users/:id' => 'users#show'
+
+  #mount Commontator::Engine => '/commontator'
+  
+>>>>>>> 19145fb308d9ceb5a67182ca6bedc10c5399725e
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -53,4 +78,8 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+<<<<<<< HEAD
 end
+=======
+end
+>>>>>>> 19145fb308d9ceb5a67182ca6bedc10c5399725e

@@ -6,7 +6,11 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+<<<<<<< HEAD
 module Intouch
+=======
+module Athingwithfeathers
+>>>>>>> 19145fb308d9ceb5a67182ca6bedc10c5399725e
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
@@ -20,7 +24,13 @@ module Intouch
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
 
+<<<<<<< HEAD
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+=======
+    # config.assets.initialize_on_precompile = true
+    # config.assets.paths << "#{Rails}/app/assets/fonts"
+    
+>>>>>>> 19145fb308d9ceb5a67182ca6bedc10c5399725e
   end
 end

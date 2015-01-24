@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,3 +13,204 @@
 
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-app/assets/javascripts lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-app/assets/javascripts lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-app/assets/javascripts lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js"> <!--<![endif]-->
+    <head>
+    	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700' rel='stylesheet' type='text/css'>
+        <meta charset="utf-8">
+        
+        <title>Resilient: the mental health app</title>
+        <meta name="description" content="Resilient is a mental health app that's like Pinterest for mental health and provides resources, tips, and inspiration for recovery.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <%= javascript_include_tag "application" %>
+        <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => false %>
+       
+        <%= stylesheet_link_tag 'application', '../stylesheets/line-icons.min.css' %>
+        <%= stylesheet_link_tag 'application', '../stylesheets/elegant-icons.min.css' %>
+
+        <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57231916-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+  (function() {
+    var shr = document.createElement('script');
+    shr.setAttribute('data-cfasync', 'false');
+    shr.src = '//dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js';
+    shr.type = 'text/javascript'; shr.async = 'true';
+    shr.onload = shr.onreadystatechange = function() {
+      var rs = this.readyState;
+      if (rs && rs != 'complete' && rs != 'loaded') return;
+      var site_id = '9ae5ae21de943223f289f4d19a387b71';
+      try { Shareaholic.init(site_id); } catch (e) {}
+    };
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(shr, s);
+  })();
+//]]>
+</script>
+
+<link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+
+        <!--<script src="../javascripts/modernizr-2.6.2-respond-1.1.0.min.js"></script>-->
+    </head>
+    <body>
+    
+				
+		<div class="nav-container">
+			<nav class="top-bar overlay-bar">
+				<div class="container">
+				
+					<!--end of row-->
+				
+				
+					<div class="row nav-menu">
+						<div class="col-sm-2 columns">
+							<a href="/">
+                <%= image_tag "white-logo.png" %>
+								<!--<img alt="Logo" src="../images/white-logo.png">-->
+							</a>
+						</div>
+					
+						<div class="col-sm-8 columns">
+							<ul class="menu">
+
+        <li><%= link_to "About", about_path %></li>
+        <li><%= link_to "Browse", channels_path %></li>
+        <% if user_signed_in? %>
+          <li><%= link_to "My Page", user_path(current_user) %></li>
+        <% end %>
+        <li><%= link_to "We ♥", love_path %></li>
+        <% if user_signed_in? %>
+          <li><%= link_to "Resources", resources_path %></li>
+          <li><%= link_to "Log out", destroy_user_session_path %></li>
+        <% else %>
+          <li><%= link_to "Log in", new_user_session_path %></li>
+        <% end %>
+
+      </div>
+						
+						<div class="col-sm-2 columns text-right">
+							<ul class="social-icons text-right">
+								<li>
+									<a href="https://twitter.com/resilientapp">
+										<i class="icon social_twitter"></i>
+									</a>
+								</li>
+							
+								<li>
+									<a href="https://www.facebook.com/resilientapp">
+										<i class="icon social_facebook"></i>
+									</a>
+								</li>
+							
+								<li>
+									<a href="http://www.pinterest.com/resilientapp/">
+										<i class="icon social_pinterest"></i>
+									</a>
+								</li>
+								<li>
+									<a href="http://resilient-page.tumblr.com/">
+										<i class="icon social_tumblr"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div><!--end of row-->
+					
+					<div class="mobile-toggle">
+						<i class="icon icon_menu"></i>
+					</div>
+					
+				</div><!--end of container-->
+			</nav>
+		
+			
+		
+			
+		</div>
+<%# flash.each do |name, msg| %>
+     <%#= content_tag(:div, msg, class: "alert alert-info") %>
+<%# end %>
+<%= yield %>
+
+
+		<div class="footer-container">
+			
+		
+			<footer class="short bg-secondary-1">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-9">
+							<span class="sub alt-font">© Copyright 2014 Resilient, the mental health app | <%= link_to "Account", edit_user_registration_path %></span><br><br>
+								<span class="sub alt-font">If you find one of of our posts is in violation of your copyright, please <a href="/about.html">contact us</a> and we will remove it.  We're just trying to spread the happiness. :)</span>
+							
+						</div>
+						
+						<div class="col-sm-3 text-right">
+							<ul class="social-icons text-right">
+								<li>
+									<a href="https://twitter.com/resilientapp">
+										<i class="icon social_twitter"></i>
+									</a>
+								</li>
+							
+								<li>
+									<a href="https://www.facebook.com/resilientapp">
+										<i class="icon social_facebook"></i>
+									</a>
+								</li>
+							
+								<li>
+									<a href="http://www.pinterest.com/resilientapp/">
+										<i class="icon social_pinterest"></i>
+									</a>
+								</li>
+								<li>
+									<a href="http://resilient-page.tumblr.com/">
+										<i class="icon social_tumblr"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div><!--end of row-->
+				</div><!--end of container-->
+			</footer>
+		</div>
+
+
+
+<%= javascript_include_tag "jquery.min","jquery.flexslider-min","smooth-scroll.min.js", "scripts.js", "jquery.countdown.min", "smooth-scroll.min", "skrollr.min","spectragram.min", "scrollReveal.min", "isotope.min", "twitterFetcher_v10_min", "lightbox.min", "pins" %>
+
+    <!--<script src="../javascripts/jquery.min.js"></script>-->
+    <!--<script src="../javascripts/jquery.plugin.min.js"></script>-->
+    <!--<script src="../javascripts/bootstrap.min.js"></script>-->
+    <!--<script src="../javascripts/jquery.flexslider-min.js"></script>-->
+    <!--<script src="../javascripts/smooth-scroll.min.js"></script>-->
+    <!--<script src="../javascripts/skrollr.min.js"></script>-->
+    <!--<script src="../javascripts/spectragram.min.js"></script>-->
+    <!--<script src="../javascripts/scrollReveal.min.js"></script>-->
+    <!--<script src="../javascripts/isotope.min.js"></script>-->
+    <!--<script src="../javascripts/twitterFetcher_v10_min.js"></script>-->
+    <!--<script src="../javascripts/lightbox.min.js"></script>-->
+    <!--<script src="../javascripts/jquery.countdown.min.js"></script>-->
+    <!--<script src="../javascripts/bootstrap.min.js"></script>-->
+    <!--<script src="../javascripts/scripts.js"></script>-->
+    </body>
+</html>
+				
+>>>>>>> 19145fb308d9ceb5a67182ca6bedc10c5399725e

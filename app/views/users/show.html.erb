@@ -1,0 +1,61 @@
+<div class="main-container">
+  <header class="signup">
+    <div class="background-image-holder parallax-background">
+      <img class="background-image" alt="Background Image" src="/images/browse.jpg">
+    </div>
+
+    <div class="container text-center">
+      <div class="row text-center">
+        <div class="col-sm-12 text-center">
+          <h1 class="text-white">Browse</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container"><br>
+
+    <% if user_signed_in? %>
+      <div class="col-md-3">
+        <%= link_to new_channel_path do %>
+          <div class="new_channel_box">
+            Add Channel <br />
+            <i class="fa fa-plus-circle fa-2x"></i>
+          </div>
+        <% end %>
+      </div>
+    <% end %>
+
+    <div id="pins" class="transitions-enabled">
+
+      <% @channels.each do |channel| %>
+        <div class="col-md-3">
+          <%= link_to channel do %>
+            <div class="channel_box">
+              <% if channel.image? %>
+                <span><%= image_tag channel.image.url(:medium) %></span>
+              <% end %>
+
+            </div>
+            <div class="channel_footer">
+              <hr>
+              <%= channel.description.truncate(60) %>
+            </div>
+          <% end %>
+        </div>
+      <% end %>
+    </div>
+
+  </div>
+
+  <br><br><div class="text-center"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <!-- Resilient Pin Page- Horizontal -->
+  <ins class="adsbygoogle"
+       style="display:inline-block;width:468px;height:60px"
+       data-ad-client="ca-pub-4579984495238903"
+       data-ad-slot="8832584910"></ins>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script></div><br><br>
+
+</div>

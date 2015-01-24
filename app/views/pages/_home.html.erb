@@ -1,0 +1,238 @@
+<div class="main-container">
+			<header class="signup"> 
+					<div class="background-image-holder parallax-background">
+						<img class="background-image" alt="Background Image" src="../images/browse.jpg">
+					</div>
+					
+					<div class="container text-center">
+							<div class="row text-center">
+								<div class="col-sm-12 text-center">
+									<h1 class="text-white">Discover resources, tips,<br>and inspiration for recovery.</h1>
+											   <% if user_signed_in? %>
+          <span class="text-white">Welcome to Resilient, the mental health app.</span>
+     <% else %>
+       <p>
+         <%= link_to "Log in", new_user_session_path, class: "btn btn-white btn-primary" %>
+         <%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-filled" %>
+       </p>
+  <% end %>  
+							
+								</div>
+							</div>
+						</div>
+			</header>
+			
+					<a id="services" class="in-page-link"></a>
+			<section class="pure-text-centered">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
+							<span class="sub alt-font-upper">The mental health app</span>
+							<h1><strong>Can an app really make you happy?</strong></h1>
+							<p class="lead">
+								Well, no.  Here's the thing: happiness is an inside job.  So no app, hot boyfriend (or girlfriend), delicious food, new iPhone, big house, six figure job, nice car, or six pack abs are ever going to give you long-lasting happiness.  That's because happiness doesn't come from external validation, it comes from YOU.<br><br>
+
+								Now you might be wondering what the point of making a mental health app is if it's not going to make you happy.  The point is to get you to see that happiness is a choice.  You don't have a choice in having a mental illness, but you do have a choice in whether or not you take the actions necessary to start getting better.  It's the hardest thing in the world, but choosing recovery will be the most worthwhile thing you ever do.<br><br>
+
+								We want to help you out because there really are things you can do that make depression and anxiety a lot easier.  Life does NOT have to suck just because you have a mental illness.  You only get one life, so make this one amazing.  You deserve it, beautiful.<br><br>
+
+								Let's be real. Having a mental illness is no walk in the park. I know because I was depressed for nine years and ended up droppping out of college because of it. I spent a lot of time meditating, contemplating the meaning of existence, and staring at my belly button before I realized that there wasn't really anywhere to go to find helpful resources for dealing with all of this.   It was like crossing an ocean without a map.  So I had to try out dozens of different things from many different sources over the course of more than a year before I figured out anything that was actually helpful.<br><br>
+
+Eventually I figured out what did help and I started to recover.  My good days were more frequent and my bad days were farther apart.  I created a toolbox of resources for dealing with my depressive and anxious moods, everything from meditation to running to cutting out gluten and watching cat videos, and it actually worked.  Recovery is not a one time thing, though.  It's a choice you make every day to rise above your struggle, to say, "This illness does not define me."  And to keep trying.<br><br>
+
+I created Resilient as a mental health app to share inspiration and tips for recovery.  And it's free.  Because regardless of who you are, you deserve to get help, and you deserve to be happy.  Really.<br><br>
+
+                <% if !user_signed_in? %>
+                  <%= link_to "Sign me up!", new_user_registration_path, class: "btn btn-primary" %>
+                <% else %>
+                  <%= link_to "Browse!", channels_path, class: "btn btn-primary" %>
+                <% end %>
+							</p>
+						</div>
+					</div>
+		
+				</div>
+			</section>
+			
+			<section class="duplicatable-content">
+			
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<h1>Dare we say that it's possible<br>to fall in love with life again?</h1>
+						</div>
+					</div><br>
+		
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="feature feature-icon-large">
+								<div class="pull-left">
+									<i class="icon icon-compass"></i>
+								</div>
+								<div class="pull-right">
+									<h5>Lost?  Don't worry.</h5>
+									<p>
+										Hey, I've been there.  But nothing makes you happier faster than figuring out what your passion in life is and going after it with a stick.  We'll help you find your true north.
+									</p>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-sm-6">
+							<div class="feature feature-icon-large">
+								<div class="pull-left">
+									<i class="icon icon-happy"></i>
+								</div>
+								<div class="pull-right">
+									<h5>Do what makes you happy.</h5>
+									<p>
+										Stop thinking about what society says you should do.  If you don't want to go to college, get married, buy a house with a white picket fence, work at a job you hate, and have 2.2 kids, then don't.  What do <em>you</em> want?  Do that instead.
+									</p>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-sm-6">
+							<div class="feature feature-icon-large">
+								<div class="pull-left">
+									<i class="icon icon-heart"></i>
+								</div>
+								<div class="pull-right">
+									<h5>Find what you love.</h5>
+									<p>
+										Life can feel pretty meaningless when there's no passion.  But if you can find the things you really and truly love (and I promise you have at least one passion!), then life gets so much better.
+									</p>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-sm-6">
+							<div class="feature feature-icon-large">
+								<div class="pull-left">
+									<i class="icon icon-paperclip"></i>
+								</div>
+								<div class="pull-right">
+									<h5>Save useful resources.</h5>
+									<p>
+										We'll help you discover awesome images, tips, quotes, websites, resources, and more to help you recover.  And with our app, you can save them onto channels based on mood or whatever you want (such as a channel for when you feel anxious, a channel for future dreams, etc).
+									</p>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			
+			</section>
+  <section class="duplicatable-content">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h1>Resilient Mailing List!</h1>
+        </div>
+        <div class="col-md-offset-2 col-md-8 text-center">
+          <!-- Begin MailChimp Signup Form -->
+          <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+          <style type="text/css">
+            #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+            /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+               We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+          </style>
+          <div id="mc_embed_signup">
+            <form action="//resilientapp.us9.list-manage.com/subscribe/post?u=0f2ed3ea91eb1d8f12d344ee1&amp;id=4334a5a58c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <div id="mc_embed_signup_scroll">
+                <h2>Subscribe to our mailing list</h2>
+                <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+                <div class="mc-field-group">
+                  <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+                  </label>
+                  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                </div>
+                <div class="mc-field-group">
+                  <label for="mce-FNAME">First Name </label>
+                  <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+                </div>
+                <div class="mc-field-group">
+                  <label for="mce-LNAME">Last Name </label>
+                  <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+                </div>
+                <div id="mce-responses" class="clear">
+                  <div class="response" id="mce-error-response" style="display:none"></div>
+                  <div class="response" id="mce-success-response" style="display:none"></div>
+                </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;"><input type="text" name="b_0f2ed3ea91eb1d8f12d344ee1_4334a5a58c" tabindex="-1" value=""></div>
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+              </div>
+            </form>
+          </div>
+          <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+          <!--End mc_embed_signup-->
+        </div>
+      </div>
+      <br><br>
+    </div>
+  </section>
+			
+			
+			
+			<a id="contact" class="in-page-link"></a>
+			<section class="social-bar no-pad">
+				<div class="col-md-3 no-pad">
+					<a href="https://twitter.com/resilientapp">
+						<div class="link bg-twitter">
+							<div class="initial">
+								<i class="icon social_twitter"></i>
+							</div>
+						
+							<div class="hover-state">
+								<span class="text-white">Follow On Twitter</span>
+							</div>
+						</div>
+					</a>
+				</div>
+				
+				<div class="col-md-3 no-pad">
+					<a href="https://www.facebook.com/resilientapp">
+						<div class="link bg-facebook">
+							<div class="initial">
+								<i class="icon social_facebook"></i>
+							</div>
+						
+							<div class="hover-state">
+								<span class="text-white">Friends on Facebook</span>
+							</div>
+						</div>
+					</a>
+				</div>
+				
+				<div class="col-md-3 no-pad">
+					<a href="http://www.pinterest.com/resilientapp/">
+						<div class="link bg-pinterest">
+							<div class="initial">
+								<i class="icon social_pinterest"></i>
+							</div>
+						
+							<div class="hover-state">
+								<span class="text-white">Pins on Pinterest</span>
+							</div>
+						</div>
+					</a>
+				</div>
+				
+				<div class="col-md-3 no-pad">
+					<a href="http://resilient-page.tumblr.com/">
+						<div class="link bg-tumblr">
+							<div class="initial">
+								<i class="icon social_tumblr"></i>
+							</div>
+						
+							<div class="hover-state">
+								<span class="text-white">Thoughts on Tumblr</span>
+							</div>
+						</div>
+					</a>
+				</div>
+			</section>
+		</div>
+			</div></div>

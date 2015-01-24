@@ -1,0 +1,58 @@
+<%= render 'pages/home' unless user_signed_in? %>
+
+<div class="main-container">
+  <header class="signup">
+    <div class="background-image-holder parallax-background">
+      <img class="background-image" alt="Background Image" src="/images/browse.jpg">
+    </div>
+
+    <div class="container text-center">
+      <div class="row text-center">
+        <div class="col-sm-12 text-center">
+          <h1 class="text-white"><%= @channel.name %></h1>
+        </div>
+      </div>
+    </div>
+  </header>
+  <p id="notice"><%= notice %></p>
+
+  <div class="container">
+
+    <%= form_for @pin, url: channel_pin_path(@channel, @pin), html: { multipart: true } do |f| %>
+      <% if @pin.errors.any? %>
+        <div id="error_explanation">
+          <h2><%= pluralize(@pin.errors.count, "error") %> prohibited this pin from being saved:</h2>
+
+          <ul>
+            <% @pin.errors.full_messages.each do |msg| %>
+              <li><%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+      <% end %>
+
+      <div class="form-group">
+        <%= f.label :image %>
+        <%= f.file_field :image, class: "form-control" %>
+      </div>
+
+      <div class="field">
+        <%= f.label :description %><br>
+        <%= f.text_field :description %>
+      </div>
+
+      <div class="field">
+        <%= f.label :image_url, 'Image Url' %><br>
+        <%= f.text_field :image_url %>
+      </div>
+      <div class="actions">
+        <%= f.submit %>
+      </div>
+    <% end %>
+
+
+    <%= link_to 'Back', channel_pin_path(@channel, @pin) %>
+
+
+  </div>
+</div>

@@ -14,3 +14,13 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+<<<<<<< HEAD
+=======
+.DS_Store
+
+# Ignore local images
+/public/system/*
+
+# .gitignore
+/config/initializers/s3_vars.rb
+>>>>>>> 19145fb308d9ceb5a67182ca6bedc10c5399725e

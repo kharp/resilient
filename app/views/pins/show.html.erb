@@ -1,0 +1,67 @@
+<div class="main-container">
+  <header class="signup">
+    <div class="background-image-holder parallax-background">
+      <img class="background-image" alt="Background Image" src="/images/browse.jpg">
+    </div>
+
+    <div class="container text-center">
+      <div class="row text-center">
+        <div class="text-center">
+          <h1 class="text-white">View Pin</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+  <p id="notice"><%= notice %></p>
+
+  <div class="container">
+
+    <%= link_to 'Back', channel_path(@channel) %>
+
+    <div class="text-center"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Resilient Pin Page- Horizontal -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-4579984495238903"
+     data-ad-slot="8832584910"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><br><br>
+
+    <div class="row">
+      <div class="col-md-offset-2 col-md-8">
+        <div class="panel panel-default">
+          <div class="panel-heading center">
+            <%= image_tag @pin.image.url(:large), class:"center-block" %>
+          </div>
+          <div class="panel-body">
+            <p><strong>Description: </strong><%= @pin.description %></p>
+            <p><strong>URL: </strong><%= @pin.image_url %></p>
+            <p><strong>Created by: <%= @pin.user.name if @pin.user %></strong></p>
+
+            <% if @pin.user == current_user %>
+              <%= link_to "Edit", edit_channel_pin_path(@channel, @pin) %> |
+              <%= link_to 'Delete', channel_pin_path(@channel, @pin), data: {:confirm => 'Are you sure you want to delete this pin?'}, method: :delete %>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div class='shareaholic-canvas' data-app='share_buttons' data-app-id='13081882'></div>
+
+<div class="text-center"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Resilient Pin Page- Horizontal -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-4579984495238903"
+     data-ad-slot="8832584910"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><br><br>
+
+</div>
+</div>
+</div>
+  </div>
+</div>

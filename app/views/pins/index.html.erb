@@ -1,0 +1,53 @@
+<%= render 'pages/home' unless user_signed_in? %>
+
+<div class="main-container">
+      <header class="signup"> 
+          <div class="background-image-holder parallax-background">
+            <img class="background-image" alt="Background Image" src="/images/home.jpg">
+          </div>
+          
+          <div class="container text-center">
+              <div class="row text-center">
+                <div class="col-sm-12 text-center">
+                  <h1 class="text-white">Browse</h1>
+                
+                </div>
+              </div>
+            </div><!--end of container-->
+      </header>
+
+      <div class="main-container">
+        <div class="row">
+          <div class="col-md-1">
+            &nbsp;
+          </div>
+            <div class="col-md-10 row-offset-1 row-offset-2">
+
+<div id="pins" class="transitions-enabled">
+  <% @pins.each do |pin| %>
+    <div class="box panel panel-default">
+      <%= link_to image_tag(pin.image.url(:medium)), pin %>
+      <div class="panel-body">
+        <%= pin.description %><br/>
+        <strong><%= pin.user.email if pin.user %></strong>
+        <% if pin.user == current_user %>
+          <div class="actions">
+            <%= link_to 'Edit', edit_pin_path(pin) %>
+            <%= link_to 'Destroy', pin, method: :delete, data: { confirm: 'Are you sure?' } %>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  <% end %>
+</div>
+
+<div class="center">
+   <%= will_paginate @posts, renderer: BootstrapPagination::Rails %>
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+

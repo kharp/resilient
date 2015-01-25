@@ -50,7 +50,6 @@ class PinsController < ApplicationController
       repin.user = current_user
       repin.channel = channel
       repin.image = pin.image
-      binding.pry
       respond_to do |format|
         if repin.save
           format.js { render }

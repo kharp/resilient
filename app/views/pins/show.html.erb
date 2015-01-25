@@ -1,3 +1,5 @@
+<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="new-repin-modal" role="dialog" tabindex="-1"></div>
+
 <div class="main-container">
   <header class="signup">
     <div class="background-image-holder parallax-background">
@@ -33,7 +35,7 @@
         <div class="panel panel-default">
           <div class="panel-heading center">
             <% if @pin.user != current_user && user_signed_in? %>
-              <%= link_to '#' do %>
+              <%= link_to repin_new_path(@pin), remote: true do %>
                 <i class="fa fa-share repin pull-left"> Re-Pin</i>
               <% end %>
             <% end %>
@@ -52,7 +54,6 @@
         </div>
       </div>
     </div>
-
 <div class='shareaholic-canvas' data-app='share_buttons' data-app-id='13081882'></div>
 
 <div class="text-center"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>

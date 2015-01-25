@@ -5,6 +5,9 @@ Athingwithfeathers::Application.routes.draw do
     resources :pins
   end
 
+  get "/pins/:id/repost" => "pins#repin_new", as: 'repin_new'
+  post "/pins/:id/repost" => "pins#repin_create", as: 'repin_create'
+
   devise_for :users
 
   root "pages#_home"

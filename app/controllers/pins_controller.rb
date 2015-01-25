@@ -43,8 +43,19 @@ class PinsController < ApplicationController
     end
 
     def repin_create
-      @pin = params[:id]
-      @repin = @pin.dup
+      pin = Pin.find_by(id: params[:id])
+      channel_id = params["#{pin.id}"]["channel_id"]
+      channel = Channel.find_by(id: channel_id)
+      repin = pin.dup
+      repin.user = current_user
+      repin.channel = channel
+      repin.image = pin.image
+      binding.pry
+      respond_to do |format|
+        if repin.save
+          format.js { render }
+        end
+      end
     end
 
     def update

@@ -55,6 +55,7 @@ gem 'commontator', '~> 4.10.0'
 group :development, :test do
 # Use sqlite3 as the database for Active Record
 	gem 'sqlite3'
+  gem 'pry-rails'
 end
 
 group :production do

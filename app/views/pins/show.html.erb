@@ -44,8 +44,8 @@
           <div class="panel-body">
             <p><strong>Description: </strong><%= @pin.description %></p>
             <% if @pin.image_url? %>
-              <p><%= link_to @pin.image_url do %>
-                <span>URL: <%= @pin.image_url %></span>
+              <p><strong>URL: </strong><%= link_to @pin.image_url do %>
+                <span> <%= @pin.image_url %></span>
               <% end %>
               </p>
 

@@ -35,7 +35,7 @@
         <div class="panel panel-default">
           <div class="panel-heading center">
             <% if @pin.user != current_user && user_signed_in? %>
-              <%= link_to repin_new_path(@pin), remote: true do %>
+              <%= link_to repin_new_path(@pin), id: 'repin_link', remote: true do %>
                 <i class="fa fa-share repin pull-left"> Re-Pin</i>
               <% end %>
             <% end %>

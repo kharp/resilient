@@ -18,7 +18,8 @@
 
 .repin {
   font-size: 16px;
-  .input {
-    font-size: 30px;
-  }
+}
+
+input, button, select, textarea {
+  font-size: 30px;
 }

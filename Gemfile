@@ -1,10 +1,14 @@
 source 'https://rubygems.org'
 <<<<<<< HEAD
+<<<<<<< HEAD
 gem 'rails', '~> 4.2.0'
 
 gem 'devise'
 
 =======
+=======
+ruby '2.1.3'
+>>>>>>> ae381324c23d7dc5e89e0831f946ee73d51c3185
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 4.1.6'
@@ -69,6 +73,7 @@ gem 'commontator', '~> 4.10.0'
 group :development, :test do
 # Use sqlite3 as the database for Active Record
 	gem 'sqlite3'
+  gem 'pry-rails'
 end
 
 group :production do

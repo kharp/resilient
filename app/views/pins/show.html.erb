@@ -1,3 +1,5 @@
+<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="new-repin-modal" role="dialog" tabindex="-1"></div>
+
 <div class="main-container">
   <header class="signup">
     <div class="background-image-holder parallax-background">
@@ -32,11 +34,22 @@
       <div class="col-md-offset-2 col-md-8">
         <div class="panel panel-default">
           <div class="panel-heading center">
+            <% if @pin.user != current_user && user_signed_in? %>
+              <%= link_to repin_new_path(@pin), id: 'repin_link', remote: true do %>
+                <i class="fa fa-share repin pull-left"> Re-Pin</i>
+              <% end %>
+            <% end %>
             <%= image_tag @pin.image.url(:large), class:"center-block" %>
           </div>
           <div class="panel-body">
             <p><strong>Description: </strong><%= @pin.description %></p>
-            <p><strong>URL: </strong><%= @pin.image_url %></p>
+            <% if @pin.image_url? %>
+              <p><strong>URL: </strong><%= link_to @pin.image_url do %>
+                <span> <%= @pin.image_url %></span>
+              <% end %>
+              </p>
+
+            <% end %>
             <p><strong>Created by: <%= @pin.user.name if @pin.user %></strong></p>
 
             <% if @pin.user == current_user %>
@@ -47,7 +60,6 @@
         </div>
       </div>
     </div>
-
 <div class='shareaholic-canvas' data-app='share_buttons' data-app-id='13081882'></div>
 
 <div class="text-center"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>

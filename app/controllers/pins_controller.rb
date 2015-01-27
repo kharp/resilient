@@ -33,6 +33,30 @@ class PinsController < ApplicationController
         end
     end
 
+    def repin_new
+      @pin = params[:id]
+      @repin = Pin.new
+
+      respond_to do |format|
+        format.js { render }
+      end
+    end
+
+    def repin_create
+      pin = Pin.find_by(id: params[:id])
+      channel_id = params["#{pin.id}"]["channel_id"]
+      channel = Channel.find_by(id: channel_id)
+      repin = pin.dup
+      repin.user = current_user
+      repin.channel = channel
+      repin.image = pin.image
+      respond_to do |format|
+        if repin.save
+          format.js { render }
+        end
+      end
+    end
+
     def update
         if @pin.update_attributes(pin_params)
             redirect_to channel_pin_path(@pin.channel, @pin), notice: 'Pin was successfully updated.'

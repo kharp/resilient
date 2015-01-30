@@ -1,44 +1,6 @@
 GEM
   remote: https://rubygems.org/
   specs:
-<<<<<<< HEAD
-    actionmailer (4.2.0)
-      actionpack (= 4.2.0)
-      actionview (= 4.2.0)
-      activejob (= 4.2.0)
-      mail (~> 2.5, >= 2.5.4)
-      rails-dom-testing (~> 1.0, >= 1.0.5)
-    actionpack (4.2.0)
-      actionview (= 4.2.0)
-      activesupport (= 4.2.0)
-      rack (~> 1.6.0)
-      rack-test (~> 0.6.2)
-      rails-dom-testing (~> 1.0, >= 1.0.5)
-      rails-html-sanitizer (~> 1.0, >= 1.0.1)
-    actionview (4.2.0)
-      activesupport (= 4.2.0)
-      builder (~> 3.1)
-      erubis (~> 2.7.0)
-      rails-dom-testing (~> 1.0, >= 1.0.5)
-      rails-html-sanitizer (~> 1.0, >= 1.0.1)
-    activejob (4.2.0)
-      activesupport (= 4.2.0)
-      globalid (>= 0.3.0)
-    activemodel (4.2.0)
-      activesupport (= 4.2.0)
-      builder (~> 3.1)
-    activerecord (4.2.0)
-      activemodel (= 4.2.0)
-      activesupport (= 4.2.0)
-      arel (~> 6.0)
-    activesupport (4.2.0)
-      i18n (~> 0.7)
-      json (~> 1.7, >= 1.7.7)
-      minitest (~> 5.1)
-      thread_safe (~> 0.3, >= 0.3.4)
-      tzinfo (~> 1.1)
-    arel (6.0.0)
-=======
     actionmailer (4.1.8)
       actionpack (= 4.1.8)
       actionview (= 4.1.8)
@@ -71,22 +33,15 @@ GEM
       nokogiri (>= 1.4.4, < 1.6.0)
       uuidtools (~> 2.1)
     bcrypt (3.1.9)
->>>>>>> 19145fb308d9ceb5a67182ca6bedc10c5399725e
     bcrypt (3.1.9-x86-mingw32)
     bootstrap-sass (3.3.1.0)
       sass (~> 3.2)
     builder (3.2.2)
-<<<<<<< HEAD
-=======
     climate_control (0.0.3)
       activesupport (>= 3.0)
     cocaine (0.5.4)
       climate_control (>= 0.0.3, < 1.0)
-<<<<<<< HEAD
->>>>>>> 19145fb308d9ceb5a67182ca6bedc10c5399725e
-=======
     coderay (1.1.0)
->>>>>>> ae381324c23d7dc5e89e0831f946ee73d51c3185
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.0)
@@ -109,19 +64,10 @@ GEM
     execjs (2.2.2)
     font-awesome-rails (4.2.0.0)
       railties (>= 3.2, < 5.0)
-<<<<<<< HEAD
-    globalid (0.3.0)
-      activesupport (>= 4.1.0)
-    haml (4.0.5)
-      tilt
-    hike (1.2.3)
-    i18n (0.7.0)
-=======
     haml (4.0.5)
       tilt
     hike (1.2.3)
     i18n (0.6.11)
->>>>>>> 19145fb308d9ceb5a67182ca6bedc10c5399725e
     jbuilder (1.5.3)
       activesupport (>= 3.0.0)
       multi_json (>= 1.2.0)
@@ -133,27 +79,6 @@ GEM
       turbolinks
     jquery-ui-rails (5.0.3)
       railties (>= 3.2.16)
-<<<<<<< HEAD
-    json (1.8.2)
-    kaminari (0.16.1)
-      actionpack (>= 3.0.0)
-      activesupport (>= 3.0.0)
-    loofah (2.0.1)
-      nokogiri (>= 1.5.9)
-    mail (2.6.3)
-      mime-types (>= 1.16, < 3)
-    mime-types (2.4.3)
-    mini_portile (0.6.1)
-    minitest (5.5.1)
-    multi_json (1.10.1)
-    nested_form (0.3.2)
-    newrelic_rpm (3.9.8.273)
-    nokogiri (1.6.4.1-x86-mingw32)
-      mini_portile (~> 0.6.0)
-    orm_adapter (0.5.0)
-    pg (0.17.1-x86-mingw32)
-    rack (1.6.0)
-=======
     json (1.8.1)
     kaminari (0.16.1)
       actionpack (>= 3.0.0)
@@ -193,33 +118,11 @@ GEM
     pry-rails (0.3.2)
       pry (>= 0.9.10)
     rack (1.5.2)
->>>>>>> 19145fb308d9ceb5a67182ca6bedc10c5399725e
     rack-pjax (0.8.0)
       nokogiri (~> 1.5)
       rack (~> 1.1)
     rack-test (0.6.2)
       rack (>= 1.0)
-<<<<<<< HEAD
-    rails (4.2.0)
-      actionmailer (= 4.2.0)
-      actionpack (= 4.2.0)
-      actionview (= 4.2.0)
-      activejob (= 4.2.0)
-      activemodel (= 4.2.0)
-      activerecord (= 4.2.0)
-      activesupport (= 4.2.0)
-      bundler (>= 1.3.0, < 2.0)
-      railties (= 4.2.0)
-      sprockets-rails
-    rails-deprecated_sanitizer (1.0.3)
-      activesupport (>= 4.2.0.alpha)
-    rails-dom-testing (1.0.5)
-      activesupport (>= 4.2.0.beta, < 5.0)
-      nokogiri (~> 1.6.0)
-      rails-deprecated_sanitizer (>= 1.0.1)
-    rails-html-sanitizer (1.0.1)
-      loofah (~> 2.0)
-=======
     rails (4.1.8)
       actionmailer (= 4.1.8)
       actionpack (= 4.1.8)
@@ -230,7 +133,6 @@ GEM
       bundler (>= 1.3.0, < 2.0)
       railties (= 4.1.8)
       sprockets-rails (~> 2.0)
->>>>>>> 19145fb308d9ceb5a67182ca6bedc10c5399725e
     rails_12factor (0.0.3)
       rails_serve_static_assets
       rails_stdout_logging
@@ -250,28 +152,17 @@ GEM
       sass-rails (~> 4.0)
     rails_serve_static_assets (0.0.2)
     rails_stdout_logging (0.0.3)
-<<<<<<< HEAD
-    railties (4.2.0)
-      actionpack (= 4.2.0)
-      activesupport (= 4.2.0)
-=======
     railties (4.1.8)
       actionpack (= 4.1.8)
       activesupport (= 4.1.8)
->>>>>>> 19145fb308d9ceb5a67182ca6bedc10c5399725e
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
     rake (10.4.2)
     rdoc (4.1.2)
       json (~> 1.4)
     remotipart (1.2.1)
-<<<<<<< HEAD
-    responders (2.0.2)
-      railties (>= 4.2.0.alpha, < 5)
-=======
     responders (1.1.2)
       railties (>= 3.2, < 4.2)
->>>>>>> 19145fb308d9ceb5a67182ca6bedc10c5399725e
     safe_yaml (1.0.4)
     sass (3.2.19)
     sass-rails (4.0.5)
@@ -292,10 +183,7 @@ GEM
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (>= 2.8, < 4.0)
-<<<<<<< HEAD
-=======
     sqlite3 (1.3.10)
->>>>>>> 19145fb308d9ceb5a67182ca6bedc10c5399725e
     sqlite3 (1.3.10-x86-mingw32)
     thor (0.19.1)
     thread_safe (0.3.4)
@@ -309,15 +197,6 @@ GEM
     uglifier (2.5.3)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
-<<<<<<< HEAD
-    warden (1.2.3)
-      rack (>= 1.0)
-
-PLATFORMS
-  x86-mingw32
-
-DEPENDENCIES
-=======
     uuidtools (2.1.5)
     warden (1.2.3)
       rack (>= 1.0)
@@ -332,27 +211,16 @@ PLATFORMS
 
 DEPENDENCIES
   aws-sdk (~> 1.20.0)
->>>>>>> 19145fb308d9ceb5a67182ca6bedc10c5399725e
   bootstrap-sass
   coffee-rails (~> 4.0.0)
   commontator (~> 4.10.0)
   devise
   excon
-<<<<<<< HEAD
-=======
   font-awesome-rails
->>>>>>> 19145fb308d9ceb5a67182ca6bedc10c5399725e
   jbuilder (~> 1.2)
   jquery-rails
   jquery-turbolinks
   jquery-ui-rails
-<<<<<<< HEAD
-  newrelic_rpm
-  pg
-  rails (~> 4.2.0)
-  rails_12factor
-  rails_admin
-=======
   mailchimp-api
   masonry-rails (~> 0.2.0)
   newrelic_rpm
@@ -363,7 +231,6 @@ DEPENDENCIES
   rails_12factor
   rails_admin
   rake (~> 10.4.2)
->>>>>>> 19145fb308d9ceb5a67182ca6bedc10c5399725e
   sass-rails
   sdoc
   sprockets (~> 2.12.3)
@@ -371,8 +238,5 @@ DEPENDENCIES
   turbolinks
   tzinfo-data
   uglifier (>= 1.3.0)
-<<<<<<< HEAD
-=======
   will_paginate (~> 3.0.5)
   will_paginate-bootstrap
->>>>>>> 19145fb308d9ceb5a67182ca6bedc10c5399725e

@@ -36,7 +36,7 @@
           <div class="panel-heading center">
             <% if @pin.user != current_user && user_signed_in? %>
               <%= link_to repin_new_path(@pin), id: 'repin_link', remote: true do %>
-                <i class="fa fa-share repin pull-left"> Re-Pin</i>
+                <i class="fa fa-heart repin pull-left"> Save</i>
               <% end %>
             <% end %>
             <%= image_tag @pin.image.url(:large), class:"center-block" %>

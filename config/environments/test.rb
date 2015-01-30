@@ -1,8 +1,7 @@
-<<<<<<< HEAD
+
 Rails.application.configure do
-=======
+
 Athingwithfeathers::Application.configure do
->>>>>>> 19145fb308d9ceb5a67182ca6bedc10c5399725e
   # Settings specified here will take precedence over those in config/application.rb.
 
   # The test environment is used exclusively to run your application's
@@ -18,11 +17,8 @@ Athingwithfeathers::Application.configure do
 
   # Configure static asset server for tests with Cache-Control for performance.
   config.serve_static_assets  = true
-<<<<<<< HEAD
   config.static_cache_control = 'public, max-age=3600'
-=======
   config.static_cache_control = "public, max-age=3600"
->>>>>>> 19145fb308d9ceb5a67182ca6bedc10c5399725e
 
   # Show full error reports and disable caching.
   config.consider_all_requests_local       = true
@@ -39,7 +35,6 @@ Athingwithfeathers::Application.configure do
   # ActionMailer::Base.deliveries array.
   config.action_mailer.delivery_method = :test
 
-<<<<<<< HEAD
   # Randomize the order test cases are executed
   config.active_support.test_order = :random
 
@@ -48,8 +43,8 @@ Athingwithfeathers::Application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
-=======
   # Print deprecation notices to the stderr.
   config.active_support.deprecation = :stderr
->>>>>>> 19145fb308d9ceb5a67182ca6bedc10c5399725e
+  end
 end
+

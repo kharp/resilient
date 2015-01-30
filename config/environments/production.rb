@@ -1,19 +1,18 @@
-<<<<<<< HEAD
+
 Rails.application.configure do
-=======
+
 Athingwithfeathers::Application.configure do
->>>>>>> 19145fb308d9ceb5a67182ca6bedc10c5399725e
+
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
   config.cache_classes = true
 
   # Eager load code on boot. This eager loads most of Rails and
-<<<<<<< HEAD
+
   # your application in memory, allowing both threaded web servers
-=======
+
   # your application in memory, allowing both thread web servers
->>>>>>> 19145fb308d9ceb5a67182ca6bedc10c5399725e
   # and those relying on copy on write to perform better.
   # Rake tasks automatically ignore this option for performance.
   config.eager_load = true
@@ -24,27 +23,24 @@ Athingwithfeathers::Application.configure do
 
   # Enable Rack::Cache to put a simple HTTP cache in front of your application
   # Add `rack-cache` to your Gemfile before enabling this.
-<<<<<<< HEAD
   # For large-scale production use, consider using a caching reverse proxy like
   # NGINX, varnish or squid.
   # config.action_dispatch.rack_cache = true
 
   # Disable Rails's static asset server (Apache or NGINX will already do this).
   config.serve_static_assets = false
-=======
   # For large-scale production use, consider using a caching reverse proxy like nginx, varnish or squid.
   # config.action_dispatch.rack_cache = true
 
   # Disable Rails's static asset server (Apache or nginx will already do this).
   config.serve_static_assets = true
->>>>>>> 19145fb308d9ceb5a67182ca6bedc10c5399725e
 
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
   # config.assets.css_compressor = :sass
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
-<<<<<<< HEAD
+
   config.assets.compile = false
 
   # Asset digests allow you to set far-future HTTP expiration dates on all assets,
@@ -56,7 +52,7 @@ Athingwithfeathers::Application.configure do
   # Specifies the header that your server uses for sending files.
   # config.action_dispatch.x_sendfile_header = 'X-Sendfile' # for Apache
   # config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect' # for NGINX
-=======
+
   config.assets.compile = true
 
   # Generate digests for assets URLs.
@@ -68,18 +64,17 @@ Athingwithfeathers::Application.configure do
   # Specifies the header that your server uses for sending files.
   # config.action_dispatch.x_sendfile_header = "X-Sendfile" # for apache
   # config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect' # for nginx
->>>>>>> 19145fb308d9ceb5a67182ca6bedc10c5399725e
+
 
   # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
   # config.force_ssl = true
 
-<<<<<<< HEAD
   # Decrease the log volume.
   # config.log_level = :info
-=======
+
   # Set to :debug to see everything in the log.
   config.log_level = :info
->>>>>>> 19145fb308d9ceb5a67182ca6bedc10c5399725e
+
 
   # Prepend all log lines with the following tags.
   # config.log_tags = [ :subdomain, :uuid ]
@@ -91,38 +86,37 @@ Athingwithfeathers::Application.configure do
   # config.cache_store = :mem_cache_store
 
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.
-<<<<<<< HEAD
+
   # config.action_controller.asset_host = 'http://assets.example.com'
-=======
+
   # config.action_controller.asset_host = "http://assets.example.com"
 
   # Precompile additional assets.
   # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
   # config.assets.precompile += %w( search.js )
->>>>>>> 19145fb308d9ceb5a67182ca6bedc10c5399725e
 
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
   # config.action_mailer.raise_delivery_errors = false
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
-<<<<<<< HEAD
+
   # the I18n.default_locale when a translation cannot be found).
-=======
+
   # the I18n.default_locale when a translation can not be found).
->>>>>>> 19145fb308d9ceb5a67182ca6bedc10c5399725e
+
   config.i18n.fallbacks = true
 
   # Send deprecation notices to registered listeners.
   config.active_support.deprecation = :notify
 
-<<<<<<< HEAD
+
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
-=======
+
   # Disable automatic flushing of the log to improve performance.
   # config.autoflush_log = false
 
@@ -142,5 +136,5 @@ Athingwithfeathers::Application.configure do
     :path => '/:class/:attachment/:id_partition/:style/:filename',
   }
 
->>>>>>> 19145fb308d9ceb5a67182ca6bedc10c5399725e
+  end
 end

@@ -1,7 +1,5 @@
 <%= render 'pages/home' unless user_signed_in? %>
 
-<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="new-repin-modal" role="dialog" tabindex="-1"></div>
-
 <div class="main-container">
       <header class="signup"> 
           <div class="background-image-holder parallax-background">
@@ -30,11 +28,6 @@
     <div class="box panel panel-default">
       <%= link_to image_tag(pin.image.url(:medium)), pin %>
       <div class="panel-body">
-        <% if @pin.user != current_user && user_signed_in? %>
-              <%= link_to repin_new_path(@pin), id: 'repin_link', remote: true do %>
-                <i class="fa fa-heart repin pull-left"> Save</i>
-              <% end %>
-            <% end %><br/>
         <%= pin.description %><br/>
         <strong><%= pin.user.email if pin.user %></strong>
         <% if pin.user == current_user %>

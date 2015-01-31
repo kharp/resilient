@@ -19,6 +19,7 @@ Athingwithfeathers::Application.routes.draw do
   get "resources" => "pages#resources"
   get "goal-setting-prompts" => "pages#goal-setting-prompts"
   get "forem/base"
+  get "/sign_up"   => "devise/registrations#new"
 
   # My Channels
   resources :users

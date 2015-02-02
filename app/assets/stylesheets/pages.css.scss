@@ -1,7 +1,9 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
+.logo-top {
+  margin-top: -10px;
+}
 .bg-primary {
   background-color: #e7d22f !important;
 }
@@ -203,7 +205,7 @@ span.text-white a {
   position: fixed;
   width: 100%;
   height: 100%;
-  background: #fff;
+  background: none;
   z-index: 9999;
   text-align: center;
   -webkit-transition: all .5s ease;
@@ -417,7 +419,7 @@ nav hr {
 }
 .top-bar {
   position: absolute;
-  background: #fff;
+  background: none;
   width: 100%;
   z-index: 10;
   -webkit-transition: all .5s ease;
@@ -427,12 +429,12 @@ nav hr {
   top: 0;
 }
 .top-bar .logo {
-  max-width: 80px;
+  max-width: 100%;
   position: relative;
-  bottom: 7px;
+  top: 7px;
 }
 .nav-menu {
-  padding-top: 40px;
+  padding-top: 0px;
 }
 .utility-menu {
   margin-top: 16px;
@@ -460,7 +462,6 @@ nav hr {
   background: none;
 }
 .overlay-bar .logo-dark {
-  display: none;
 }
 .overlay-bar .has-dropdown:after {
   color: #fff;
@@ -501,10 +502,9 @@ nav hr {
   font-size: 16px;
 }
 .top-bar .logo-light {
-  display: none;
 }
 .top-bar .utility-menu .utility-inner {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 0px solid rgba(0, 0, 0, 0.2);
 }
 .overlay-bar .menu li a {
   color: #fff;
@@ -522,7 +522,6 @@ nav hr {
   color: #333333;
 }
 .overlay-bar .logo-dark {
-  display: none;
 }
 .overlay-bar .logo-light {
   display: block;
@@ -531,7 +530,7 @@ nav hr {
   color: #fff;
 }
 .overlay-bar .utility-menu .utility-inner {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 0px solid rgba(255, 255, 255, 0.3);
 }
 .overlay-bar .login-button {
   border-color: #fff;
@@ -571,16 +570,16 @@ nav hr {
   display: none !important;
 }
 .top-bar.nav-sticky {
-  background: rgba(255, 255, 255, 0.9);
+  background: none;
 }
 .top-bar.nav-sticky .nav-menu {
-  padding-top: 32px;
+  padding-top: 12px;
 }
 .top-bar.nav-sticky .menu li a {
   padding-bottom: 32px;
 }
 .top-bar.nav-sticky .subnav {
-  background: rgba(255, 255, 255, 0.9);
+  background: none;
 }
 .top-bar.nav-sticky .utility-menu {
   display: none;
@@ -619,7 +618,6 @@ nav hr {
   color: #fff !important;
 }
 .overlay-bar.nav-sticky .logo-light {
-  display: none;
 }
 .overlay-bar.nav-sticky .logo-dark {
   display: block;
@@ -704,8 +702,7 @@ nav hr {
   color: #fff !important;
 }
 .offscreen-container .social-icons {
-  position: absolute;
-  bottom: 40px;
+  display: none;
 }
 .offscreen-container .social-icons li a {
   color: #fff !important;
@@ -723,9 +720,8 @@ nav hr {
   height: 100%;
   top: 0px;
   content: '';
-  opacity: 0.9;
   z-index: 2;
-  background-color: #e7d22f;
+  background: none;
   left: 0;
 }
 .overlay .container {
@@ -741,7 +737,7 @@ header .container {
   z-index: 3;
 }
 header .logo {
-  max-width: 200px;
+  max-width: 100%;
   display: inline-block;
   margin-bottom: 24px;
 }
@@ -754,7 +750,7 @@ header .btn:last-child {
 .page-header {
   margin: 0px;
   padding: 0px;
-  padding: 160px 0px;
+  padding: 100px 0px;
   border-bottom: none;
 }
 .page-header h1 {
@@ -807,6 +803,9 @@ header .btn:last-child {
   left: -10px;
 }
 @media all and (max-width: 1350px) {
+.logo-top {
+  margin-top: 0px;
+}
   .flex-direction-nav {
     display: none !important;
   }
@@ -2679,21 +2678,23 @@ footer.short-2 .contact-action:hover {
   background: #ad2315;
 }
 @media only screen and (min-width: 320px) and (max-width: 767px) {
+.logo-top {
+  margin-top: -10px;
+}
   .top-bar {
-    position: absolute;
+  background: none;
+  }
+  .nav-container {
+  background: none;
+  }
+  .overlay-bar {
+  background: none;
+  }
+  .logo-mobile {
+  width: 150px;
   }
   .utility-menu {
-    display: none;
-  }
-  nav {
-    max-height: 80px;
-    overflow: hidden;
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    transition: all .5s ease;
-  }
-  nav .logo {
-    margin-bottom: 32px;
+    display: block;
   }
   nav .columns {
     width: 100%;
@@ -2702,10 +2703,10 @@ footer.short-2 .contact-action:hover {
     display: none;
   }
   .open-nav {
-    max-height: 8000px;
+    max-height: 80px;
   }
   .nav-menu {
-    padding-top: 24px;
+    padding-top: 14px;
   }
   .top-bar .logo {
     bottom: 0px;
@@ -2718,15 +2719,6 @@ footer.short-2 .contact-action:hover {
     right: 16px;
     cursor: pointer;
     color: #333333;
-  }
-  .overlay-bar {
-    background: rgba(255, 255, 255, 0.9);
-  }
-  .overlay-bar .logo-light {
-    display: none;
-  }
-  .overlay-bar .logo-dark {
-    display: block;
   }
   .top-bar .menu li a {
     color: #777777;
@@ -2763,7 +2755,7 @@ footer.short-2 .contact-action:hover {
     display: none;
   }
   .offscreen-container .logo {
-    display: none;
+    display: block;
   }
   section,
   header {
@@ -3050,10 +3042,11 @@ footer.short-2 .contact-action:hover {
     max-height: 8000px;
   }
   .nav-menu {
-    padding-top: 24px;
+    padding-top: 14px;
   }
   .top-bar .logo {
     bottom: 0px;
+    width: 100%;
   }
   .mobile-toggle {
     font-size: 32px;
@@ -3065,7 +3058,7 @@ footer.short-2 .contact-action:hover {
     color: #333333;
   }
   .overlay-bar {
-    background: rgba(255, 255, 255, 0.9);
+  background: none;
   }
   .overlay-bar .logo-light {
     display: none;

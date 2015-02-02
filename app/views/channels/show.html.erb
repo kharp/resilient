@@ -20,7 +20,7 @@
     <%= link_to 'Back', channels_path %> |
     <% if @channel.user == current_user %>
       <%= link_to 'Edit', edit_channel_path(@channel) %> |
-      <%= link_to 'Delete', channel_path(@channel), data: {:confirm => 'Are you sure you want to delete this natter?'}, method: :delete %>
+      <%= link_to 'Delete', channel_path(@channel), data: {:confirm => 'Are you sure you want to delete this pin?'}, method: :delete %>
     <% end %>
 
 <div class="text-center"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>

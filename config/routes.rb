@@ -18,6 +18,7 @@ Athingwithfeathers::Application.routes.draw do
   get "love" => "pages#love"
   get "resources" => "pages#resources"
   get "goal-setting-prompts" => "pages#goal-setting-prompts"
+  get "heal-with-forgiveness" => "pages#heal-with-forgiveness"
   get "forem/base"
   get "/sign_up"   => "devise/registrations#new"
 

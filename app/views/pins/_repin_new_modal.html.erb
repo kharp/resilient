@@ -1,4 +1,4 @@
-<%= form_for @pin, url: repin_create_path(@pin), method: :post, html: { multipart: true }, remote: true do |f| %>
+<%= form_for @pin, url: repin_create_path(@pin), method: :post, :authenticity_token => true, remote: true do |f| %>
   <div class="modal-dialog">
     <div class="modal-content">
 

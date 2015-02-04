@@ -39,7 +39,7 @@ class PinsController < ApplicationController
       @repin = Pin.new
 
       respond_to do |format|
-        format.js { render }
+        format.js { render '/pins/repin_new.js.erb' }
       end
     end
 

@@ -39,7 +39,7 @@ class PinsController < ApplicationController
       @repin = Pin.new
 
       respond_to do |format|
-        format.js
+        format.js { }
       end
     end
 

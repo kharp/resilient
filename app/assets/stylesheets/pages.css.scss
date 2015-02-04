@@ -1938,6 +1938,9 @@ blockquote {
 .filters li.active {
   border-bottom: 2px solid #3496a8;
 }
+  .col-md-10 {
+    margin: 20px;
+  }
 .project {
   height: 345px;
   overflow: hidden;
@@ -2748,6 +2751,9 @@ footer.short-2 .contact-action:hover {
   }
   .offscreen-container .social-links {
     display: none;
+  }
+  .col-md-10 {
+    margin: 20px;
   }
   .offscreen-container .logo {
     display: block;

@@ -1,0 +1,4909 @@
+/* line 4, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.logo-top {
+  margin-top: -10px;
+}
+
+/* line 7, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.bg-primary {
+  background-color: #e7d22f !important;
+}
+
+/* line 10, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.bg-secondary-1 {
+  background-color: #999 !important;
+}
+
+/* line 13, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.bg-secondary-2 {
+  background-color: #999 !important;
+}
+
+/* line 16, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.bg-white {
+  background-color: #fff !important;
+}
+
+/* line 19, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.bg-dribbble {
+  background-color: #ea4c89;
+}
+
+/* line 22, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.bg-twitter {
+  background-color: #00a0d1;
+}
+
+/* line 25, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.bg-facebook {
+  background-color: #3b5998;
+}
+
+/* line 28, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.bg-pinterest {
+  background-color: #d01d15;
+}
+
+/* line 31, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.bg-googleplus {
+  background-color: #c63d2d;
+}
+
+/* line 34, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.bg-tumblr {
+  background-color: #34526f;
+}
+
+/* line 37, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.text-white {
+  color: #fff;
+  font-weight: 100;
+}
+
+/* line 41, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.text-primary {
+  color: #e7d22f;
+}
+
+/* line 44, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.standard-radius {
+  border-radius: 25px;
+}
+
+/* line 47, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.transition-500 {
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+/* line 52, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.transition-2000 {
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  transition: all 2s ease;
+}
+
+/* line 57, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.transition-300 {
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+/* line 62, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.cover-div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+}
+
+/* line 68, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.blank-input {
+  background: none;
+  border: none;
+  box-shadow: none;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* line 74, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.font-body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* line 77, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.font-heading {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* line 80, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #777777;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* line 93, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+h6 {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #333333;
+  margin: 0px;
+}
+
+/* line 99, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.alt-font {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+/* line 103, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.alt-font-upper {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* line 110, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+/* line 114, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 117, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.pointer {
+  cursor: pointer !important;
+}
+
+/* line 120, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* line 123, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 126, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.jumbo-h1 {
+  font-size: 40px;
+  line-height: 56px;
+}
+
+/* line 130, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.standard-h1 {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+/* line 134, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+h1 {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+/* line 138, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+h2 {
+  font-size: 28px;
+  line-height: 40px;
+}
+
+/* line 142, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+h3 {
+  font-size: 26px;
+  line-height: 32px;
+}
+
+/* line 146, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+h5 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+/* line 151, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+h6 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+/* line 156, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+strong {
+  font-weight: 600;
+}
+
+/* line 159, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+p {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* line 163, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+p.lead {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: normal;
+}
+
+/* line 168, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+p:last-child {
+  margin-bottom: 0px;
+}
+
+/* line 171, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+p a {
+  color: #333333;
+}
+
+/* line 174, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.quote-text {
+  font-size: 24px;
+  line-height: 40px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+/* line 180, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+span.text-white a {
+  font-weight: 300;
+  color: #fff;
+}
+
+/* line 184, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.text-primary {
+  color: #e7d22f;
+}
+
+/* line 187, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.main-container {
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  transition: all .3s ease;
+  -webkit-transform: translate3d(0px, 0, 0);
+  -moz-transform: translate3d(0px, 0, 0);
+  transform: translate3d(0px, 0, 0);
+  overflow: hidden;
+}
+
+/* line 196, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.main-container.reveal-nav {
+  -webkit-transform: translate3d(-300px, 0, 0);
+  -moz-transform: translate3d(-300px, 0, 0);
+  transform: translate3d(-300px, 0, 0);
+}
+
+/* line 201, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.loader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: none;
+  z-index: 9999;
+  text-align: center;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  transition: all .5s ease;
+  opacity: 1;
+}
+
+/* line 213, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.spinner {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-left: -20px;
+  margin-top: -20px;
+}
+
+/* line 223, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.double-bounce1,
+.double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #e7d22f;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-animation: bounce 2s infinite ease-in-out;
+  animation: bounce 2s infinite ease-in-out;
+}
+
+/* line 235, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.double-bounce2 {
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+}
+
+@-webkit-keyframes bounce {
+  /* line 241, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  0%,
+  100% {
+    -webkit-transform: scale(0);
+  }
+
+  /* line 244, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  50% {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes bounce {
+  /* line 250, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  0%,
+  100% {
+    transform: scale(0);
+    -webkit-transform: scale(0);
+  }
+
+  /* line 254, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  50% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}
+
+/* line 259, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 265, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+section.pad-large {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+/* line 269, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+section.duplicatable-content {
+  padding-bottom: 40px;
+}
+
+/* line 272, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+section:nth-of-type(odd) {
+  background: #f4f4f4;
+}
+
+/* line 275, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+section:nth-of-type(even) {
+  background: #ffffff;
+}
+
+/* line 278, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.no-pad {
+  padding: 0px;
+}
+
+/* line 281, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.no-pad-top {
+  padding-top: 0px !important;
+}
+
+/* line 284, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.no-pad-left {
+  padding-left: 0px;
+}
+
+/* line 287, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.no-pad-right {
+  padding-right: 0px;
+}
+
+/* line 290, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.no-pad-bottom {
+  padding-bottom: 0px;
+}
+
+/* line 293, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.space-top-small {
+  margin-top: 20px !important;
+}
+
+/* line 296, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.space-bottom-medium {
+  margin-bottom: 40px !important;
+}
+
+/* line 299, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.space-bottom-large {
+  margin-bottom: 80px !important;
+}
+
+/* line 302, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.space-bottom-xlarge {
+  margin-bottom: 160px !important;
+}
+
+/* line 305, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.no-margin {
+  margin: 0;
+}
+
+/* line 308, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.no-margin-bottom {
+  margin-bottom: 0px !important;
+}
+
+/* line 311, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.btn {
+  background: none;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  transition: all .3s ease;
+  min-width: 155px;
+}
+
+/* line 318, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.btn:hover {
+  background: none;
+  color: #fff;
+  border-color: #3496a8;
+  background-color: #3496a8;
+}
+
+/* line 324, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.btn-primary {
+  border-radius: 25px;
+  display: inline-block;
+  padding: 14px 28px 13px 28px;
+  line-height: 1;
+  border: 2px solid #3496a8;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #3496a8;
+  background: none;
+}
+
+/* line 338, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.btn-primary.btn-filled {
+  background: #3496a8;
+  color: #fff;
+}
+
+/* line 342, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.btn-white {
+  border-color: #fff;
+  color: #fff;
+}
+
+/* line 346, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.btn-white:hover {
+  background: #fff;
+  color: #333333;
+  border-color: #fff;
+}
+
+/* line 351, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.btn-white.btn-filled {
+  background: #fff;
+  color: #e7d22f;
+}
+
+/* line 355, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.btn-grey {
+  border-color: #777777;
+  color: #333333;
+}
+
+/* line 359, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.btn-grey:hover {
+  background-color: #333333;
+  color: #fff;
+  border-color: #333333;
+}
+
+/* line 364, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.btn-lg {
+  padding: 18px 40px;
+}
+
+/* line 367, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.btn-sm {
+  padding: 10px 28px;
+  font-size: 11px;
+}
+
+/* line 371, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.btn-xs {
+  padding: 8px 24px;
+  font-size: 10px;
+}
+
+/* line 375, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.btn-text-only {
+  border-color: rgba(0, 0, 0, 0);
+}
+
+/* line 378, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.btn-text-only:hover {
+  background: none;
+  color: #3496a8;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+/* line 383, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.link-text {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #3496a8;
+  display: inline-block;
+  padding-bottom: 0px;
+}
+
+/* line 393, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+nav hr {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  position: relative;
+  bottom: 2px;
+}
+
+/* line 399, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.has-dropdown {
+  bottom: 3px;
+}
+
+/* line 402, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.has-dropdown:after {
+  font-family: ElegantIcons;
+  speak: none;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  content: "\33";
+  color: #777777;
+}
+
+/* line 414, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.mobile-toggle {
+  display: none;
+}
+
+/* line 417, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.top-bar {
+  position: absolute;
+  background: none;
+  width: 100%;
+  z-index: 10;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  transition: all .5s ease;
+  line-height: 0;
+  top: 0;
+}
+
+/* line 428, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.top-bar .logo {
+  max-width: 100%;
+  position: relative;
+  top: 7px;
+}
+
+/* line 433, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.nav-menu {
+  padding-top: 0px;
+}
+
+/* line 436, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.utility-menu {
+  margin-top: 16px;
+}
+
+/* line 439, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.utility-menu .utility-inner {
+  padding-bottom: 16px;
+}
+
+/* line 442, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.utility-menu .btn {
+  min-width: 60px;
+  padding-left: 18px;
+  padding-right: 18px;
+  margin-left: 8px;
+  margin-right: 0px;
+}
+
+/* line 449, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.utility-menu span {
+  display: inline-block;
+  position: relative;
+  top: 9px;
+}
+
+/* line 454, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.utility-menu .btn-text-only {
+  min-width: 0px;
+  padding: 0px 8px;
+}
+
+/* line 458, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.overlay-bar {
+  background: none;
+}
+
+/* line 463, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.overlay-bar .has-dropdown:after {
+  color: #fff;
+}
+
+/* line 466, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.menu {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+}
+
+/* line 473, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.menu li {
+  float: left;
+  margin-right: 56px;
+  position: relative;
+}
+
+/* line 478, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.menu li:last-child {
+  margin-right: 0px;
+}
+
+/* line 481, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.menu li a {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #777777;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  transition: all .5s ease;
+  padding-bottom: 40px;
+  display: inline-block;
+  line-height: 14px;
+}
+
+/* line 495, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.menu li a:hover {
+  color: #333333;
+}
+
+/* line 498, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.top-bar .social-icons li a {
+  font-size: 16px;
+}
+
+/* line 503, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.top-bar .utility-menu .utility-inner {
+  border-bottom: 0px solid rgba(0, 0, 0, 0.2);
+}
+
+/* line 506, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.overlay-bar .menu li a {
+  color: #fff;
+}
+
+/* line 509, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.overlay-bar .menu li a:hover {
+  color: #fff;
+}
+
+/* line 512, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.overlay-bar .social-icons li a {
+  color: #fff;
+}
+
+/* line 515, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.overlay-bar .subnav li a {
+  color: #777777;
+}
+
+/* line 518, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.overlay-bar .subnav li a:hover {
+  color: #333333;
+}
+
+/* line 523, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.overlay-bar .logo-light {
+  display: block;
+}
+
+/* line 526, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.overlay-bar .utility-menu span {
+  color: #fff;
+}
+
+/* line 529, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.overlay-bar .utility-menu .utility-inner {
+  border-bottom: 0px solid rgba(255, 255, 255, 0.3);
+}
+
+/* line 532, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.overlay-bar .login-button {
+  border-color: #fff;
+  color: #fff;
+}
+
+/* line 536, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.subnav {
+  display: none;
+  position: absolute;
+  background: #fff;
+  padding: 24px;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+/* line 545, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.subnav li {
+  margin-right: 0px !important;
+  min-width: 142px;
+}
+
+/* line 549, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.subnav li a {
+  padding-bottom: 0px !important;
+  margin-bottom: 16px;
+}
+
+/* line 553, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.subnav li:last-child a {
+  margin-bottom: 0px;
+}
+
+/* line 556, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.has-dropdown:hover .subnav {
+  display: block;
+}
+
+/* line 559, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.nav-sticky {
+  position: fixed !important;
+  top: 0;
+}
+
+/* line 563, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.nav-sticky .logo {
+  bottom: 5px;
+}
+
+/* line 566, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.nav-sticky hr {
+  display: none !important;
+}
+
+/* line 569, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.top-bar.nav-sticky {
+  background: none;
+}
+
+/* line 572, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.top-bar.nav-sticky .nav-menu {
+  padding-top: 12px;
+}
+
+/* line 575, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.top-bar.nav-sticky .menu li a {
+  padding-bottom: 32px;
+}
+
+/* line 578, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.top-bar.nav-sticky .subnav {
+  background: none;
+}
+
+/* line 581, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.top-bar.nav-sticky .utility-menu {
+  display: none;
+}
+
+/* line 584, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.subnav-fullwidth {
+  overflow: hidden;
+  left: 0px;
+  position: absolute;
+  text-align: left;
+}
+
+/* line 590, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.subnav-fullwidth h6 {
+  margin-bottom: 24px !important;
+}
+
+/* line 593, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.subnav-fullwidth .subnav {
+  position: relative;
+  overflow: hidden;
+  background: none !important;
+  text-align: left;
+  padding: 0px;
+}
+
+/* line 600, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.subnav-fullwidth .subnav li {
+  float: none !important;
+}
+
+/* line 603, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.subnav-fullwidth .btn {
+  padding-bottom: 13px !important;
+  color: #3496a8 !important;
+}
+
+/* line 607, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.subnav-fullwidth .btn {
+  margin-bottom: 16px;
+}
+
+/* line 610, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.subnav-fullwidth .btn:hover {
+  color: #fff !important;
+}
+
+/* line 614, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.subnav-fullwidth .btn-filled,
+.subnav-fullwidth .btn-filled:hover {
+  color: #fff !important;
+}
+
+/* line 619, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.overlay-bar.nav-sticky .logo-dark {
+  display: block;
+}
+
+/* line 622, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.overlay-bar.nav-sticky .menu li a {
+  color: #777777;
+}
+
+/* line 625, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.overlay-bar.nav-sticky .social-icons li a {
+  color: #333333;
+}
+
+/* line 628, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.overlay-bar.nav-sticky .has-dropdown:after {
+  color: #333333;
+}
+
+/* line 631, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.offscreen-menu .logo {
+  padding-bottom: 32px;
+}
+
+/* line 634, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.offscreen-toggle i {
+  font-size: 36px;
+  cursor: pointer;
+}
+
+/* line 638, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.nav-sticky .offscreen-toggle i {
+  color: #333333 !important;
+}
+
+/* line 641, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.offscreen-container {
+  position: fixed;
+  width: 300px;
+  background: #333333;
+  right: 0px;
+  height: 100%;
+  top: 0px;
+  z-index: 99999;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  transition: all .3s ease;
+  -webkit-transform: translate3d(300px, 0, 0);
+  -moz-transform: translate3d(300px, 0, 0);
+  transform: translate3d(300px, 0, 0);
+  padding: 40px;
+}
+
+/* line 657, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.offscreen-container.reveal-nav {
+  -webkit-transform: translate3d(0px, 0, 0);
+  -moz-transform: translate3d(0px, 0, 0);
+  transform: translate3d(0px, 0, 0);
+}
+
+/* line 662, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.offscreen-menu .container {
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  transition: all .3s ease;
+  -webkit-transform: translate3d(0px, 0, 0);
+  -moz-transform: translate3d(0px, 0, 0);
+  transform: translate3d(0px, 0, 0);
+}
+
+/* line 670, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.offscreen-menu .container.reveal-nav {
+  -webkit-transform: translate3d(-300px, 0, 0);
+  -moz-transform: translate3d(-300px, 0, 0);
+  transform: translate3d(-300px, 0, 0);
+}
+
+@media all and (max-width: 768px) {
+  /* line 676, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .offscreen-menu {
+    overflow: visible !important;
+    position: relative !important;
+  }
+
+  /* line 680, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .offscreen-menu .offscreen-toggle i {
+    color: #333333;
+  }
+}
+/* line 684, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.offscreen-container .logo {
+  bottom: 0px !important;
+}
+
+/* line 687, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.offscreen-container .menu {
+  display: block;
+}
+
+/* line 690, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.offscreen-container .menu li {
+  float: none;
+  margin-bottom: 16px;
+}
+
+/* line 694, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.offscreen-container .menu li a {
+  padding-bottom: 0px !important;
+  color: #aaa !important;
+}
+
+/* line 698, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.offscreen-container .menu li a:hover {
+  color: #fff !important;
+}
+
+/* line 701, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.offscreen-container .social-icons {
+  display: none;
+}
+
+/* line 704, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.offscreen-container .social-icons li a {
+  color: #fff !important;
+}
+
+/* line 707, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.language {
+  display: inline-block;
+  margin-left: 8px;
+}
+
+/* line 711, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.language img {
+  max-width: 20px;
+}
+
+/* line 714, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.overlay:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  content: '';
+  z-index: 2;
+  background: none;
+  left: 0;
+}
+
+/* line 724, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.overlay .container {
+  position: relative;
+  z-index: 3;
+}
+
+/* line 728, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+header {
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 732, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+header .container {
+  position: relative;
+  z-index: 3;
+}
+
+/* line 736, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+header .logo {
+  max-width: 100%;
+  display: inline-block;
+  margin-bottom: 24px;
+}
+
+/* line 741, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+header .btn {
+  margin-right: 16px;
+}
+
+/* line 744, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+header .btn:last-child {
+  margin-right: 0px;
+}
+
+/* line 747, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.page-header {
+  margin: 0px;
+  padding: 0px;
+  padding: 100px 0px;
+  border-bottom: none;
+}
+
+/* line 753, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.page-header h1 {
+  font-size: 40px;
+}
+
+/* line 756, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.page-header p.lead {
+  font-size: 18px;
+}
+
+/* line 759, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.page-header:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  content: '';
+  opacity: 0.3;
+  z-index: 2;
+  background-color: #333333;
+}
+
+/* line 769, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.page-header .background-image-holder {
+  height: 150%;
+  top: -20%;
+}
+
+/* line 773, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.hero-slider {
+  padding: 0px;
+  position: relative;
+}
+
+/* line 777, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.hero-slider .slides li {
+  height: 650px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 782, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.hero-slider .slides li h1 {
+  font-size: 38px;
+  line-height: 56px;
+  margin-bottom: 40px;
+}
+
+/* line 787, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.hero-slider .slides li .btn {
+  margin-right: 16px;
+}
+
+/* line 790, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.hero-slider .flex-direction-nav a {
+  color: rgba(0, 0, 0, 0);
+}
+
+/* line 793, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.flex-direction-nav a:before {
+  top: 17px;
+  font-size: 36px;
+  left: 10px;
+}
+
+/* line 798, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.flex-direction-nav a.flex-next:before {
+  left: -10px;
+}
+
+@media all and (max-width: 1350px) {
+  /* line 802, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .logo-top {
+    margin-top: 0px;
+  }
+
+  /* line 805, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .flex-direction-nav {
+    display: none !important;
+  }
+}
+/* line 809, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.hero-slider .slides li.overlay:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  content: '';
+  opacity: 0.3;
+  z-index: 2;
+  background-color: #222222;
+}
+
+/* line 819, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.header-icons {
+  padding: 160px 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 824, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.header-icons h1 {
+  margin-bottom: 80px;
+}
+
+/* line 827, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.header-icons i {
+  font-size: 56px;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+/* line 832, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.header-icons .down-arrow {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 160px;
+}
+
+/* line 842, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.header-icons .down-arrow i {
+  font-size: 40px;
+  position: relative;
+  right: 1px;
+}
+
+/* line 847, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+header.title {
+  height: 565px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 852, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+header.title h1 {
+  margin-bottom: 16px;
+  font-size: 40px;
+}
+
+/* line 856, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+header.title .sub {
+  font-size: 12px;
+  letter-spacing: 0px;
+}
+
+/* line 860, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+header.title .container {
+  position: relative;
+  z-index: 3;
+}
+
+/* line 864, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+header.title:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  content: '';
+  opacity: 0.3;
+  z-index: 2;
+  background-color: #333333;
+}
+
+/* line 874, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.action-banner {
+  padding: 104px 0px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 879, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.action-banner .container {
+  position: relative;
+  z-index: 3;
+}
+
+/* line 883, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.action-banner h1 {
+  font-size: 40px;
+  line-height: 56px;
+  font-weight: 600;
+  margin-bottom: 64px;
+  margin-bottom: 24px;
+}
+
+/* line 890, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.action-banner h2 {
+  font-size: 32px;
+  line-height: 48px;
+  margin-bottom: 48px;
+  margin-bottom: 40px;
+}
+
+/* line 896, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.action-banner .btn {
+  margin-right: 16px;
+}
+
+/* line 899, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+header.signup {
+  padding: 180px 0px;
+  position: relative;
+  overflow: hidden;
+  height: auto;
+}
+
+/* line 905, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+header.signup h1 {
+  font-size: 40px;
+  line-height: 56px;
+  margin-bottom: 56px;
+}
+
+/* line 910, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+header.signup .photo-form-wrapper {
+  margin-bottom: 0px;
+}
+
+/* line 913, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+header.signup .photo-form-wrapper .btn {
+  padding-top: 19px;
+  padding-bottom: 19px;
+  border-radius: 50px;
+  max-width: 250px;
+  height: 52px;
+}
+
+/* line 920, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+header.signup:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  content: '';
+  opacity: 0.3;
+  z-index: 2;
+  background-color: #333333;
+}
+
+/* line 930, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.product-right {
+  height: 650px;
+  position: relative;
+  overflow: hidden;
+  padding: 0px;
+}
+
+/* line 936, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.product-right h1 {
+  margin-bottom: 32px;
+}
+
+/* line 939, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.product-right p.lead {
+  margin-bottom: 32px;
+}
+
+/* line 942, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.product-right .btn {
+  margin-right: 16px;
+}
+
+/* line 945, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.product-right .product-image {
+  position: absolute;
+  right: -40px;
+  bottom: -80px;
+  max-width: 750px;
+}
+
+/* line 951, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.hero-divider {
+  padding: 160px 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 956, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.hero-divider:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  content: '';
+  opacity: 0.4;
+  z-index: 2;
+  background-color: #333333;
+}
+
+/* line 966, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.hero-divider .btn {
+  margin-right: 16px;
+  margin-top: 24px;
+}
+
+/* line 970, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.hero-divider .btn:last-child {
+  margin-right: 0px;
+}
+
+/* line 973, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.hero-divider .container {
+  position: relative;
+  z-index: 3;
+}
+
+/* line 977, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.hero-divider h1 {
+  margin-bottom: 32px;
+}
+
+/* line 980, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.video-wrapper {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+}
+
+/* line 987, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.video-wrapper video {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+}
+
+@media all and (max-width: 1400px) {
+  /* line 993, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .video-wrapper video {
+    width: 110%;
+  }
+}
+@media all and (max-width: 1200px) {
+  /* line 998, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .video-wrapper video {
+    width: 130%;
+  }
+}
+@media all and (max-width: 1000px) {
+  /* line 1003, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .video-wrapper video {
+    width: 150%;
+  }
+}
+/* line 1007, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.divider-video .overlay {
+  z-index: 1;
+  opacity: 0.4;
+}
+
+/* line 1011, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.divider-video .divider-content {
+  position: relative;
+  z-index: 2;
+  padding-top: 121px;
+  padding-bottom: 121px;
+}
+
+/* line 1017, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+header.centered-text h1 {
+  font-size: 40px;
+  margin-bottom: 24px;
+  line-height: 56px;
+}
+
+/* line 1022, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+header.centered-text .btn {
+  margin-right: 16px;
+  margin-top: 24px;
+}
+
+/* line 1026, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+header.centered-text .btn:last-child {
+  margin-right: 0px;
+}
+
+/* line 1030, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+header.fullscreen-element .overlay:before,
+.image-divider.overlay:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  content: '';
+  opacity: 0.3;
+  z-index: 2;
+  background-color: #333333;
+}
+
+/* line 1040, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.bottom-band {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  background: rgba(0, 0, 0, 0.4);
+  padding-top: 53.33333333px;
+}
+
+/* line 1047, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.bottom-band .col-sm-4 {
+  margin-bottom: 53.33333333px;
+}
+
+/* line 1050, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.bottom-band .link-text {
+  border-color: #fff;
+}
+
+/* line 1053, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.bottom-band .link-text:hover {
+  color: #fff;
+}
+
+/* line 1056, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.bottom-band h3 {
+  margin-bottom: 8px;
+}
+
+/* line 1059, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.image-divider i {
+  font-size: 56px;
+  margin-bottom: 24px;
+}
+
+/* line 1063, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.image-divider .feature-icon-large i {
+  border-color: #fff;
+  color: #fff;
+}
+
+/* line 1067, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.feature {
+  overflow: hidden;
+}
+
+/* line 1070, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.feature h4 {
+  font-weight: 600;
+}
+
+/* line 1073, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.feature i {
+  color: #e7d22f;
+}
+
+/* line 1076, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.feature-icon-large i {
+  display: block;
+  height: 104px;
+  width: 104px;
+  border: 2px solid #e7d22f;
+  border-radius: 50%;
+  text-align: center;
+  color: #e7d22f;
+  font-size: 40px;
+  padding-top: 31px;
+  margin-bottom: 32px;
+}
+
+/* line 1088, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.duplicatable-content .feature {
+  margin-bottom: 40px;
+}
+
+/* line 1091, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.feature-selector ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* line 1095, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.feature-icon-large .pull-left {
+  width: 25%;
+}
+
+/* line 1098, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.feature-icon-large .pull-right {
+  width: 75%;
+}
+
+/* line 1101, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.feature-icon-large .pull-left .icon {
+  border: none;
+  width: auto;
+  font-size: 48px;
+  padding-top: 0px;
+}
+
+/* line 1107, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.selector-tabs {
+  margin-bottom: 56px;
+}
+
+/* line 1110, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.selector-tabs li {
+  text-align: center;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  transition: all .3s ease;
+  opacity: 0.4;
+  cursor: pointer;
+  float: left;
+}
+
+/* line 1119, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.selector-tabs li:hover {
+  opacity: 1;
+}
+
+/* line 1122, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.selector-tabs li.active {
+  opacity: 1;
+}
+
+/* line 1125, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.selector-tabs li span {
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  bottom: 12px;
+}
+
+/* line 1131, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.selector-tabs li i {
+  font-size: 40px;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+/* line 1136, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.selector-content li {
+  display: none;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  transition: all .3s ease;
+  opacity: 0;
+}
+
+/* line 1143, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.selector-content li.active {
+  display: block;
+  opacity: 1;
+}
+
+/* line 1147, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.selector-content h1 {
+  margin-bottom: 56px;
+}
+
+/* line 1150, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.feature-icon-small {
+  margin-bottom: 32px;
+}
+
+/* line 1153, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.feature-icon-small i {
+  color: #e7d22f;
+  font-size: 36px;
+  display: inline-block;
+  margin-bottom: 32px;
+}
+
+/* line 1159, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.feature-icon-small h6 {
+  font-weight: bold;
+}
+
+/* line 1162, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.primary-features {
+  background: #e7d22f !important;
+}
+
+/* line 1165, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.primary-features .feature-icon-small i {
+  color: #fff;
+}
+
+/* line 1168, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.feature-divider {
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 1172, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.feature-divider h1 {
+  margin-bottom: 40px;
+}
+
+/* line 1175, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+img.phone-portrait {
+  max-height: 580px;
+}
+
+/* line 1178, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.store-link {
+  display: inline-block;
+  overflow: hidden;
+  margin-right: 16px;
+  margin-top: 24px;
+}
+
+/* line 1184, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.store-link img {
+  height: 50px;
+}
+
+/* line 1187, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.feature-icon-left {
+  overflow: hidden;
+  margin-bottom: 40px;
+  float: left;
+}
+
+/* line 1192, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.feature-icon-left .icon-holder {
+  width: 45px;
+  float: left;
+}
+
+/* line 1196, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.feature-icon-left i {
+  font-size: 32px;
+}
+
+/* line 1199, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.feature-icon-left .feature-text {
+  width: 217px;
+  float: left;
+  padding-top: 8px;
+}
+
+/* line 1204, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.feature-box {
+  padding: 64px 40px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  min-height: 397px;
+}
+
+/* line 1211, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.feature-box .background-image-holder {
+  z-index: 0;
+  left: 0;
+}
+
+/* line 1215, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.feature-box .background-image-holder.overlay:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  content: '';
+  opacity: 0.3;
+  z-index: 2;
+  background-color: #333333;
+  z-index: -1;
+}
+
+/* line 1226, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.feature-box h1 {
+  margin-bottom: 24px;
+}
+
+/* line 1229, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.feature-box .btn {
+  margin-top: 24px;
+}
+
+/* line 1232, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.feature-box .inner {
+  width: 66.66666%;
+  position: relative;
+  z-index: 3;
+}
+
+/* line 1237, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.contained-feature-boxes .row {
+  padding: 0px 15px;
+}
+
+/* line 1240, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.contained-feature-boxes .image-slider {
+  margin: 0px;
+}
+
+/* line 1243, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.contained-feature-boxes .image-slider .flex-direction-nav {
+  display: none;
+}
+
+/* line 1246, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.contained-feature-boxes .image-slider .flex-control-nav {
+  bottom: 24px;
+}
+
+/* line 1249, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.contained-feature-boxes .image-slider .flex-control-nav li a {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* line 1252, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.contained-feature-boxes .image-slider .flex-control-nav li a.flex-active {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+/* line 1255, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.feature-box.contained {
+  padding: 40px;
+  overflow: hidden;
+}
+
+/* line 1259, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.feature-box.contained .inner {
+  width: 100%;
+}
+
+/* line 1262, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.clients p {
+  margin-bottom: 48px !important;
+}
+
+/* line 1265, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.client-row {
+  overflow: hidden;
+  text-align: center;
+  line-height: 0;
+}
+
+/* line 1270, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.client-row .col-sm-3 {
+  display: inline-block;
+  min-height: 80px;
+  line-height: 80px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+/* line 1277, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.client-row img {
+  max-height: 60px;
+  max-width: 140px;
+  opacity: 0.3;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  transition: all .3s ease;
+  -webkit-backface-visibility: none;
+}
+
+/* line 1286, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.client-row img:hover {
+  opacity: 1;
+}
+
+/* line 1289, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.client-row .row-wrapper {
+  display: inline-block;
+  width: 80%;
+}
+
+/* line 1293, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.client-row .row-wrapper {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* line 1296, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.client-row:last-child .row-wrapper {
+  border-bottom: none;
+}
+
+/* line 1299, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.row-wrapper .col-sm-3 {
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* line 1302, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.row-wrapper .col-sm-3:last-child {
+  border-right: none;
+}
+
+/* line 1305, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.clients-2 {
+  text-align: center;
+  padding: 64px 0px 64px 0px;
+}
+
+/* line 1309, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.clients-2 .col-md-2 {
+  height: 80px;
+  line-height: 80px;
+}
+
+/* line 1313, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.clients-2 img {
+  max-height: 60px;
+  max-width: 140px;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  transition: all .3s ease;
+  opacity: 0.4;
+}
+
+/* line 1321, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.clients-2 img:hover {
+  opacity: 1;
+}
+
+/* line 1324, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.wood-divider .product-image {
+  top: 22%;
+  transform: rotate(-15deg);
+  right: -100px;
+}
+
+/* line 1329, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.accordion-active {
+  background-color: #e7d22f;
+  color: #fff;
+}
+
+/* line 1333, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.background-image-holder {
+  position: absolute;
+  top: -10%;
+  height: 120%;
+  width: 100%;
+  background-size: cover !important;
+  z-index: 0;
+  background-position: 50% 50% !important;
+}
+
+/* line 1342, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.side-image {
+  padding: 0px;
+  position: relative;
+}
+
+/* line 1346, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.side-image .image-container {
+  overflow: hidden;
+  position: absolute;
+  height: 100%;
+  padding: 0px;
+  top: 0px;
+}
+
+/* line 1353, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.side-image .image-container.pull-right {
+  right: 0px;
+}
+
+/* line 1356, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.side-image .content {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+/* line 1360, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.side-image h1 {
+  margin-bottom: 40px;
+}
+
+/* line 1363, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.side-image p.lead {
+  margin-bottom: 64px;
+}
+
+/* line 1366, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.side-image.text-heavy h1 {
+  margin-bottom: 32px;
+}
+
+/* line 1369, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.side-image.text-heavy p.lead {
+  margin-bottom: 40px;
+}
+
+/* line 1372, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.side-image.text-heavy .feature {
+  margin-top: 64px;
+}
+
+/* line 1375, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.side-image.text-heavy .feature h5 {
+  margin-bottom: 40px;
+}
+
+/* line 1378, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.icons-large {
+  list-style: none;
+  overflow: hidden;
+  display: inline-block;
+  padding: 0px;
+  margin-bottom: 32px;
+}
+
+/* line 1385, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.icons-large li {
+  float: left;
+  margin-right: 48px;
+  font-size: 48px;
+  color: #e7d22f;
+}
+
+/* line 1391, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.icons-large li:last-child {
+  margin-right: 0px;
+}
+
+/* line 1394, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.text-banner h1 {
+  margin-bottom: 24px;
+}
+
+/* line 1397, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.text-banner p:last-child {
+  margin-bottom: 32px;
+}
+
+/* line 1400, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.accordion-section .icons-large {
+  margin-bottom: 0px;
+}
+
+/* line 1403, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.accordion-section .feature {
+  margin-bottom: 40px;
+}
+
+/* line 1406, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.accordion-section .feature:last-child {
+  margin-bottom: 0px;
+}
+
+/* line 1409, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.accordion {
+  border-radius: 25px;
+  list-style: none;
+  overflow: hidden;
+  border: 2px solid #dadada;
+  padding: 0px;
+}
+
+/* line 1416, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.accordion .title span {
+  padding: 0px 24px;
+  display: block;
+}
+
+/* line 1420, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.accordion .title {
+  font-weight: 600;
+  font-size: 16px;
+  color: #333333;
+  padding: 24px 0px;
+  cursor: pointer;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  transition: all .3s ease;
+  border-bottom: 2px solid #dadada;
+}
+
+/* line 1431, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.accordion .title:hover {
+  background-color: #e7d22f;
+  color: #fff;
+}
+
+/* line 1436, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.accordion li:last-child .title,
+.accordion li:last-child .text {
+  border-bottom: none !important;
+}
+
+/* line 1439, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.accordion .text {
+  padding: 0px 24px;
+  max-height: 0px;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  transition: all .5s ease;
+  overflow: hidden;
+  opacity: 0;
+}
+
+/* line 1448, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.accordion li.active .title {
+  background-color: #e7d22f;
+  color: #fff;
+  border-bottom: 2px solid #dadada;
+}
+
+/* line 1453, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.accordion li.active .text {
+  padding: 24px;
+  max-height: 500px;
+  border-bottom: 2px solid #dadada;
+  opacity: 1;
+}
+
+/* line 1459, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.text-image-bottom {
+  padding-bottom: 0px;
+}
+
+/* line 1462, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.text-image-bottom img {
+  display: inline-block;
+  margin-top: 64px;
+}
+
+/* line 1466, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.inline-video-wrapper {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+/* line 1471, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.inline-video-wrapper video {
+  width: 100%;
+}
+
+/* line 1474, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.testimonials-slider {
+  position: relative;
+  margin-bottom: 24px;
+}
+
+/* line 1478, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.testimonials-slider p.lead {
+  font-size: 18px;
+}
+
+/* line 1481, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.testimonials-slider .author {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* line 1488, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.testimonials-slider .flex-control-nav {
+  bottom: -48px;
+}
+
+/* line 1491, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.pure-text p:last-child {
+  margin-bottom: 40px;
+}
+
+/* line 1494, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.pure-text-centered h1 {
+  margin-bottom: 24px;
+}
+
+/* line 1497, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.inline-image-right img {
+  max-width: 90%;
+}
+
+/* line 1500, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.inline-image-right h1 {
+  margin-bottom: 16px;
+}
+
+/* line 1503, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.inline-image-right h6 {
+  margin-bottom: 32px;
+}
+
+/* line 1506, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.strip {
+  padding: 64px 0px;
+}
+
+/* line 1509, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.strip::-moz-placeholder {
+  color: #999999;
+  opacity: 1;
+}
+
+/* line 1513, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.strip:-ms-input-placeholder {
+  color: #999999;
+}
+
+/* line 1516, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.strip::-webkit-input-placeholder {
+  color: #999999;
+}
+
+/* line 1519, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.strip input::-webkit-input-placeholder {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 300;
+  position: relative;
+  top: 5px;
+}
+
+/* line 1526, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.strip input:-moz-placeholder {
+  color: #ffffff;
+}
+
+/* line 1529, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.strip textarea::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+/* line 1532, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.strip textarea:-moz-placeholder {
+  color: #ffffff;
+}
+
+/* line 1535, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.strip strong {
+  font-weight: 600;
+}
+
+/* line 1538, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.strip h3 {
+  margin: 0px;
+  position: relative;
+  top: 5px;
+  display: inline-block;
+  font-weight: normal;
+}
+
+/* line 1545, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.social-icons {
+  list-style: none;
+  overflow: hidden;
+  display: inline-block;
+}
+
+/* line 1550, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.social-icons li {
+  float: left;
+  margin-right: 24px;
+  font-size: 24px;
+}
+
+/* line 1555, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.social-icons li:last-child {
+  margin-right: 0px;
+}
+
+/* line 1558, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.social-icons li a {
+  color: #333333;
+}
+
+/* line 1561, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.strip .social-icons {
+  position: relative;
+  top: 10px;
+}
+
+/* line 1565, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.strip .signup-email-field {
+  background: none;
+  border: none;
+  box-shadow: none;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  float: left;
+  color: #fff;
+  min-width: 400px;
+  font-weight: 300;
+  font-size: 24px;
+  position: relative;
+  top: 4px;
+}
+
+/* line 1578, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.strip .signup-email-field:focus {
+  outline: none;
+}
+
+/* line 1581, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.pricing-tables .col-md-3:first-child .pricing-table {
+  border-radius: 25px 0px 0px 25px;
+}
+
+/* line 1584, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.pricing-tables .col-md-3:last-child .pricing-table {
+  border-radius: 0px 25px 25px 0px;
+  border-right: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+/* line 1588, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.pricing-table {
+  border-top: 2px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  border-left: 2px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+/* line 1595, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.pricing-table .price {
+  padding: 40px 0px;
+  font-weight: 600;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+/* line 1600, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.pricing-table .price .sub {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.3);
+  position: relative;
+  bottom: 10px;
+}
+
+/* line 1606, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.pricing-table .price .amount {
+  color: #fff;
+  font-size: 56px;
+  display: inline-block;
+  padding: 0px 8px;
+}
+
+/* line 1612, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.pricing-table .features {
+  margin: 40px 0px;
+}
+
+/* line 1615, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.pricing-table .features li {
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+/* line 1621, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.pricing-table .features li:last-child {
+  margin-bottom: 0px;
+}
+
+/* line 1624, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.pricing-table .features li strong {
+  font-weight: 600;
+}
+
+/* line 1627, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.pricing-table.emphasis {
+  background-color: #e7d22f;
+}
+
+/* line 1630, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.pricing-2 .pricing-tables .col-md-3:first-child .pricing-table {
+  border-radius: 25px 0px 0px 25px;
+}
+
+/* line 1633, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.pricing-2 .pricing-tables .col-md-3:last-child .pricing-table {
+  border-radius: 0px 25px 25px 0px;
+  border-right: 2px solid rgba(35, 35, 35, 0.2);
+}
+
+/* line 1637, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.pricing-2 .pricing-table {
+  border-top: 2px solid rgba(35, 35, 35, 0.2);
+  border-bottom: 2px solid rgba(35, 35, 35, 0.2);
+  border-left: 2px solid rgba(35, 35, 35, 0.2);
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+/* line 1644, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.pricing-2 .pricing-table .features {
+  margin: 0px;
+}
+
+/* line 1647, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.pricing-2 .pricing-table .features li:first-child {
+  border-top: none;
+}
+
+/* line 1650, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.pricing-2 .pricing-table .features li {
+  color: #333333;
+  border-top: 2px solid rgba(35, 35, 35, 0.2);
+  padding: 24px 0px;
+  margin: 0;
+}
+
+/* line 1656, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.pricing-2 .pricing-table .price {
+  border-top: 2px solid rgba(35, 35, 35, 0.2);
+  padding-bottom: 24px;
+  border-bottom: none;
+}
+
+/* line 1661, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.pricing-2 .pricing-table .price .amount {
+  color: #333333;
+}
+
+/* line 1664, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.pricing-2 .pricing-table .price .sub {
+  color: #777777;
+  opacity: 0.7;
+}
+
+/* line 1668, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.pricing-2 .pricing-table.emphasis {
+  background-color: #2c3e50;
+}
+
+/* line 1671, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.pricing-2 .pricing-table.emphasis .features li {
+  color: #fff;
+  background-color: #2c3e50 !important;
+}
+
+/* line 1676, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.pricing-2 .pricing-table.emphasis .price .amount,
+.pricing-2 .pricing-table.emphasis .sub {
+  color: #fff;
+}
+
+/* line 1679, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.pricing-2 .feature-list {
+  padding-bottom: 0px;
+}
+
+/* line 1682, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.pricing-2 .pricing-table .features li:nth-child(even) {
+  background: #f4f4f4;
+}
+
+/* line 1685, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.team-1 h1 {
+  margin-bottom: 40px;
+}
+
+/* line 1688, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.team-1 h2 {
+  margin-bottom: 8px;
+}
+
+/* line 1691, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.team-1 .feature .sub {
+  color: #333333;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+/* line 1696, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.team-1-member {
+  text-align: center;
+  margin-top: 48px;
+}
+
+/* line 1700, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.team-1-member img {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+/* line 1704, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.team-1-member h5 {
+  margin-bottom: 8px;
+}
+
+/* line 1707, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.team-1-member .social-icons {
+  margin-top: 8px;
+}
+
+/* line 1710, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.team-1-member .social-icons li a {
+  font-size: 18px;
+}
+
+/* line 1713, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.team-2-member {
+  margin-bottom: 56px;
+}
+
+/* line 1716, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.team-2-member .name {
+  font-size: 24px;
+  font-weight: 300;
+  color: #333333;
+  display: inline-block;
+  margin: 24px 0px;
+}
+
+/* line 1723, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.team-2-member .image-holder {
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 1727, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.team-2-member .image-holder img {
+  position: relative;
+  z-index: 1;
+}
+
+/* line 1731, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.team-2-member .hover-state {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  transition: all .3s ease;
+  opacity: 0;
+  background-color: #2c3e50;
+  z-index: 2;
+  text-align: center;
+}
+
+/* line 1744, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.team-2-member .social-icons {
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  transition: all .3s ease;
+  opacity: 0;
+  -webkit-transform: translate3d(0, -200px, 0);
+  -moz-transform: translate3d(0, -200px, 0);
+  transform: translate3d(0, -200px, 0);
+}
+
+/* line 1753, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.team-2-member .social-icons li a {
+  color: #fff;
+  font-size: 32px;
+}
+
+/* line 1757, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.team-2-member .image-holder:hover .hover-state {
+  opacity: 0.9;
+}
+
+/* line 1760, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.team-2-member .image-holder:hover .social-icons {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0px, 0);
+  -moz-transform: translate3d(0, 0px, 0);
+  transform: translate3d(0, 0px, 0);
+}
+
+/* line 1766, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.blog-snippet-1 {
+  margin-bottom: 40px;
+}
+
+/* line 1769, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.blog-snippet-1 img {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+/* line 1773, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.blog-snippet-1 h2 {
+  margin-bottom: 8px;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+/* line 1778, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.blog-snippet-1 .sub {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+/* line 1782, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.blog-snippet-1 a {
+  margin-top: 8px;
+}
+
+/* line 1785, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.blog-snippet-2 {
+  overflow: hidden;
+  padding: 0px;
+}
+
+/* line 1789, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.blog-snippet-2 li {
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+/* line 1793, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.blog-snippet-2 li:last-child {
+  margin-bottom: 0px;
+}
+
+/* line 1796, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.blog-snippet-2 li .icon {
+  width: 10%;
+  float: left;
+}
+
+/* line 1800, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.blog-snippet-2 li .icon i {
+  color: #e7d22f;
+  font-size: 32px;
+  position: relative;
+  top: 5px;
+}
+
+/* line 1806, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.blog-snippet-2 .title {
+  width: 90%;
+  float: left;
+}
+
+/* line 1810, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.blog-snippet-2 a {
+  color: #333333;
+  display: block;
+  font-weight: 600;
+}
+
+/* line 1815, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.blog-snippet-2 .sub {
+  letter-spacing: 0px;
+  opacity: 0.8;
+  font-size: 12px;
+}
+
+/* line 1820, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.blog-list-3 {
+  padding: 0px;
+}
+
+/* line 1823, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.blog-snippet-3:nth-child(even) {
+  background-color: #f4f4f4;
+}
+
+/* line 1826, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.blog-snippet-3 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+/* line 1830, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.blog-snippet-3 h1 {
+  margin-bottom: 16px;
+}
+
+/* line 1833, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.blog-snippet-3 h1 a {
+  color: #333333;
+}
+
+/* line 1836, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.blog-snippet-3 h1 a em {
+  color: #e7d22f;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* line 1841, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.blog-snippet-3 .alt-font {
+  letter-spacing: 0px;
+  font-size: 12px;
+  display: inline-block;
+  margin-left: 8px;
+  position: relative;
+  bottom: 2px;
+}
+
+/* line 1849, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+blockquote {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333333;
+  font-style: italic;
+  line-height: 32px;
+  padding: 0px;
+  border: none;
+  margin-bottom: 24px;
+}
+
+/* line 1859, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.article-single {
+  background: #fff !important;
+}
+
+/* line 1862, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.article-body p.lead {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  margin-bottom: 24px;
+  color: #333333;
+}
+
+/* line 1869, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.article-body p:last-child {
+  margin-bottom: 0px;
+}
+
+/* line 1872, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.article-body p {
+  font-size: 16px;
+  line-height: 32px;
+  margin-bottom: 24px;
+}
+
+/* line 1877, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.article-body figure {
+  margin: 16px 0px;
+}
+
+/* line 1880, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.article-body figcaption {
+  font-style: italic;
+  font-size: 14px;
+  color: #aaa;
+  margin-top: 16px;
+}
+
+/* line 1886, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.article-body h2 {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+/* line 1891, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.article-body {
+  padding-bottom: 64px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* line 1895, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.author-details {
+  text-align: center;
+  padding: 40px 0px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* line 1900, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.author-details img {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+/* line 1904, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.author-details h5 {
+  font-weight: normal;
+}
+
+/* line 1907, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.author-details .social-icons {
+  margin-bottom: -8px;
+  margin-top: 8px;
+}
+
+/* line 1911, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.projects-gallery p.lead {
+  margin-bottom: 64px !important;
+}
+
+/* line 1914, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.projects-wrapper {
+  text-align: center;
+}
+
+/* line 1917, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.filters {
+  padding: 0px;
+  list-style: none;
+  overflow: hidden;
+  display: inline-block;
+  margin-bottom: 32px;
+}
+
+/* line 1924, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.filters li {
+  float: left;
+  margin-right: 16px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #3496a8;
+  cursor: pointer;
+}
+
+/* line 1935, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.filters li:last-child {
+  margin-right: 0px;
+}
+
+/* line 1938, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.filters li.active {
+  border-bottom: 2px solid #3496a8;
+}
+
+/* line 1941, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.col-md-10 {
+  margin: 20px;
+}
+
+/* line 1944, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.project {
+  height: 345px;
+  overflow: hidden;
+}
+
+/* line 1948, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.project .image-holder {
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 1952, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.project img {
+  width: 100%;
+}
+
+/* line 1955, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.project .hover-state {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  background-color: rgba(44, 62, 80, 0.9);
+  text-align: center;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  transition: all .5s ease;
+  opacity: 0;
+  padding-right: 15px;
+}
+
+/* line 1968, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.project:hover .hover-state {
+  opacity: 1;
+}
+
+/* line 1971, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.project .hover-state h1 {
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+
+/* line 1975, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.project .hover-state h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+/* line 1979, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.project .hover-state p {
+  margin-bottom: 24px;
+}
+
+/* line 1982, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.project .hover-state .btn-white:hover {
+  color: #2c3e50;
+}
+
+/* line 1985, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.hover-state .align-vertical {
+  -webkit-transform: translate3d(0, 200px, 0);
+  -moz-transform: translate3d(0, 200px, 0);
+  transform: translate3d(0, 200px, 0);
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  transition: all .5s ease;
+  opacity: 0;
+}
+
+/* line 1994, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.project:hover .align-vertical {
+  -webkit-transform: translate3d(0, 0px, 0);
+  -moz-transform: translate3d(0, 0px, 0);
+  transform: translate3d(0, 0px, 0);
+  opacity: 1;
+}
+
+/* line 2000, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.column-projects {
+  margin-bottom: 80px;
+}
+
+/* line 2003, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.column-projects .project {
+  height: 300px;
+  margin-bottom: 15px;
+}
+
+/* line 2007, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.column-projects .project .hover-state h3 {
+  margin-bottom: 24px;
+}
+
+/* line 2010, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.image-gallery {
+  margin-top: 64px;
+}
+
+/* line 2013, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.image-gallery .image-holder {
+  margin-bottom: 30px;
+  height: 375px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 2019, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.image-slider .flex-direction-nav {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  /* line 2023, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .image-gallery .image-holder {
+    height: 245px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 2028, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .image-gallery .image-holder {
+    height: 375px;
+  }
+}
+/* line 2032, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.image-slider {
+  position: relative;
+  margin-bottom: 32px;
+}
+
+/* line 2036, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.image-slider .flex-direction-nav a.flex-prev:before {
+  left: 0px;
+}
+
+/* line 2039, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.image-slider .flex-control-nav {
+  bottom: -48px;
+}
+
+/* line 2042, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.image-slider .flex-control-nav li a {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* line 2045, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.image-slider .flex-control-nav li a.flex-active {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* line 2048, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.instagram-feed {
+  padding-top: 40px;
+  padding-bottom: 0px;
+}
+
+/* line 2052, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.instagram-feed span {
+  color: #333333;
+}
+
+/* line 2055, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.instafeed {
+  margin-top: 40px;
+}
+
+/* line 2058, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.instafeed ul {
+  overflow: hidden;
+  margin: 0px;
+}
+
+/* line 2062, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.instafeed ul li {
+  float: left;
+  width: 16.666667%;
+}
+
+/* line 2066, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.instafeed ul li:nth-child(n+7) {
+  display: none;
+}
+
+/* line 2069, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+#tweets .user {
+  display: none;
+}
+
+/* line 2072, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+#tweets .interact {
+  display: none;
+}
+
+/* line 2075, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+#tweets .tweet {
+  font-size: 24px;
+  line-height: 40px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+/* line 2081, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.form-contact .inputs-wrapper {
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  margin-bottom: 24px;
+}
+
+/* line 2087, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.form-contact input:focus,
+.form-contact textarea:focus {
+  outline: none;
+}
+
+/* line 2091, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.form-contact input,
+.form-contact textarea {
+  background: none;
+  border: none;
+  box-shadow: none;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 100%;
+  padding: 16px;
+}
+
+/* line 2100, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.form-contact input::-moz-placeholder,
+.form-contact textarea::-moz-placeholder {
+  color: #777777;
+  opacity: 1;
+}
+
+/* line 2105, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.form-contact input:-ms-input-placeholder,
+.form-contact textarea:-ms-input-placeholder {
+  color: #777777;
+}
+
+/* line 2109, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.form-contact input::-webkit-input-placeholder,
+.form-contact textarea::-webkit-input-placeholder {
+  color: #777777;
+}
+
+/* line 2113, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.form-contact input input::-webkit-input-placeholder,
+.form-contact textarea input::-webkit-input-placeholder {
+  color: #777777;
+  font-size: 24px;
+  font-weight: 300;
+  position: relative;
+  top: 5px;
+}
+
+/* line 2121, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.form-contact input input:-moz-placeholder,
+.form-contact textarea input:-moz-placeholder {
+  color: #777777;
+}
+
+/* line 2125, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.form-contact input textarea::-webkit-input-placeholder,
+.form-contact textarea textarea::-webkit-input-placeholder {
+  color: #777777;
+}
+
+/* line 2129, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.form-contact input textarea:-moz-placeholder,
+.form-contact textarea textarea:-moz-placeholder {
+  color: #777777;
+}
+
+/* line 2132, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.form-contact input {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+/* line 2136, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.form-success,
+.form-error {
+  width: 100%;
+  padding: 12px;
+  display: none;
+  margin-top: 12px;
+  color: #fff;
+}
+
+/* line 2143, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.form-success {
+  background-color: #58b551;
+}
+
+/* line 2146, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.form-error {
+  background-color: #d94947;
+}
+
+/* line 2149, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.field-error {
+  box-shadow: inset 0px 0px 10px -2px #ff0000 !important;
+}
+
+/* line 2152, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+input[type="submit"] {
+  -webkit-appearance: none;
+  background: none;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  transition: all .3s ease;
+  min-width: 155px;
+  border-radius: 25px;
+  display: inline-block;
+  padding: 14px 28px 13px 28px;
+  line-height: 1;
+  border: 2px solid #3496a8;
+  color: #3496a8;
+  max-width: 155px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* line 2172, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.strip .mail-list-signup input[type="submit"] {
+  background: none;
+  border: 2px solid #fff;
+}
+
+/* line 2176, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.contact-center p.lead {
+  font-size: 18px;
+}
+
+/* line 2179, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.contact-center .form-wrapper {
+  text-align: center;
+  margin-top: 48px;
+}
+
+/* line 2183, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.contact-photo {
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 2187, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.contact-photo h1 {
+  margin-bottom: 200px;
+}
+
+/* line 2190, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.contact-photo .social-icons {
+  margin-bottom: 64px;
+}
+
+/* line 2193, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.contact-photo .social-icons li {
+  margin-right: 40px;
+}
+
+/* line 2196, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.contact-photo .social-icons li a {
+  font-size: 40px;
+  color: #fff;
+  opacity: 0.7;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+/* line 2204, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.contact-photo .social-icons li a:hover {
+  opacity: 1;
+}
+
+/* line 2207, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.contact-photo .sub a {
+  color: #fff;
+}
+
+/* line 2210, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.photo-form-wrapper {
+  margin-bottom: 200px;
+}
+
+/* line 2213, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.photo-form-wrapper input {
+  background: none;
+  border: none;
+  box-shadow: none;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 50px;
+  padding: 14px 24px 14px 24px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+/* line 2224, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.photo-form-wrapper .btn-filled {
+  background-color: #e7d22f;
+  border-color: #e7d22f;
+}
+
+/* line 2228, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.photo-form-wrapper input:focus {
+  outline: none;
+}
+
+/* line 2231, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.photo-form-wrapper input[type="submit"] {
+  color: #fff !important;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* line 2239, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.map {
+  padding: 0px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 2244, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.map-holder {
+  height: 450px;
+}
+
+/* line 2247, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.map-holder iframe {
+  border: none;
+  width: 100%;
+  height: 450px;
+}
+
+/* line 2252, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.map-holder:before {
+  content: '';
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+/* line 2260, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.map-holder.on:before {
+  width: 0%;
+}
+
+/* line 2263, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.map-overlay {
+  padding: 160px 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 2268, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.map-overlay:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  content: '';
+  opacity: 0.9;
+  z-index: 2;
+  background-color: #e7d22f;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+/* line 2281, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.map-overlay .map-holder {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  top: 0px;
+}
+
+/* line 2288, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.map-overlay .map-holder iframe {
+  width: 100%;
+  height: 150%;
+  position: absolute;
+  bottom: -80px;
+}
+
+/* line 2294, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.map-overlay .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* line 2298, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.details-holder {
+  background: #fff;
+  width: 100%;
+  border-radius: 50%;
+}
+
+/* line 2303, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.details-holder img {
+  max-width: 145px;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+/* line 2308, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.fade-overlay:before {
+  opacity: 0;
+}
+
+/* line 2311, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.pure-text-contact i {
+  display: inline-block;
+  color: #e7d22f;
+  text-align: center;
+  font-size: 64px;
+  margin-bottom: 24px;
+  margin-bottom: 0px;
+  margin-right: 48px;
+}
+
+/* line 2320, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.pure-text-contact i:last-child {
+  margin-right: 0px;
+}
+
+/* line 2323, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.icon-jumbo {
+  display: inline-block;
+  color: #e7d22f;
+  text-align: center;
+  font-size: 64px;
+  margin-bottom: 24px;
+}
+
+/* line 2330, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.social-bar {
+  overflow: hidden;
+}
+
+/* line 2333, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.social-bar .link {
+  height: 104px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 2339, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.social-bar .link i {
+  color: #fff;
+  font-size: 40px;
+}
+
+/* line 2344, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.social-bar .initial,
+.social-bar .hover-state {
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  transition: all .3s ease;
+  -webkit-transform: translate3d(0, 0px, 0);
+  -moz-transform: translate3d(0, 0px, 0);
+  transform: translate3d(0, 0px, 0);
+  position: absolute;
+  width: 100%;
+  top: 35px;
+}
+
+/* line 2355, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.social-bar .hover-state {
+  -webkit-transform: translate3d(0, 200px, 0);
+  -moz-transform: translate3d(0, 200px, 0);
+  transform: translate3d(0, 200px, 0);
+  top: 42px;
+}
+
+/* line 2361, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.social-bar span {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+/* line 2369, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.social-bar .link:hover .initial {
+  -webkit-transform: translate3d(0, -200px, 0);
+  -moz-transform: translate3d(0, -200px, 0);
+  transform: translate3d(0, -200px, 0);
+}
+
+/* line 2374, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.social-bar .link:hover .hover-state {
+  -webkit-transform: translate3d(0, 0px, 0);
+  -moz-transform: translate3d(0, 0px, 0);
+  transform: translate3d(0, 0px, 0);
+}
+
+/* line 2379, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.error-page.bg-primary h1 {
+  color: #fff;
+  margin-bottom: 32px;
+}
+
+/* line 2383, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.error-page .jumbo {
+  font-size: 160px;
+  line-height: 160px;
+  font-weight: 600;
+  margin-bottom: 16px !important;
+}
+
+/* line 2389, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.error-page i {
+  display: inline-block;
+  font-size: 80px;
+  margin-bottom: 24px;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  transition: all .3s ease;
+  -webkit-animation: spin 6s ease-in-out infinite alternate;
+  -moz-animation: spin 6s ease-in-out infinite alternate;
+  -o-animation: spin 6s ease-in-out infinite alternate;
+  animation: spin 6s ease-in-out infinite alternate;
+}
+
+/* line 2401, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.error-page .btn-text-only:hover {
+  color: #333333;
+}
+
+/* line 2404, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.login-page {
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 2408, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.login-page .container {
+  position: relative;
+  z-index: 3;
+}
+
+/* line 2412, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.login-page .photo-form-wrapper {
+  margin-bottom: 24px;
+}
+
+/* line 2415, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.login-page a.text-white:hover {
+  color: #fff;
+  font-weight: 300;
+}
+
+/* line 2419, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.spin-me {
+  -webkit-animation: spin 6s ease-in-out infinite alternate;
+  -moz-animation: spin 6s ease-in-out infinite alternate;
+  -o-animation: spin 6s ease-in-out infinite alternate;
+  animation: spin 6s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes spin {
+  /* line 2426, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  0% {
+    -webkit-transform: rotate(-15deg);
+  }
+
+  /* line 2429, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  10% {
+    -webkit-transform: rotate(-85deg);
+  }
+
+  /* line 2432, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  30% {
+    -webkit-transform: rotate(5deg);
+  }
+
+  /* line 2435, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  50% {
+    -webkit-transform: rotate(250deg);
+  }
+
+  /* line 2438, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  100% {
+    -webkit-transform: rotate(0deg);
+  }
+}
+
+@-moz-keyframes spin {
+  /* line 2443, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  0% {
+    -moz-transform: rotate(-15deg);
+  }
+
+  /* line 2446, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  10% {
+    -moz-transform: rotate(-85deg);
+  }
+
+  /* line 2449, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  30% {
+    -moz-transform: rotate(5deg);
+  }
+
+  /* line 2452, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  50% {
+    -moz-transform: rotate(250deg);
+  }
+
+  /* line 2455, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  100% {
+    -moz-transform: rotate(0deg);
+  }
+}
+
+@-o-keyframes spin {
+  /* line 2460, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  0% {
+    -o-transform: rotate(-15deg);
+  }
+
+  /* line 2463, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  10% {
+    -o-transform: rotate(-85deg);
+  }
+
+  /* line 2466, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  30% {
+    -o-transform: rotate(5deg);
+  }
+
+  /* line 2469, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  50% {
+    -o-transform: rotate(250deg);
+  }
+
+  /* line 2472, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  100% {
+    -o-transform: rotate(0deg);
+  }
+}
+
+@-ms-keyframes spin {
+  /* line 2477, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  0% {
+    -ms-transform: rotate(-15deg);
+  }
+
+  /* line 2480, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  10% {
+    -ms-transform: rotate(-85deg);
+  }
+
+  /* line 2483, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  30% {
+    -ms-transform: rotate(5deg);
+  }
+
+  /* line 2486, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  50% {
+    -ms-transform: rotate(250deg);
+  }
+
+  /* line 2489, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  100% {
+    -ms-transform: rotate(0deg);
+  }
+}
+
+@keyframes spin {
+  /* line 2494, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  0% {
+    transform: rotate(-15deg);
+  }
+
+  /* line 2497, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  10% {
+    transform: rotate(-85deg);
+  }
+
+  /* line 2500, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  30% {
+    transform: rotate(5deg);
+  }
+
+  /* line 2503, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  50% {
+    transform: rotate(250deg);
+  }
+
+  /* line 2506, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* line 2510, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.coming-soon {
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 2514, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.coming-soon h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+/* line 2518, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.coming-soon .logo {
+  display: inline-block;
+  margin-bottom: 32px;
+  width: 200px;
+}
+
+/* line 2523, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.coming-soon .overlay:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  content: '';
+  opacity: 0.3;
+  z-index: 2;
+  background-color: #333333;
+}
+
+/* line 2533, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.coming-soon .photo-form-wrapper {
+  margin-bottom: 32px;
+  margin-top: 48px;
+}
+
+/* line 2537, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.countdown-row {
+  color: #fff;
+  font-size: 80px;
+  font-weight: 300;
+}
+
+/* line 2542, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.countdown-section {
+  width: 20%;
+  display: inline-block;
+}
+
+/* line 2546, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.countdown-amount {
+  display: inline-block;
+  margin-bottom: 48px;
+}
+
+/* line 2550, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.countdown-period {
+  display: block;
+  font-size: 24px;
+}
+
+/* line 2554, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+iframe.mail-list-form {
+  display: none !important;
+}
+
+/* line 2557, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+footer {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+/* line 2561, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+footer.social h1 {
+  margin-bottom: 24px;
+}
+
+/* line 2564, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+footer.social a.text-white {
+  font-size: 18px;
+}
+
+/* line 2567, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+footer.social .social-icons {
+  margin: 64px 0px;
+}
+
+/* line 2570, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+footer.social .social-icons li {
+  margin-right: 40px;
+}
+
+/* line 2573, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+footer.social .social-icons li a {
+  font-size: 40px;
+  color: #fff;
+  opacity: 0.2;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+/* line 2581, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+footer.social .social-icons li a:hover {
+  opacity: 1;
+}
+
+/* line 2584, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+footer.social .sub {
+  opacity: 0.5;
+  color: #fff;
+  font-size: 12px;
+}
+
+/* line 2589, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+footer.social .sub a {
+  color: #fff;
+  font-weight: 600;
+}
+
+/* line 2593, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+footer.details {
+  background: #f4f4f4;
+}
+
+/* line 2596, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+footer.details .logo {
+  margin-bottom: 54px;
+  max-width: 80px;
+  margin-top: 12px;
+}
+
+/* line 2601, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+footer.details .sub {
+  font-size: 12px;
+  display: inline-block;
+  margin-top: 48px;
+}
+
+/* line 2606, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+footer.details .sub a {
+  color: #333333;
+  font-weight: 600;
+}
+
+/* line 2610, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+footer.details h1 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* line 2614, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+footer.short {
+  font-size: 16px;
+  color: #fff;
+}
+
+/* line 2618, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+footer.short .sub {
+  opacity: 0.5;
+  display: inline-block;
+  margin-right: 32px;
+  position: relative;
+  bottom: 4px;
+}
+
+/* line 2625, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+footer.short ul {
+  display: inline-block;
+  margin: 0px;
+  line-height: 24px;
+}
+
+/* line 2630, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+footer.short ul li {
+  float: left;
+  margin-right: 32px;
+}
+
+/* line 2634, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+footer.short ul li a {
+  color: #fff;
+  opacity: 0.8;
+}
+
+/* line 2638, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+footer.short .social-icons li a {
+  color: #fff;
+  opacity: 1;
+}
+
+/* line 2642, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+footer.short-2 {
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 2646, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+footer.short-2 span {
+  display: inline-block;
+  margin-right: 64px;
+}
+
+/* line 2650, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+footer.short-2 span:last-child {
+  margin-right: 0px;
+}
+
+/* line 2653, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+footer.short-2 .contact-action {
+  position: absolute;
+  right: 0px;
+  height: 100%;
+  width: 25%;
+  background: #bf2718;
+  z-index: 3;
+  top: 0;
+  text-align: center;
+  font-size: 18px;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+/* line 2667, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+footer.short-2 .contact-action .icon_mail {
+  display: inline-block;
+  margin-right: 6px;
+}
+
+/* line 2671, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+footer.short-2 .contact-action .arrow_right {
+  position: relative;
+  top: 2px;
+}
+
+/* line 2675, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+footer.short-2 .contact-action:hover {
+  background: #ad2315;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  /* line 2679, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .logo-top {
+    margin-top: -10px;
+  }
+
+  /* line 2682, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .top-bar {
+    background: none;
+  }
+
+  /* line 2685, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .nav-container {
+    background: none;
+  }
+
+  /* line 2688, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .overlay-bar {
+    background: none;
+  }
+
+  /* line 2691, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .logo-mobile {
+    width: 150px;
+  }
+
+  /* line 2694, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .utility-menu {
+    display: block;
+  }
+
+  /* line 2697, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  nav .columns {
+    width: 100%;
+  }
+
+  /* line 2700, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  nav .social-icons {
+    display: none;
+  }
+
+  /* line 2703, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .open-nav {
+    max-height: 80px;
+  }
+
+  /* line 2706, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .nav-menu {
+    padding-top: 14px;
+  }
+
+  /* line 2709, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .top-bar .logo {
+    bottom: 0px;
+  }
+
+  /* line 2712, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .mobile-toggle {
+    font-size: 32px;
+    display: block;
+    position: absolute;
+    top: 24px;
+    right: 16px;
+    cursor: pointer;
+    color: #333333;
+  }
+
+  /* line 2721, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .top-bar .menu li a {
+    color: #777777;
+    padding-bottom: 0px;
+  }
+
+  /* line 2725, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .overlay-bar .menu li a:hover {
+    color: #333333;
+  }
+
+  /* line 2728, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .overlay-bar .has-dropdown:after {
+    color: #333333;
+  }
+
+  /* line 2731, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .has-dropdown {
+    bottom: 0px;
+  }
+
+  /* line 2734, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .menu {
+    top: 0px;
+  }
+
+  /* line 2737, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .menu li {
+    float: none;
+    margin-bottom: 16px;
+    margin-right: 0px;
+  }
+
+  /* line 2742, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .subnav {
+    position: relative;
+    background: none;
+  }
+
+  /* line 2746, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .subnav li {
+    margin-bottom: 0px;
+  }
+
+  /* line 2749, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .subnav .col-md-3 {
+    margin-bottom: 32px;
+  }
+
+  /* line 2752, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .offscreen-container .social-links {
+    display: none;
+  }
+
+  /* line 2755, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .col-md-10 {
+    margin: 20px;
+  }
+
+  /* line 2758, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .offscreen-container .logo {
+    display: block;
+  }
+
+  /* line 2762, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  section,
+  header {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  /* line 2766, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .no-align-mobile {
+    padding-top: 0px !important;
+    margin-top: 24px;
+  }
+
+  /* line 2770, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  h1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  /* line 2774, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  p.lead {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  /* line 2781, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .hero-slider .slides li h1,
+  header.title h1,
+  .action-banner h1,
+  header.signup h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  /* line 2785, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .action-banner h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  /* line 2789, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .btn {
+    margin-top: 16px;
+  }
+
+  /* line 2792, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  header.signup {
+    height: auto;
+  }
+
+  /* line 2795, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .header-icons {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  /* line 2799, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  header.title {
+    padding: 0px;
+    height: 400px;
+  }
+
+  /* line 2803, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .product-right {
+    height: 632px;
+    padding-top: 64px;
+  }
+
+  /* line 2807, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .product-right .align-vertical {
+    padding-top: 0px !important;
+  }
+
+  /* line 2810, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .product-right .product-image {
+    margin-top: 200px;
+    right: 0px;
+    bottom: -85px;
+  }
+
+  /* line 2815, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .page-header br {
+    display: none;
+  }
+
+  /* line 2818, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .page-header h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  /* line 2822, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  header.centered-text h1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  /* line 2826, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .flex-direction-nav {
+    display: none;
+  }
+
+  /* line 2829, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .header-icons h2 {
+    margin-bottom: 32px;
+  }
+
+  /* line 2832, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .bottom-band {
+    display: none;
+  }
+
+  /* line 2835, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .side-image .content {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  /* line 2839, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .selector-tabs {
+    text-align: center;
+  }
+
+  /* line 2842, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .selector-tabs li {
+    margin-bottom: 16px;
+    display: inline-block;
+    width: 100%;
+  }
+
+  /* line 2847, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .feature-box {
+    padding: 48px 32px;
+  }
+
+  /* line 2850, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .feature-box .inner {
+    width: 100%;
+  }
+
+  /* line 2853, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .no-pad-left {
+    padding-left: 15px;
+  }
+
+  /* line 2856, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .row-wrapper {
+    border-bottom: none;
+  }
+
+  /* line 2859, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .row-wrapper .col-sm-3 {
+    border-right: none;
+  }
+
+  /* line 2862, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .accordion {
+    margin-top: 32px;
+  }
+
+  /* line 2865, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .strip {
+    padding: 40px 0px;
+  }
+
+  /* line 2869, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .strip,
+  .strip .text-right {
+    text-align: center;
+  }
+
+  /* line 2872, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .strip .col-xs-12 {
+    margin-bottom: 16px;
+  }
+
+  /* line 2875, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .inline-video-wrapper {
+    margin-top: 40px;
+  }
+
+  /* line 2878, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .video-wrapper {
+    display: none;
+  }
+
+  /* line 2881, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .inline-image-right img {
+    display: inline-block;
+    margin-top: 40px;
+  }
+
+  /* line 2885, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .pricing-tables .no-pad {
+    padding: 0px 15px;
+  }
+
+  /* line 2888, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .pricing-tables .no-pad-left {
+    padding-left: 15px;
+  }
+
+  /* line 2891, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .pricing-tables .no-pad-right {
+    padding-right: 15px;
+  }
+
+  /* line 2894, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .pricing-table {
+    margin-bottom: 16px;
+    border-radius: 25px !important;
+    border: 2px solid rgba(255, 255, 255, 0.2) !important;
+  }
+
+  /* line 2899, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .pricing-2 {
+    display: none;
+  }
+
+  /* line 2903, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  footer.social .social-icons li,
+  .contact-photo .social-icons li {
+    margin-right: 8px;
+  }
+
+  /* line 2907, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  footer.social .social-icons li a,
+  .contact-photo .social-icons li a {
+    font-size: 24px;
+  }
+
+  /* line 2910, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  footer.details .col-sm-4 {
+    margin-bottom: 16px;
+  }
+
+  /* line 2914, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  footer.details h1,
+  footer.details .logo {
+    margin-bottom: 32px;
+  }
+
+  /* line 2917, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  footer.short-2 {
+    padding-bottom: 0px;
+  }
+
+  /* line 2920, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  footer.short-2 span {
+    margin-right: 16px;
+  }
+
+  /* line 2923, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  footer.short-2 .contact-action {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    margin-top: 80px;
+  }
+
+  /* line 2929, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  footer.short-2 .align-vertical {
+    padding-top: 64px !important;
+  }
+
+  /* line 2932, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .blog-snippet-2 li .icon {
+    width: 20%;
+  }
+
+  /* line 2935, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .blog-snippet-2 li .title {
+    width: 80%;
+  }
+
+  /* line 2938, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .contact-thirds .text-center {
+    text-align: left;
+  }
+
+  /* line 2941, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .contact-thirds .col-sm-4 {
+    margin-bottom: 24px;
+  }
+
+  /* line 2944, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .pure-text-contact br {
+    display: none;
+  }
+
+  /* line 2947, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .filters {
+    padding: 0px 15px;
+    text-align: center;
+  }
+
+  /* line 2951, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .filters li {
+    margin: 0;
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+  /* line 2956, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .project {
+    width: 100%;
+  }
+
+  /* line 2959, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .image-gallery .image-holder {
+    height: 225px;
+  }
+
+  /* line 2962, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .hero-divider {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  /* line 2966, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .hero-divider .video-wrapper {
+    display: none;
+  }
+
+  /* line 2969, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .hero-divider .btn {
+    margin-right: 0px;
+  }
+
+  /* line 2972, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .fullscreen-element {
+    height: auto !important;
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  /* line 2977, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .instafeed ul li:nth-child(n+5) {
+    display: none;
+  }
+
+  /* line 2980, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .instafeed ul li {
+    width: 25%;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* line 2985, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .flex-direction-nav {
+    display: none;
+  }
+
+  /* line 2988, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .product-right .product-image {
+    max-width: 640px;
+    right: -100px;
+    bottom: 50px;
+  }
+
+  /* line 2993, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .feature-box .inner {
+    width: 100%;
+  }
+
+  /* line 2996, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .blog-snippet-2 li .icon {
+    width: 15%;
+  }
+
+  /* line 2999, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .blog-snippet-2 li .title {
+    width: 85%;
+  }
+
+  /* line 3002, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .map-overlay .col-md-4 {
+    width: 40%;
+  }
+
+  /* line 3005, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .map-overlay .col-md-offset-4 {
+    margin-left: 30%;
+  }
+
+  /* line 3008, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .hero-divider {
+    height: auto;
+    padding: 80px 0px 90px 0px;
+  }
+
+  /* line 3012, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .hero-divider .video-wrapper {
+    display: none;
+  }
+
+  /* line 3015, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .video-wrapper {
+    display: none;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* line 3020, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .top-bar {
+    position: absolute;
+  }
+
+  /* line 3023, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .utility-menu {
+    display: none;
+  }
+
+  /* line 3026, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  nav {
+    max-height: 80px;
+    overflow: hidden;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+  }
+
+  /* line 3033, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  nav .logo {
+    margin-bottom: 32px;
+  }
+
+  /* line 3036, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  nav .columns {
+    width: 100%;
+  }
+
+  /* line 3039, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  nav .social-icons {
+    display: none;
+  }
+
+  /* line 3042, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .open-nav {
+    max-height: 8000px;
+  }
+
+  /* line 3045, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .nav-menu {
+    padding-top: 14px;
+  }
+
+  /* line 3048, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .top-bar .logo {
+    bottom: 0px;
+    width: 100%;
+  }
+
+  /* line 3052, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .mobile-toggle {
+    font-size: 32px;
+    display: block;
+    position: absolute;
+    top: 24px;
+    right: 16px;
+    cursor: pointer;
+    color: #333333;
+  }
+
+  /* line 3061, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .overlay-bar {
+    background: none;
+  }
+
+  /* line 3064, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .overlay-bar .logo-light {
+    display: none;
+  }
+
+  /* line 3067, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .overlay-bar .logo-dark {
+    display: block;
+  }
+
+  /* line 3070, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .overlay-bar .menu li a {
+    color: #777777;
+    padding-bottom: 0px;
+  }
+
+  /* line 3074, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .overlay-bar .menu li a:hover {
+    color: #333333;
+  }
+
+  /* line 3077, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .overlay-bar .has-dropdown:after {
+    color: #333333;
+  }
+
+  /* line 3080, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .has-dropdown {
+    bottom: 0px;
+  }
+
+  /* line 3083, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .menu {
+    top: 0px;
+  }
+
+  /* line 3086, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .menu li {
+    float: none;
+    margin-bottom: 16px;
+    margin-right: 0px;
+  }
+
+  /* line 3091, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .subnav {
+    position: relative;
+    background: none;
+  }
+
+  /* line 3095, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .subnav li {
+    margin-bottom: 0px;
+  }
+
+  /* line 3098, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .subnav .col-md-3 {
+    margin-bottom: 32px;
+  }
+
+  /* line 3101, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .flex-direction-nav {
+    display: none;
+  }
+
+  /* line 3104, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  header.signup .photo-form-wrapper {
+    margin-bottom: 32px;
+  }
+
+  /* line 3107, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .product-right .btn {
+    margin-bottom: 16px;
+  }
+
+  /* line 3110, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .product-right .product-image {
+    right: -320px;
+    bottom: 60px;
+    max-width: 670px;
+  }
+
+  /* line 3115, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .wood-divider.product-right .product-image {
+    position: relative;
+    top: -5%;
+  }
+
+  /* line 3119, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .selector-tabs li {
+    margin-bottom: 16px;
+  }
+
+  /* line 3122, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .client-row img {
+    max-width: 100px;
+  }
+
+  /* line 3125, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .inline-video-wrapper {
+    margin-top: 32px;
+  }
+
+  /* line 3128, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .pricing-tables .no-pad {
+    padding: 0px 15px;
+  }
+
+  /* line 3131, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .pricing-tables .no-pad-left {
+    padding-left: 15px;
+  }
+
+  /* line 3134, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .pricing-tables .no-pad-right {
+    padding-right: 15px;
+  }
+
+  /* line 3137, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .pricing-table {
+    margin-bottom: 30px;
+    border-radius: 25px !important;
+    border: 2px solid rgba(255, 255, 255, 0.2) !important;
+  }
+
+  /* line 3142, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  footer.details .social-icons li {
+    margin-bottom: 16px;
+  }
+
+  /* line 3145, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .blog-snippet-2 li .icon {
+    width: 15%;
+  }
+
+  /* line 3148, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .blog-snippet-2 li .title {
+    width: 85%;
+  }
+
+  /* line 3151, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .hero-divider {
+    height: auto;
+    padding: 80px 0px 90px 0px;
+  }
+
+  /* line 3155, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .hero-divider .video-wrapper {
+    display: none;
+  }
+
+  /* line 3158, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .video-wrapper {
+    display: none;
+  }
+
+  /* line 3161, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .instafeed ul li:nth-child(n+5) {
+    display: none;
+  }
+
+  /* line 3164, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .instafeed ul li {
+    width: 25%;
+  }
+
+  /* line 3167, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .project.col-sm-4 {
+    width: 50%;
+  }
+
+  /* line 3170, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  #submission-strip {
+    min-width: 300px;
+    max-width: 300px;
+  }
+
+  /* line 3174, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  footer.short-2 {
+    padding-bottom: 0px;
+  }
+
+  /* line 3177, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  footer.short-2 span {
+    margin-right: 32px;
+  }
+
+  /* line 3180, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  footer.short-2 .contact-action {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    margin-top: 80px;
+  }
+
+  /* line 3186, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  footer.short-2 .align-vertical {
+    padding-top: 64px !important;
+  }
+}
+/* line 3190, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.resume-header {
+  padding: 200px 0px;
+}
+
+/* line 3193, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.resume-header span {
+  font-weight: 600;
+  color: #fff;
+  display: block;
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+
+/* line 3200, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.resume-header h1 {
+  margin-bottom: 8px !important;
+}
+
+/* line 3203, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.resume-header .social-icons li {
+  margin-right: 16px;
+}
+
+/* line 3206, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.resume-header .social-icons li a {
+  color: #fff;
+}
+
+/* line 3209, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.milestones span {
+  font-size: 16px;
+  display: inline-block;
+  width: 100%;
+}
+
+/* line 3214, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.milestones .sub {
+  font-size: 14px;
+  font-style: italic;
+}
+
+/* line 3218, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.milestones .pin-body {
+  width: 2px;
+  height: 30px;
+  margin: 0px auto;
+  background-color: #e7d22f;
+}
+
+/* line 3224, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.milestones .pin-head {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #e7d22f;
+  margin: 0px auto;
+  margin-bottom: 24px;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+/* line 3235, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.milestones .feature-icon-large i {
+  margin: 0px auto;
+  margin-bottom: 0px;
+}
+
+/* line 3239, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.milestones h5 {
+  margin-bottom: 8px;
+}
+
+/* line 3243, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.milestones .lead:last-child,
+.skill-bars .lead:last-child {
+  margin-bottom: 64px !important;
+}
+
+/* line 3246, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.milestones .feature:hover .pin-head {
+  background-color: #e7d22f;
+}
+
+/* line 3249, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.expanding-list {
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 3253, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.expanding-ul {
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 3257, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.expanding-ul li {
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  cursor: pointer;
+}
+
+/* line 3264, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.expanding-ul li .title {
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+/* line 3269, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.expanding-ul .title i {
+  color: #e7d22f;
+  font-size: 32px;
+  display: inline-block;
+  margin-right: 24px;
+}
+
+/* line 3275, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.expanding-ul .title span {
+  position: relative;
+  bottom: 8px;
+}
+
+/* line 3279, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.expanding-ul .title strong {
+  font-weight: 600;
+  color: #333333;
+}
+
+/* line 3283, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.expanding-ul .text-content {
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  transition: all .3s ease;
+  opacity: 0;
+  max-height: 0px;
+}
+
+/* line 3290, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.expanding-ul li:hover .title {
+  margin-bottom: 24px;
+}
+
+/* line 3293, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.expanding-ul li:hover .text-content {
+  max-height: 800px;
+  opacity: 1;
+}
+
+/* line 3297, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.expanding-ul li:last-child {
+  margin-bottom: 0px;
+  border-bottom: none;
+}
+
+/* line 3301, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.skill-bars h3 {
+  font-weight: normal;
+  margin-bottom: 16px;
+}
+
+/* line 3305, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.skills-ul {
+  overflow: hidden;
+}
+
+/* line 3308, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.skills-ul span {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+/* line 3314, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.skills-ul li {
+  margin-bottom: 16px;
+}
+
+/* line 3317, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.skills-ul li:last-child {
+  margin-bottom: 0px;
+}
+
+/* line 3320, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.skill-bar-holder {
+  height: 12px;
+  width: 100%;
+  background: rgba(231, 76, 60, 0.1);
+  padding: 0px;
+  position: relative;
+}
+
+/* line 3327, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.skill-capacity {
+  height: 12px;
+  background: #e7d22f;
+  padding: 0px !important;
+  left: 0px;
+  position: absolute;
+}
+
+/* line 3334, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.skills-left {
+  text-align: right;
+}
+
+/* line 3337, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.skills-left .skill-bar-holder {
+  background: rgba(44, 62, 80, 0.1);
+}
+
+/* line 3340, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.skills-left .skill-capacity {
+  background: #2c3e50;
+  left: auto;
+  right: 0px;
+}
+
+@media screen and (max-width: 990px) {
+  /* line 3346, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .skills-left {
+    margin-bottom: 32px;
+    text-align: left;
+  }
+
+  /* line 3350, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+  .skills-left .skill-capacity {
+    right: auto;
+    left: 3px;
+  }
+}
+/* line 3355, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.stat-counters h1 {
+  color: #fff;
+}
+
+/* line 3358, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.stat {
+  text-align: center;
+}
+
+/* line 3361, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.stat-bubble {
+  margin: 0px auto;
+  width: 120px;
+  height: 120px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.15);
+  text-align: center;
+  line-height: 116px;
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 50%;
+  margin-bottom: 12px;
+}
+
+/* line 3375, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.stat h3 {
+  color: #fff;
+}
+
+/* line 3378, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pages.css.scss */
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}

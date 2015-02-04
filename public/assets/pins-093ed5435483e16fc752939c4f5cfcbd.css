@@ -1,0 +1,27 @@
+/* line 5, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pins.css.scss */
+#pins {
+  margin: 0 auto;
+  font-size: 14px;
+}
+
+/* line 10, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pins.css.scss */
+.box {
+  margin: 5px;
+  height: 250px;
+}
+
+/* line 16, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pins.css.scss */
+.box img {
+  width: 100%;
+}
+
+/* line 20, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pins.css.scss */
+.repin {
+  font-family: "Open Sans", verdana, arial, helvetica, sans-serif;
+  font-size: 14px;
+}
+
+/* line 25, /Users/joshdavies/Development/resilient/app/assets/stylesheets/pins.css.scss */
+input, button, select, textarea {
+  font-size: 14px;
+}

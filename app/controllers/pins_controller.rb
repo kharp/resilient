@@ -39,7 +39,7 @@ class PinsController < ApplicationController
       @repin = Pin.new
 
       respond_to do |format|
-        format.js { }
+        format.js { render }
       end
     end
 
@@ -53,7 +53,7 @@ class PinsController < ApplicationController
       repin.image = pin.image
       respond_to do |format|
         if repin.save
-          format.js {  }
+          format.js { render }
         end
       end
     end

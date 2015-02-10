@@ -7,9 +7,9 @@
 					<div class="container text-center">
 							<div class="row">
 								<div class="col-sm-12 text-center">
-									<img src="/images/home-text.png" alt="A free mental health app. Discover resources, tips, and inspiration for recovery."><br>
+									<img src="/images/home-text.png" alt="A free mental health app. Discover resources, tips, and inspiration for recovery."><br><br>
 											   <% if user_signed_in? %>
-          <span class="text-white">Welcome to Resilient!</span>
+          <%= link_to "Browse", channels_path, class: "btn btn-primary btn-filled" %>
      <% else %>
        <p>
          <%= link_to "Log in", new_user_session_path, class: "btn btn-white btn-primary" %>

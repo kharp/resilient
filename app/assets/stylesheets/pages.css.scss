@@ -2,16 +2,16 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .logo-top {
-  margin-top: -10px;
+  margin-top: -20px;
 }
 .bg-primary {
   background-color: #e7d22f !important;
 }
 .bg-secondary-1 {
-  background-color: #999 !important;
+  background-color: #333 !important;
 }
 .bg-secondary-2 {
-  background-color: #999 !important;
+  background-color: #333 !important;
 }
 .bg-white {
   background-color: #fff !important;
@@ -493,7 +493,7 @@ nav hr {
   line-height: 14px;
 }
 .menu li a:hover {
-  color: #333333;
+  color: #666;
 }
 .top-bar .social-icons li a {
   font-size: 16px;
@@ -2604,7 +2604,7 @@ footer.details .sub {
   margin-top: 48px;
 }
 footer.details .sub a {
-  color: #333333;
+  color: #666;
   font-weight: 600;
 }
 footer.details h1 {
@@ -2614,6 +2614,7 @@ footer.details h1 {
 footer.short {
   font-size: 16px;
   color: #fff;
+  background-color: #999;
 }
 footer.short .sub {
   opacity: 0.5;
@@ -2680,9 +2681,6 @@ footer.short-2 .contact-action:hover {
   margin-top: -10px;
 }
   .top-bar {
-  background: none;
-  }
-  .nav-container {
   background: none;
   }
   .overlay-bar {
@@ -3014,6 +3012,11 @@ footer.short-2 .contact-action:hover {
   }
   .video-wrapper {
     display: none;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .nav-container {
+  display: none;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {

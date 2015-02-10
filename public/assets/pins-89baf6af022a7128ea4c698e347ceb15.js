@@ -1,1 +1,0 @@
-(function(){$(function(){return $("#pins").imagesLoaded(function(){return $("#pins").masonry({itemSelector:".box",isFitWidth:!0})})})}).call(this);

@@ -325,7 +325,7 @@ section:nth-of-type(even) {
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #3496a8;
+  color: #fff;
   background: none;
 }
 .btn-primary.btn-filled {
@@ -333,6 +333,10 @@ section:nth-of-type(even) {
   color: #fff;
 }
 .btn-white {
+  border-color: #fff;
+  color: #fff;
+}
+.btn-white:visited {
   border-color: #fff;
   color: #fff;
 }

@@ -318,13 +318,13 @@ section:nth-of-type(even) {
   display: inline-block;
   padding: 14px 28px 13px 28px;
   line-height: 1;
-  border: 2px solid #3498db;
+  border: 2px solid #fff;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #3498db;
+  color: #fff;
 }
 .btn-primary.btn-filled {
   background: #3498db;
@@ -338,6 +338,10 @@ section:nth-of-type(even) {
   background: #fff;
   color: #333333;
   border-color: #fff;
+}
+.btn-white:visited {
+  border-color: #fff;
+  color: #fff;
 }
 .btn-white.btn-filled {
   background: #fff;

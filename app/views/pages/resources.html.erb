@@ -8,7 +8,13 @@
               <div class="row text-center">
                 <div class="col-sm-12 text-center">
                   <h1 class="text-white">Resources</h1>
-                
+         <% if user_signed_in? %>
+         <span class="text-white">Get our weekly inspirational emails, and a love letter: "You're Not Broken."</span><br><br>
+          <div id="mc_embed_signup"> <form class="validate" id="mc-embedded-subscribe-form" action="//resilientapp.us9.list-manage.com/subscribe/post?u=0f2ed3ea91eb1d8f12d344ee1&amp;id=4334a5a58c" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank"> <div class="mc-field-group"> <input class="required" id="mce-FNAME" type="text" name="FNAME" placeholder="First Name" value=""  /> <input class="required email" id="mce-EMAIL" type="email" name="EMAIL" placeholder="Email Address" value=""  /> <input type="hidden" name="b_8c2fdee11f59dc4d7adf9bcbf_83dec78335" value=""><input type="submit" id="mc-embedded-subscribe" /> </div> </form>
+     <% else %>
+         <%= link_to "Log in", new_user_session_path, class: "btn btn-white btn-primary" %>
+         <%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-filled" %>
+  <% end %> 
                 </div>
               </div>
             </div><!--end of container-->
@@ -25,7 +31,16 @@
 
 You're awesome, and we have something for you (ooh presents!).  Below are some resources that we've created to help you in your recovery journey.  You can also check out the We ♥ page to see our recommended reading.  Hope you find this helpful!<br><br>
 
+<strong>Articles</strong><br><br>
+
 <a href="/goal-setting-prompts"><img src="/images/goal-setting-prompts.jpg" style="padding: 20px;"></a> <a href="/heal-with-forgiveness"><img src="/images/forgiveness-button.jpg" style="padding: 20px;"></a> <a href="/how-to-figure-out-what-you-want"><img src="/images/whatyouwant-button.jpg" style="padding: 20px;"></a>
+
+<br><br>
+
+<strong>Classes</strong><br><br>
+
+<img src="/images/30dnd.jpg" style="padding: 20px;"><br>
+Coming soon!
 
 </div>
 </div>

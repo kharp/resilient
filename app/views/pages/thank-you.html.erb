@@ -1,0 +1,54 @@
+<div class="main-container">
+      <header class="signup"> 
+          <div class="background-image-holder parallax-background">
+            <img class="background-image" alt="Background Image" src="/images/resources.jpg">
+          </div>
+          
+          <div class="container text-center">
+              <div class="row text-center">
+                <div class="col-sm-12 text-center">
+                  <h1 class="text-white">Gee, thanks!</h1>
+                </div>
+              </div>
+            </div><!--end of container-->
+      </header>
+
+     <div class="main-container">
+        <div class="row">
+          <div class="col-md-1">
+            &nbsp;
+          </div>
+            <div class="col-md-10 row-offset-1 row-offset-2">
+
+<h1>Thanks for signing up (you're awesome).</h1>
+
+Things are about to get a lot better. :)<br><br>
+
+We'll be sending you an email to confirm our weekly inspirational emails and a love letter, "You're Not Broken."  Please open and confirm. :)<br><br>
+
+You'll want to start by <%= link_to "going to your profile here", user_path(current_user) %> and creating a new channel.  Channels are like boards or categories where you can put a certain type of pin.  Once you create a channel, you can start uploading pins or <%= link_to "browse", channels_path %> around the site and see what other people have posted.
+
+Sit back, relax, and enjoy the journey.
+
+<!-- Facebook Conversion Code for Resilient signups -->
+<script>(function() {
+  var _fbq = window._fbq || (window._fbq = []);
+  if (!_fbq.loaded) {
+    var fbds = document.createElement('script');
+    fbds.async = true;
+    fbds.src = '//connect.facebook.net/en_US/fbds.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(fbds, s);
+    _fbq.loaded = true;
+  }
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', '6019037508101', {'value':'0.00','currency':'USD'}]);
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6019037508101&amp;cd[value]=0.00&amp;cd[currency]=USD&amp;noscript=1" /></noscript>
+
+</div>
+</div>
+</div>
+</div>
+</div>

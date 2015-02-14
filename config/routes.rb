@@ -22,6 +22,7 @@ Athingwithfeathers::Application.routes.draw do
   get "how-to-figure-out-what-you-want" => "pages#how-to-figure-out-what-you-want"
   get "forem/base"
   get "/sign_up"   => "devise/registrations#new"
+  get "thank-you" => "pages#thank-you"
 
   # My Channels
   resources :users

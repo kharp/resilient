@@ -5,7 +5,10 @@
   background-color: #333 !important;
 }
 .bg-secondary-2 {
-  background-color: #333 !important;
+  background-color: #666 !important;
+}
+.bg-three {
+  background-color: #666 !important;
 }
 .bg-white {
   background-color: #fff !important;
@@ -27,6 +30,9 @@
 }
 .bg-tumblr {
   background-color: #34526f;
+}
+.bg-instagram {
+  background-color: #46749a;
 }
 .text-white {
   color: #fff;
@@ -325,7 +331,7 @@ section:nth-of-type(even) {
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #3496a8;
+  color: #fff;
   background: none;
 }
 .btn-primary.btn-filled {
@@ -333,6 +339,10 @@ section:nth-of-type(even) {
   color: #fff;
 }
 .btn-white {
+  border-color: #fff;
+  color: #fff;
+}
+.btn-white:visited {
   border-color: #fff;
   color: #fff;
 }

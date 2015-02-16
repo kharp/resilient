@@ -50,7 +50,7 @@ class PinsController < ApplicationController
       # respond_to do |format|
         if repin.save
           # format.js { render }
-          flash[:notice] = "Your pin was saved."
+          flash[:notice] = "Your pin was saved to #{channel.name}"
           redirect_to :back
         end
       # end

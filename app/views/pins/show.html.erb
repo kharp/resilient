@@ -1,5 +1,8 @@
-<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="new-repin-modal" role="dialog" tabindex="-1"></div>
-
+<!--<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="new-repin-modal" role="dialog" tabindex="-1"></div>-->
+<!--<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="new-repin-modal" role="dialog" tabindex="-1"></div>-->
+<div aria-hidden="false" aria-labelledby="myModalLabel" class="modal fade" id="new-repin-modal" role="dialog" tabindex="-1">
+  <%= render partial: '/pins/repin_new_modal' %>
+</div>
 <div class="main-container">
   <header class="signup">
     <div class="background-image-holder parallax-background">
@@ -42,7 +45,7 @@
         <div class="panel panel-default">
           <div class="panel-heading center">
             <% if @pin.user != current_user && user_signed_in? %>
-              <%= link_to repin_new_path(@pin), id: 'repin_link', remote: true do %>
+              <%= link_to "javascript:void(0)", :data => {toggle: "modal", target: "#new-repin-modal", id: 'repin_link'} do %>
                 <i class="fa fa-heart repin pull-left"> Save</i>
               <% end %>
             <% end %>

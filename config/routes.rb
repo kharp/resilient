@@ -23,6 +23,7 @@ Athingwithfeathers::Application.routes.draw do
   get "drop-out-of-school" => "pages#drop-out-of-school"
   get "recommended-reading" => "pages#recommended-reading"
   get "self-sabotage" => "pages#self-sabotage"
+  get "negativity-detox" => "pages#negativity-detox"
   get "forem/base"
   get "/sign_up"   => "devise/registrations#new"
   get "thank-you" => "pages#thank-you"

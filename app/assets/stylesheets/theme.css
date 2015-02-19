@@ -95,7 +95,6 @@ h5,
 h6 {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
-  color: #333333;
   margin: 0px;
 }
 .alt-font {
@@ -125,17 +124,14 @@ img {
   font-size: 40px;
   line-height: 56px;
   font-weight: 600;
-  margin-bottom: 64px;
 }
 .standard-h1 {
   font-size: 32px;
   line-height: 48px;
-  margin-bottom: 48px;
 }
 h1 {
   font-size: 32px;
   line-height: 48px;
-  margin-bottom: 48px;
 }
 h2 {
   font-size: 28px;
@@ -3403,3 +3399,5 @@ footer.short-2 .contact-action:hover {
   display: none;
   }
 }
+
+.price {text-align: center; background: #1693a7; width: 50%; padding: 20px; color: #fff; margin: 0 auto 0 auto;}

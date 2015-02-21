@@ -60,7 +60,7 @@
               </p>
 
             <% end %>
-            <p><strong>Created by: <%= @pin.user.name if @pin.user %></strong></p>
+            <p><strong>Created by: <%= link_to(@pin.user.name, user_path(@pin.user)) if @pin.user %></strong></p>
 
             <% if @pin.user == current_user %>
               <%= link_to "Edit", edit_channel_pin_path(@channel, @pin) %> |

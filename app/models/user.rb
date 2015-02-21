@@ -15,11 +15,11 @@ class User < ActiveRecord::Base
   # Callbacks
   after_create :add_to_mailing_list
 
+  def admin?;admin;end
   private
   def add_to_mailing_list
     Mailchimp::AddToMailingList.subscribe(self)
   end
-
 end
 
 def forem_name

@@ -1,9 +1,9 @@
-
 Rails.application.routes.draw do
   
+mount RailsAdmin::Engine => '/dashboard', as: 'rails_admin'
+
 Athingwithfeathers::Application.routes.draw do
 
-  mount RailsAdmin::Engine => '/dashboard', as: 'rails_admin'
   resources :channels do
     resources :pins
   end

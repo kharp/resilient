@@ -1,4 +1,11 @@
-<div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="new-repin-modal" role="dialog" tabindex="-1"></div><div class="main-container">
+<% @pins.each do |pin|%>
+<div aria-hidden="false" aria-labelledby="myModalLabel" class="modal fade" id="new-repin-modal-<%= pin.id %>" role="dialog" tabindex="-1">
+  <% @pin = pin %>
+  <%= render partial: '/pins/repin_new_modal' %>
+</div>
+<% end %>
+
+<div class="main-container">
   <header class="signup">
     <div class="background-image-holder parallax-background">
       <img class="background-image" alt="Background Image" src="/images/browse.jpg">
@@ -52,10 +59,16 @@
       </div>
     <% end %>
 
-
     <div id="pins" class="transitions-enabled">
             <% @pins.each do |pin| %>
         <div class="col-md-3">
+          <div class="repin_box">
+          <% if pin.user != current_user && user_signed_in? %>
+            <%= link_to "javascript:void(0)", class: 'repin_link', data: { target: "#new-repin-modal-#{pin.id}", toggle: "modal"} do %>
+              <i class="fa fa-heart repin pull-left"> Save</i>
+            <% end %>
+          <% end %>
+          </div>
           <%= link_to channel_pin_path(pin.channel, pin) do %>
             <div class="channel_box">
               <span><%= image_tag pin.image.url(:medium) %></span>

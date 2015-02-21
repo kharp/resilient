@@ -24,6 +24,7 @@ Athingwithfeathers::Application.routes.draw do
   get "recommended-reading" => "pages#recommended-reading"
   get "self-sabotage" => "pages#self-sabotage"
   get "negativity-detox" => "pages#negativity-detox"
+  get "negativity-detox-success" => "pages#negativity-detox-success"
   get "forem/base"
   get "/sign_up"   => "devise/registrations#new"
   get "thank-you" => "pages#thank-you"

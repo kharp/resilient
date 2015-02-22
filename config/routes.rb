@@ -1,9 +1,9 @@
-
 Rails.application.routes.draw do
   
+mount RailsAdmin::Engine => '/dashboard', as: 'rails_admin'
+
 Athingwithfeathers::Application.routes.draw do
 
-  mount RailsAdmin::Engine => '/dashboard', as: 'rails_admin'
   resources :channels do
     resources :pins
   end
@@ -11,7 +11,7 @@ Athingwithfeathers::Application.routes.draw do
   get "/pins/:id/repost" => "pins#repin_new", as: 'repin_new'
   post "/pins/:id/repost" => "pins#repin_create", as: 'repin_create'
 
-  devise_for :users
+  devise_for :users,  controllers: { registrations: "users/registrations" }
 
   root "pages#_home"
   get "about" => "pages#about"
@@ -27,7 +27,7 @@ Athingwithfeathers::Application.routes.draw do
   get "negativity-detox-success" => "pages#negativity-detox-success"
   get "forem/base"
   get "/sign_up"   => "devise/registrations#new"
-  get "thank-you" => "pages#thank-you"
+  get "thank-you" => "pages#thank-you", as: :thank_you
 
   # My Channels
   resources :users

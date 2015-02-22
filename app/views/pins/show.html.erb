@@ -49,7 +49,13 @@
                 <i class="fa fa-heart repin pull-left"> Save</i>
               <% end %>
             <% end %>
-            <%= image_tag @pin.image.url(:large), class:"center-block" %>
+            <% if @pin.image_url.present? %>
+              <%= link_to @pin.image_url, target: "_blank" do %>
+                <%= image_tag @pin.image.url(:large), class:"center-block" %>
+              <% end %>
+            <% else %>
+              <%= image_tag @pin.image.url(:large), class:"center-block" %>
+            <% end %>
           </div>
           <div class="panel-body">
             <p><strong>Description: </strong><%= @pin.description %></p>
@@ -60,7 +66,7 @@
               </p>
 
             <% end %>
-            <p><strong>Created by: <%= @pin.user.name if @pin.user %></strong></p>
+            <p><strong>Created by: <%= link_to(@pin.user.name, user_path(@pin.user)) if @pin.user %></strong></p>
 
             <% if @pin.user == current_user %>
               <%= link_to "Edit", edit_channel_pin_path(@channel, @pin) %> |

@@ -1,0 +1,76 @@
+/* line 1, C:/Users/harp/resilient/app/assets/stylesheets/scaffolds.css.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: "Open Sans", verdana, arial, helvetica, sans-serif;
+  line-height: 22px;
+}
+
+/* line 8, C:/Users/harp/resilient/app/assets/stylesheets/scaffolds.css.scss */
+p, ol, ul, td {
+  font-family: "Open Sans", verdana, arial, helvetica, sans-serif;
+  line-height: 22px;
+}
+
+/* line 13, C:/Users/harp/resilient/app/assets/stylesheets/scaffolds.css.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 19, C:/Users/harp/resilient/app/assets/stylesheets/scaffolds.css.scss */
+a {
+  color: #3496a8;
+}
+/* line 21, C:/Users/harp/resilient/app/assets/stylesheets/scaffolds.css.scss */
+a:visited {
+  color: #3496a8;
+}
+/* line 24, C:/Users/harp/resilient/app/assets/stylesheets/scaffolds.css.scss */
+a:hover {
+  color: #999;
+}
+
+/* line 30, C:/Users/harp/resilient/app/assets/stylesheets/scaffolds.css.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 35, C:/Users/harp/resilient/app/assets/stylesheets/scaffolds.css.scss */
+#notice {
+  color: green;
+}
+
+/* line 39, C:/Users/harp/resilient/app/assets/stylesheets/scaffolds.css.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 45, C:/Users/harp/resilient/app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 52, C:/Users/harp/resilient/app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 62, C:/Users/harp/resilient/app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}

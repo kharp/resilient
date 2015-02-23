@@ -1,5 +1,4 @@
-$(document).ready(function(){
-
+function resilient_app_init(){
 	// Nav Sticky
 	
 	$(window).scroll(function(){
@@ -92,11 +91,10 @@ $(document).ready(function(){
 	// Scroll Reveal
 	
 	if (!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
-       window.scrollReveal = new scrollReveal();
+          if (!window.scrollReveal) window.scrollReveal = new scrollReveal();
     }else{
     	$('body').addClass('pointer');
     }
-
 	// Slider Initializations
 	
 	$('.hero-slider').flexslider({});
@@ -179,7 +177,7 @@ $(document).ready(function(){
     if (!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
         skrollr.init({
             forceHeight: false
-        });
+        }).refresh();
     }
     
     // Map Holder Overlay
@@ -300,7 +298,10 @@ $(document).ready(function(){
     });
 	
 
-});
+}
+
+$(document).ready(resilient_app_init);
+$(document).on("page:load", resilient_app_init);
 
 $(window).load(function(){
 

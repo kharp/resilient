@@ -103,7 +103,7 @@
 									</a>
 								</li>
 								<li>
-									<a href="http://resilient-page.tumblr.com/">
+									<a href="http://resilient-app.tumblr.com/">
 										<i class="icon social_tumblr"></i>
 									</a>
 								</li>
@@ -139,16 +139,27 @@
 			<footer class="short bg-secondary-1">
 				<div class="container">
 					<div class="row">
-						<div class="col-sm-9">
-							<span class="sub alt-font">© Copyright 2014 Resilient, a free mental health app.<br>
+														  <div class="optin">
+     <% if user_signed_in? %>
+          <div style="width: 40%; float: left; padding: 20px;"><span class="text-white">Get our weekly inspirational emails, and a love letter: "You're Not Broken."</span></div>
+          <div id="mc_embed_signup" style="width: 60%; float: left; padding: 20px;"> <form class="validate" id="mc-embedded-subscribe-form" action="//resilientapp.us9.list-manage.com/subscribe/post?u=0f2ed3ea91eb1d8f12d344ee1&amp;id=4334a5a58c" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank"> <div class="mc-field-group"> <input class="required" id="mce-FNAME" type="text" name="FNAME" placeholder="First Name" value=""  /> <input class="required email" id="mce-EMAIL" type="email" name="EMAIL" placeholder="Email Address" value=""  /> <input type="hidden" name="b_8c2fdee11f59dc4d7adf9bcbf_83dec78335" value=""><input type="submit" id="mc-embedded-subscribe" /> </div> </form>
+     <% else %>
+         <%= link_to "Log in", new_user_session_path, class: "btn btn-white btn-primary" %>
+         <%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-filled" %>
+  <% end %> <br><br>
+  </div></div>
+						<br><br><div class="col-sm-8">
+				<span class="sub alt-font">
+
+  © Copyright 2014 Resilient, a free mental health app.<br>
 								<%= link_to "Account", edit_user_registration_path %> - <%= link_to "About", about_path %> - <%= link_to "Browse", channels_path %> - <%= link_to "We ♥", love_path %> - <%= link_to "Resources", resources_path %> - <% if user_signed_in? %>
         <%= link_to "Profile", user_path(current_user) %></li>
         <% end %></span><br><br>
-								<span class="sub alt-font">If you find one of of our posts is in violation of your copyright, please <a href="/about.html">contact us</a> and we will remove it.  We're just trying to spread the happiness. :)</span>
+								<span class="sub alt-font">If one of our posts is in violation of your copyright, please <a href="/about.html">contact us</a> and we will remove it.  We're just trying to spread the happiness. :)  This is not medical advice.  If you feel suicidal, call 911 or one of <a href="/channels/10">the suicide hotlines / crisis chats on this page</a>.</span>
 							
 						</div>
 						
-						<div class="col-sm-3 text-right">
+						<div class="col-sm-4 text-right">
 							<ul class="social-icons text-right">
 								<li>
 									<a href="https://twitter.com/resilientapp">
@@ -168,7 +179,7 @@
 									</a>
 								</li>
 								<li>
-									<a href="http://resilient-page.tumblr.com/">
+									<a href="http://resilient-app.tumblr.com/">
 										<i class="icon social_tumblr"></i>
 									</a>
 								</li>

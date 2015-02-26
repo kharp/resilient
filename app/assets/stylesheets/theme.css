@@ -1,4 +1,9 @@
-.col-md-10 {
+.optin {
+  background-color: #333;
+  color: #fff;
+  margin: 0 auto 0 auto;
+  }
+  .col-md-10 {
     padding: 15px;
   }
   .bg-primary {

@@ -12,7 +12,7 @@ module Mailchimp
       email = user.email
 
       begin
-        @mc.lists.subscribe(list_id, {'email' => email})
+        @mc.lists.subscribe(list_id, {'email' => email}, nil, 'html', false)
         Rails.logger.debug("#{email} subscribed successfully")
       rescue Mailchimp::ListAlreadySubscribedError
         Rails.logger.debug("#{email} is already subscribed to the list")

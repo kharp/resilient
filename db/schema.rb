@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150315032459) do
+ActiveRecord::Schema.define(version: 20150315035409) do
 
   create_table "categories", force: true do |t|
     t.string   "category"
@@ -133,13 +133,16 @@ ActiveRecord::Schema.define(version: 20150315032459) do
   create_table "resource_pages", force: true do |t|
     t.string   "type"
     t.string   "title"
-    t.string   "preview_image"
+    t.string   "preview_image_file_name"
     t.text     "content"
     t.integer  "order"
     t.string   "slug"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.boolean  "disabled",      default: false
+    t.boolean  "disabled",                   default: false
+    t.string   "preview_image_content_type"
+    t.integer  "preview_image_file_size"
+    t.datetime "preview_image_updated_at"
   end
 
   add_index "resource_pages", ["slug"], name: "index_resource_pages_on_slug", unique: true

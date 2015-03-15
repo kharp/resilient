@@ -1,9 +1,12 @@
 RailsAdmin.config do |config|
 
 
-  config.model Comment do
+  config.model Article do
     edit do
-      field :body, :ck_editor
+      field :title
+      field :preview_image
+      field :content, :ck_editor
+      field :order
     end
   end
   ### Popular gems integration

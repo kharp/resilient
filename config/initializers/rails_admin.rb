@@ -1,5 +1,11 @@
 RailsAdmin.config do |config|
 
+
+  config.model Comment do
+    edit do
+      field :body, :ck_editor
+    end
+  end
   ### Popular gems integration
 
   ## == Devise ==

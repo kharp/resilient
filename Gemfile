@@ -71,6 +71,8 @@ end
 # mailchimp
 gem 'mailchimp-api', require: 'mailchimp'
 
+gem 'ckeditor'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 

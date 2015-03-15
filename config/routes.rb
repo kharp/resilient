@@ -1,9 +1,11 @@
 Rails.application.routes.draw do
   
+mount Ckeditor::Engine => '/ckeditor'
 mount RailsAdmin::Engine => '/dashboard', as: 'rails_admin'
 
 Athingwithfeathers::Application.routes.draw do
 
+  #mount Ckeditor::Engine => '/ckeditor'
   resources :channels do
     resources :pins
   end

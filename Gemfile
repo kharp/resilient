@@ -5,7 +5,7 @@ gem 'rails', '~> 4.1.6'
 
 gem 'devise'
 
-gem 'paperclip', '~> 3.0'
+gem 'paperclip', '~> 4.2.1' #'~> 3.0'
 
 gem 'aws-sdk', '~> 1.20.0'
 

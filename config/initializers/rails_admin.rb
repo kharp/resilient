@@ -6,6 +6,7 @@ RailsAdmin.config do |config|
       field :preview_image
       field :content, :ck_editor
       field :priority
+      field :disabled
     end
   end
 
@@ -15,6 +16,7 @@ RailsAdmin.config do |config|
       field :preview_image
       field :content, :ck_editor
       field :priority
+      field :disabled
     end
   end
   #

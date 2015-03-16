@@ -1,3 +1,3 @@
-class Article < ResourcePage
+class Article < Resource
   extend FriendlyId
 end

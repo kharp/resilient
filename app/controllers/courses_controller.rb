@@ -1,0 +1,3 @@
+class CoursesController < ResourcesController
+end
+

@@ -1,0 +1,37 @@
+<div class="main-container">
+      <header class="signup"> 
+          <div class="background-image-holder parallax-background">
+            <img class="background-image" alt="Background Image" src="/images/resources.jpg">
+          </div>
+          
+          <div class="container text-center">
+              <div class="row text-center">
+                <div class="col-sm-12 text-center">
+                  <h1 class="text-white">Resources</h1>
+                </div>
+              </div>
+            </div><!--end of container-->
+      </header>
+
+     <div class="main-container">
+        <div class="row">
+          <div class="col-md-1">
+            &nbsp;
+          </div>
+            <div class="col-md-10 row-offset-1 row-offset-2">
+
+<h1><%= params[:controller].sub("_controller",'') %></h1><br>
+
+<% @resources.each do |r| %>
+  <%= link_to r.becomes(r.type.constantize) do %>
+    <%= image_tag r.preview_image.url(:medium), alt: r.title, style: "padding: 20px;" %>
+  <% end %>
+<% end %>
+<br><br>
+<%= paginate @resources %>
+
+</div>
+</div>
+</div>
+</div>
+</div>

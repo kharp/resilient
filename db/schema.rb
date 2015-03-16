@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150315035409) do
+ActiveRecord::Schema.define(version: 20150315235308) do
 
   create_table "categories", force: true do |t|
     t.string   "category"
@@ -130,12 +130,12 @@ ActiveRecord::Schema.define(version: 20150315035409) do
 
   add_index "pins", ["user_id"], name: "index_pins_on_user_id"
 
-  create_table "resource_pages", force: true do |t|
+  create_table "resources", force: true do |t|
     t.string   "type"
     t.string   "title"
     t.string   "preview_image_file_name"
     t.text     "content"
-    t.integer  "order"
+    t.integer  "priority",                   default: 0
     t.string   "slug"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -145,7 +145,7 @@ ActiveRecord::Schema.define(version: 20150315035409) do
     t.datetime "preview_image_updated_at"
   end
 
-  add_index "resource_pages", ["slug"], name: "index_resource_pages_on_slug", unique: true
+  add_index "resources", ["slug"], name: "index_resources_on_slug", unique: true
 
   create_table "users", force: true do |t|
     t.string   "email",                  default: "",    null: false

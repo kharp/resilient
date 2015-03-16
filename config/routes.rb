@@ -18,7 +18,6 @@ Athingwithfeathers::Application.routes.draw do
   root "pages#_home"
   get "about" => "pages#about"
   get "love" => "pages#love"
-  get "resources" => "pages#resources"
   get "goal-setting-prompts" => "pages#goal-setting-prompts"
   get "heal-with-forgiveness" => "pages#heal-with-forgiveness"
   get "how-to-figure-out-what-you-want" => "pages#how-to-figure-out-what-you-want"
@@ -37,7 +36,9 @@ Athingwithfeathers::Application.routes.draw do
 
   #mount Commontator::Engine => '/commontator'
   
-  resources :articles, only: [:show]
-  resources :courses, only: [:show]
-  end
+  get "resources", to: "resources#resources"
+  resources :articles, only: [:index, :show]
+  resources :courses, only: [:index, :show]
+
+end
 end

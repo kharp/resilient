@@ -1,14 +1,23 @@
 RailsAdmin.config do |config|
 
-
   config.model Article do
     edit do
       field :title
       field :preview_image
       field :content, :ck_editor
-      field :order
+      field :priority
     end
   end
+
+  config.model Course do
+    edit do
+      field :title
+      field :preview_image
+      field :content, :ck_editor
+      field :priority
+    end
+  end
+  #
   ### Popular gems integration
 
   ## == Devise ==

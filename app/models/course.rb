@@ -1,3 +1,3 @@
-class Course < ResourcePage
+class Course < Resource
   extend FriendlyId
 end

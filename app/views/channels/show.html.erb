@@ -1,8 +1,10 @@
-<% @pins.each do |pin|%>
-<div aria-hidden="false" aria-labelledby="myModalLabel" class="modal fade" id="new-repin-modal-<%= pin.id %>" role="dialog" tabindex="-1">
-  <% @pin = pin %>
-  <%= render partial: '/pins/repin_new_modal' %>
-</div>
+<% if current_user %>
+  <% @pins.each do |pin|%>
+  <div aria-hidden="false" aria-labelledby="myModalLabel" class="modal fade" id="new-repin-modal-<%= pin.id %>" role="dialog" tabindex="-1">
+    <% @pin = pin %>
+    <%= render partial: '/pins/repin_new_modal' %>
+  </div>
+  <% end %>
 <% end %>
 
 <div class="main-container">

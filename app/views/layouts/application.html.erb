@@ -152,7 +152,7 @@
 				<span class="sub alt-font">
 
   © Copyright 2014 Resilient, a free mental health app.<br>
-								<%= link_to "Account", edit_user_registration_path %> - <%= link_to "About", about_path %> - <%= link_to "Browse", channels_path %> - <%= link_to "We ♥", love_path %> - <%= link_to "Resources", resources_path %> - <% if user_signed_in? %>
+								<%= link_to "Account", edit_user_registration_path %> | <%= link_to "About", about_path %> | <%= link_to "Browse", channels_path %> | <%= link_to "Resources", resources_path %> | <%= link_to "Privacy Policy", privacy_policy_path %> | <% if user_signed_in? %>
         <%= link_to "Profile", user_path(current_user) %></li>
         <% end %></span><br><br>
 								<span class="sub alt-font">If one of our posts is in violation of your copyright, please <a href="/about.html">contact us</a> and we will remove it.  We're just trying to spread the happiness. :)  This is not medical advice.  If you feel suicidal, call 911 or one of <a href="/channels/10">the suicide hotlines / crisis chats on this page</a>.</span>

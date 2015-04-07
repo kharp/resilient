@@ -23,8 +23,9 @@
             <div class="channel_box">
               <% if channel.image? %>
                 <span><%= image_tag channel.image.url(:medium) %></span>
+              <% elsif channel.pins.first %>
+                <span><%= image_tag channel.pins.first.image.url(:medium) %></span>  
               <% end %>
-
             </div>
             <div class="channel_footer">
               <hr style="margin: 10px 0">

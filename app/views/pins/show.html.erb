@@ -58,10 +58,10 @@
                 </i>
                 <ul class="dropdown-menu pull-right" role="menu" aria-labelledby="dLabel">
                   <li class="flag_link">
-                    <%= mail_to "katie@resilientapp.com", "Intellectual Property?", subject: "Intellectual Property Channel: #{@channel.id}, Pin: #{@pin.id}", body: "www.resilientapp.com#{channel_pin_path}"   %>
+                    <%= mail_to "katie@resilientapp.com", "Intellectual Property?", subject: "Intellectual Property - Channel: #{@channel.id}, Pin: #{@pin.id}", body: "www.resilientapp.com#{channel_pin_path}, Pin Author: #{@pin.user.email}"   %>
                   </li>
                   <li class="flag_link">
-                    <%= mail_to "katie@resilientapp.com", "Flag Pin", subject: "Flagged Pin Channel: #{@channel.id}, Pin: #{@pin.id}", body: "www.resilientapp.com#{channel_pin_path}"   %>
+                    <%= mail_to "katie@resilientapp.com", "Flag Pin", subject: "Flagged Pin - Channel: #{@channel.id}, Pin: #{@pin.id}", body: "www.resilientapp.com#{channel_pin_path},  Pin Author: #{@pin.user.email}"   %>
                   </li>
                 </ul>
             </div>

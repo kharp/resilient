@@ -5,7 +5,8 @@ class ChannelsController < ApplicationController
   # GET /channels
   # GET /channels.json
   def index
-    @channels = Channel.all
+    #only show channels with pins
+    @channels = Channel.joins(:pins).uniq
   end
 
   # GET /channels/1

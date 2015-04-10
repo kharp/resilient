@@ -1,3 +1,5 @@
+        <%= render 'eula' %>
+
 <div class="main-container">
       <header class="signup"> 
           <div class="background-image-holder parallax-background">
@@ -46,15 +48,20 @@
         <%= f.file_field :image, class: "form-control" %>
       </div>
 
+      <div class="field">
+        <input type="checkbox" id="checky">
+        <%= f.label "I Agree To"%><a id="eulalink">&nbsp Terms Of Service</a>
+      </div>
+
       <div class="form-group">
-        <%= f.submit "Sign up", class: "btn btn-primary" %>
+        <%= f.submit "Sign up", class: "btn btn-primary registrationSubmit" %>
       </div>
     <% end %>
+
   </div>
 
   <div class="panel-footer">
     <%= render "devise/shared/links" %>
   </div>
 </div>
-
 </div></div>

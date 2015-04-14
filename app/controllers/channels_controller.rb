@@ -5,8 +5,14 @@ class ChannelsController < ApplicationController
   # GET /channels
   # GET /channels.json
   def index
-    #only show channels with pins
-    @channels = Channel.joins(:pins).uniq
+    if user_signed_in?
+      #only pull channels with pins
+      @pin_channels = Channel.joins(:pins).uniq
+      # show only channels from unblocked users
+      @channels = @pin_channels.where.not(user_id: current_user.blocks.pluck(:blocked_user_id))
+    else
+      @channels = Channel.joins(:pins).uniq
+    end    
   end
 
   # GET /channels/1

@@ -13,6 +13,10 @@ Athingwithfeathers::Application.routes.draw do
   get "/pins/:id/repost" => "pins#repin_new", as: 'repin_new'
   post "/pins/:id/repost" => "pins#repin_create", as: 'repin_create'
 
+  get "/users/:id/block_user" => "users#block_user_new", as: 'block_user_new'
+  post "/users/:id/block_user" => "users#block_user_create", as: 'block_user_create'
+
+
   devise_for :users,  controllers: { registrations: "users/registrations" }
 
   root "pages#_home"

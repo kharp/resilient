@@ -1,5 +1,9 @@
 .userShow {
+	h1 {
+		display: inline;
+	}
 	.dropdown {
+		display: inline;
 		ul {
 			li {
 				#blockUser {
@@ -9,6 +13,8 @@
 		}
 		#blockFlag {
 			cursor: pointer;
+			font-size: 15px;
+			line-height: 40px;
 		}	
 	}
 }

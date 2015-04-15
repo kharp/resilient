@@ -29,7 +29,7 @@ class ChannelsController < ApplicationController
   # GET /channels/1/edit
   def edit
   end
-
+  
   # POST /channels
   # POST /channels.json
   def create

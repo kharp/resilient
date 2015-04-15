@@ -23,30 +23,34 @@
 
   <div class="container"><br><br>
 
-    <div class="center userShow"><h1>My Channels:</h1>
+    <div class="center userShow">
       
-      <% if user_signed_in? && current_user != @user %>
-        <div class="dropdown">
-          <i id="blockFlag" class="fa fa-flag pull-right" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
-          <ul class="dropdown-menu pull-right" role="menu" aria-labelledby="dLabel">
-            <li class="flag_link">
-                <%= mail_to "katie@resilientapp.com", "Report User", subject: "Report User", body: "www.resilientapp.com#{user_path} Username: #{@user.name}, User E-mail: #{@user.email}"   %>
-            </li>
-            <li class="flag_link">
-              <%= form_for Block.new, url: block_user_create_path,:html => {:id => "blockForm"}, method: :post, :authenticity_token => true do |f| %>
-                      
-                <%= f.hidden_field :user_id, value: current_user.id %>
-                <%= f.hidden_field :blocked_user_id, value: @user.id %>
-                      
-                <% f.submit 'Block User' %>
-              <% end %>
-              <a id="blockUser">Block User</a>
-            </li>
-          </ul>
-        </div>
-      <% end %>  
-    
-    </div>
+      <h1>
+        My Channels:
+
+        <% if user_signed_in? && current_user != @user %>
+          <div class="dropdown pull-right">
+            <i id="blockFlag" class="fa fa-flag pull-right" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+            <ul class="dropdown-menu pull-right" role="menu" aria-labelledby="dLabel">
+              <li class="flag_link">
+                  <%= mail_to "katie@resilientapp.com", "Report User", subject: "Report User", body: "www.resilientapp.com#{user_path} Username: #{@user.name}, User E-mail: #{@user.email}"   %>
+              </li>
+              <li class="flag_link">
+                <%= form_for Block.new, url: block_user_create_path,:html => {:id => "blockForm"}, method: :post, :authenticity_token => true do |f| %>
+                        
+                  <%= f.hidden_field :user_id, value: current_user.id %>
+                  <%= f.hidden_field :blocked_user_id, value: @user.id %>
+                        
+                  <% f.submit 'Block User' %>
+                <% end %>
+                <a id="blockUser">Block User</a>
+              </li>
+            </ul>
+          </div>
+        <% end %>  
+      </h1>
+      
+  </div>
 
     <% if user_signed_in? %>
       <div class="col-md-3">

@@ -31,6 +31,7 @@ Athingwithfeathers::Application.routes.draw do
   get "negativity-detox" => "pages#negativity-detox"
   get "figure-out-your-life" => "pages#figure-out-your-life"
   get "negativity-detox-success" => "pages#negativity-detox-success"
+  get "foyl-success" => "pages#foyl-success"
   get "/sign_up"   => "devise/registrations#new"
   get "/privacy-policy"   => "pages#privacy-policy"
   get "thank-you" => "pages#thank-you", as: :thank_you

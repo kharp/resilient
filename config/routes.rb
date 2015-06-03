@@ -30,6 +30,7 @@ Athingwithfeathers::Application.routes.draw do
   get "self-sabotage" => "pages#self-sabotage"
   get "negativity-detox" => "pages#negativity-detox"
   get "figure-out-your-life" => "pages#figure-out-your-life"
+  get "slow-it-down" => "pages#slow-it-down"
   get "negativity-detox-success" => "pages#negativity-detox-success"
   get "foyl-success" => "pages#foyl-success"
   get "/sign_up"   => "devise/registrations#new"
